@@ -91,7 +91,7 @@ const Contact = () => {
                 <ContactFlexInner>
                   <h3>Office Contacts:</h3>
                   <h4>
-                    (+254) 770 321 966 <br />
+                    (+254) 775 698 821 <br />
                     (+254) 790 753 945 <br />
                     (+254) 737 483 812
                   </h4>
