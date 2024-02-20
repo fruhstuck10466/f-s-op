@@ -6,7 +6,7 @@ export const HomeProdWrap = styled(motion.div)`
     position: relative;
     height: 100vh;
     width: 100%;
-    border-bottom: 1px solid ${colorPalette.darkgrey};
+    //border-bottom: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         height: 700px;
     }
@@ -15,7 +15,7 @@ export const HomeProdWrap = styled(motion.div)`
     }
     @media (max-width: ${breakpoints.s}px){
         height: auto;
-        border-bottom: none;
+        //border-bottom: none;
     } 
 `
 export const HomeProdWrapInner = styled.div` 
@@ -35,7 +35,7 @@ export const HomeProdImage = styled.div`
     padding-top: 20px;
     align-items: center;
     justify-content: center;
-    border-right: 1px solid ${colorPalette.darkgrey};
+    //border-right: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.s}px){
         border-right: none;
         width: 100%;

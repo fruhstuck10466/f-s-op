@@ -112,12 +112,12 @@ h4 {
       line-height: 1.4;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 4vw;
+      font-size: 3.5vw;
   }
 }
 p {
   font-size: 1.1em;
-  text-transform: uppercase;
+  //text-transform: uppercase;
   letter-spacing: -1px;
   font-family: "Archia";
   color: ${colorPalette.green};
@@ -138,15 +138,16 @@ p {
     right: 0;
 }
 a {
+  position: relative;
   text-decoration: none;
   color: ${colorPalette.text};
   transition: ease-in-out 0.2s;
   &:hover {
-    //opacity: 0.5;
+    opacity: 0.5;
   }
   &.no-hover {
     &:hover {
-      //opacity: 1;
+      opacity: 1;
     }
   }
 }

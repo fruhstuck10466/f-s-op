@@ -8,22 +8,13 @@ export const StepsWrap = styled.div`
     width: 100%;
     // background: ${colorPalette.grey};
     background-color: white;
-    border-bottom: 1px solid ${colorPalette.darkgrey};
+    //border-bottom: 1px solid ${colorPalette.darkgrey};
     h1 {
-        //background: pink;
         color: ${colorPalette.blue};
         padding: 70px 0 20px;
-        font-size: 3.5vw;
-        @media (max-width: ${breakpoints.xl}px){
-            font-size: 3.7vw;
-        }
-        @media (max-width: ${breakpoints.m}px){
-            font-size: 4.2vw;
-        }
         @media (max-width: ${breakpoints.s}px){
-            font-size: 8vw;
             padding: 50px 0 20px;
-            border-bottom: none;
+            //border-bottom: none;
         }    
     }
 `
@@ -55,13 +46,13 @@ export const Step = styled.div`
     height: 400px;
     display: flex;
     flex-direction: column;
-    border-radius: 5px;
+    //border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0;
     //box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 85, 85) 20px -20px;
     // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     // border-radius: 30px;
-    width: 31%;
+    width: 30%;
     background: ${colorPalette.background};
     color: ${colorPalette.text};
     @media (max-width: ${breakpoints.m}px){

@@ -8,8 +8,8 @@ export const MenuWrap = styled(motion.div)`
     right: 0;
     height: 100%;
     width: 40%;
-    background: ${colorPalette.blue};
-    color: ${colorPalette.background};
+    background: ${colorPalette.background};
+    color: ${colorPalette.text};
     z-index: 999;
     overflow: hidden;
     @media (max-width: 600px) {
@@ -24,7 +24,7 @@ export const MenuHead = styled.div`
     top: 0;
     right: 0;
     left: 0;
-    border-bottom: 1px solid ${colorPalette.background};
+    //border-bottom: 1px solid ${colorPalette.background};
     @media (max-width: ${breakpoints.m}px){
         height: 64px;
     } 
@@ -39,7 +39,7 @@ export const CloseMenu = styled.div`
     width: 100px;
     height: 100%;
     background: ${colorPalette.background};
-    border-left: 1px solid ${colorPalette.text};
+    //border-left: 1px solid ${colorPalette.text};
     display: flex;
     align-items: center;
     justify-content: center;
@@ -47,7 +47,7 @@ export const CloseMenu = styled.div`
     span {
         height: 2px;
         width: 50px;
-        background: ${colorPalette.blue};
+        background: ${colorPalette.text};
         margin-bottom: 3px;
         &:last-child{
             margin-bottom: 0px;
@@ -56,7 +56,7 @@ export const CloseMenu = styled.div`
 `
 
 export const MenuBody = styled(motion.div)`
-transform-origin: top;
+    transform-origin: top;
     height: 100%;
     width: 100%;
     display: flex;
@@ -64,7 +64,7 @@ transform-origin: top;
     font-family: "Archia";
     padding-left: 0px;
     h1 {
-        color: ${colorPalette.background};  
+        color: ${colorPalette.text};  
         @media (max-width: ${breakpoints.s}px){ 
             font-size: 2rem;
            }  
@@ -83,7 +83,7 @@ transform-origin: top;
         padding-top: 10px;
         overflow: hidden;  
         padding-left: 40px;
-        border-bottom: 1px solid ${colorPalette.darkgrey};     
+        //border-bottom: 1px solid ${colorPalette.darkgrey};     
         @media (max-width: ${breakpoints.s}px){
             height: 56px;
             line-height: 56px;
@@ -116,6 +116,7 @@ transform-origin: top;
             }
           }
           sup {
+            color: ${colorPalette.text};  
             font-size: 0.8rem;
           }
         }

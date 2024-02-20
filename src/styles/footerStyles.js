@@ -105,6 +105,7 @@ export const FooterCompany = styled.div`
   p {
     color: ${colorPalette.background};
     font-family: "CeraPro";
+    text-transform: uppercase;
   }
   @media (max-width: ${breakpoints.m}px){
     left: 4%;

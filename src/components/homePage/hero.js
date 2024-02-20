@@ -10,7 +10,7 @@ import { HeroWrap, HeroWrapInner, HeroText, HeroImage, HeroImageInner, ContactMe
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/lan.jpeg"
+import Chem from "../../assets/images/lann.jpg"
 
 //framer
 import { motion } from 'framer-motion';
@@ -109,7 +109,7 @@ const Hero = () => {
                       ease: [0.165, 0.84, 0.44, 1],
                   }}
                   >
-                     <p> <Link to="/contact" >Contacts</Link></p>
+                     <p> <Link to="/contact" >Contact Us</Link></p>
                   </ContactMeta>
                   <ArrowMeta
                   initial={{scale: 0}}

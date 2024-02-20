@@ -32,16 +32,16 @@ export const FaqTitle = styled.div`
         width: 100%;
     }
     h1 {
-        font-size: 3.5vw;
+        // font-size: 3.5vw;
         color: ${colorPalette.background};
-        @media (max-width: ${breakpoints.xl}px){
-            font-size: 3.7vw;
-        }
-        @media (max-width: ${breakpoints.m}px){
-            font-size: 4.2vw;
-        }
+        // @media (max-width: ${breakpoints.xl}px){
+        //     font-size: 3.7vw;
+        // }
+        // @media (max-width: ${breakpoints.m}px){
+        //     font-size: 4.2vw;
+        // }
         @media (max-width: ${breakpoints.s}px){
-            font-size: 8vw;
+            //font-size: 8vw;
             margin-bottom: 30px;
         }   
         

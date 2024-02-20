@@ -7,7 +7,7 @@ export const HeroWrap = styled.div`
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: 100%;
-    border-bottom: 1px solid ${colorPalette.darkgrey};
+    //border-bottom: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         height: 700px;
     }
@@ -15,7 +15,7 @@ export const HeroWrap = styled.div`
         height: 600px;
     }
     @media (max-width: ${breakpoints.s}px){
-        border-bottom: none;
+        //border-bottom: none;
         //height: 100vh;
         //height: calc(var(--vh, 1vh) * 100);
         overflow: hidden;
@@ -41,7 +41,7 @@ export const HeroText = styled(motion.div)`
     padding: 20px 30px 0 130px;
     justify-content: center;
     flex-direction: column;
-    border-right: 1px solid ${colorPalette.darkgrey};
+    //border-right: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         padding-left 80px;
     }
@@ -49,7 +49,7 @@ export const HeroText = styled(motion.div)`
         padding-left 50px;
     }
     @media (max-width: ${breakpoints.s}px){
-        border-right: none;
+        //border-right: none;
         //background: pink;
         width: 100%;
         height: auto;
@@ -72,7 +72,7 @@ export const HeroImage = styled.div`
         width: 100%;
         //height: 50%;
         height: 50vh;   
-        padding: 0;
+        //padding: 0;
         align-items: flex-start;
     }
 `
@@ -83,7 +83,7 @@ export const HeroImageInner = styled(motion.div)`
     width: 60%;
     height: 70%;
     overflow: hidden;
-    border-radius: 400px 400px 400px 400px; 
+    //border-radius: 400px 400px 400px 400px; 
     @media (max-width: ${breakpoints.xl}px){
         width: 70%;  
     } 
@@ -129,7 +129,7 @@ export const ContactMeta = styled(motion.div)`
     a {
         position: relative;
         text-decoration: none;
-        color: ${colorPalette.green};
+        color: ${colorPalette.text};
         &:after {
             border-radius: 1em;
             border-top: 1px solid #000;

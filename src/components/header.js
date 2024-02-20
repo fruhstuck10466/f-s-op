@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 //styles
-import {HeaderWrap, HeaderItems, Logo, HamburgerMenu} from "../styles/headerStyles"
+import {HeaderWrap, HeaderItems, Logo, LogoImg, LogoText, HamburgerMenu} from "../styles/headerStyles"
 //import { Container } from "../styles/globalStyles"
 
 //icon
@@ -17,10 +17,18 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
             <HeaderWrap>
                 <HeaderItems>
                     <Logo>
-                       <Link to="/" >
-                       <img src={LogoIcon} alt="faholo icon"/>
-                        <p>Faholo<br/>Chemicals&nbsp;Ltd.</p>
-                       </Link>
+                        <LogoImg>
+                            <Link to="/" >
+                            <img src={LogoIcon} alt="faholo icon"/>
+                            {/* <p>Faholo<br/>Chemicals&nbsp;Ltd.</p> */}
+                            </Link>
+                        </LogoImg>
+                        <LogoText>
+                            <Link to="/"><span className="disabled">Insights</span><span className="label">Soon</span></Link>
+                            <Link to="/products">Products</Link>
+                            <Link to="/"><span className="disabled">Careers</span><span className="label">Soon</span></Link>
+                            <Link to="/about">About us</Link>
+                       </LogoText>                      
                     </Logo>
                     <HamburgerMenu onHoverStart={() => setHovered(!hovered)}
           onHoverEnd={() => setHovered(!hovered)} onClick={() => setToggleMenu(!toggleMenu)}>

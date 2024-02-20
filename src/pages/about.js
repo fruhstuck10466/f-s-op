@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
-import SEO from "../components/seo";
+import Seo from "../components/seo";
 
 //styles
 import {
@@ -46,14 +46,14 @@ const About = () => {
     <>
       <AnimatePresence>
         <Layout>
-          <SEO title="About" keywords={[`About Faholo Chemicals`]} />
+          <Seo title="About" keywords={[`About Faholo Chemicals`]} />
           <AboutContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               duration: 1,
-              ease: [0.6, 0.05, -0.01, 0.9],
+              ease: [0.6, 0.05, 0, 0.9],
             }}
           >
             

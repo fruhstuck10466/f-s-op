@@ -13,7 +13,7 @@ const faqList = [
     {
         id: 0,
         title: "How to use a Specific Medication ?",
-        item: "Other than the labeled instructions, We insist that you consult with a registered doctor or pharmacist."
+        item: "Our products page summarizes the use of each product. However, Always consult with a healthcare professional before using any type of medicine."
     },
     {
         id: 1,
@@ -26,7 +26,7 @@ const faqList = [
         item: "This is possible through courier services at the Customer's cost."
     },
 ]
-const transitionOne = { duration: 0.2, ease: [0.6, 0.05, -0.01, 0.9] };
+const transitionOne = { duration: 0.2, ease: [0.6, 0.05, 0, 0.9] };
 
 const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };
 
@@ -130,7 +130,7 @@ const FaqAccordion = ({ details, expanded, setExpanded }) => {
       <FaqAnswer
       key="content"
       animate={{ height: isOpen ? "100%" : "0" }}
-      transition={{ duration: 0.8, ease: [0.6, 0.05, -0.01, 0.9] }}
+      transition={{ duration: 0.8, ease: [0.6, 0.05, 0, 0.9] }}
       >
         <h3>&#8226; {details.item}</h3>
       </FaqAnswer>

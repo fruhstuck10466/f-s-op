@@ -1,1 +1,1 @@
-## 🚀 Faholo Chemicals Website, built with GatbsyJS
+## 🚀 A chemical company (Faholo Chemicals Website), bootstraped with GatbsyJS

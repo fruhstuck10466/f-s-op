@@ -6,7 +6,7 @@ import HomeAbout from "../components/homePage/homeAbout"
 import HomeProducts from "../components/homePage/homeProducts"
 import HomeSteps from "../components/homePage/homeSteps"
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import Seo from "../components/seo"
 
 function debounce(fn, ms) {
   let timer
@@ -52,7 +52,7 @@ const IndexPage = props => {
 
   return (
   <Layout>
-      <SEO title="Chemical Manufacturer & Distributer"
+      <Seo title="Chemical Manufacturer & Distributer"
       keywords={[
         `Faholo Chemicals`,
         `Faholo Chemicals Website`,
