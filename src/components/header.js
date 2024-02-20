@@ -20,7 +20,7 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                         <LogoImg>
                             <Link to="/" >
                             <img src={LogoIcon} alt="faholo icon"/>
-                            {/* <p>Faholo<br/>Chemicals&nbsp;Ltd.</p> */}
+                            <p>Faholo<br/>Chemicals&nbsp;Ltd.</p>
                             </Link>
                         </LogoImg>
                         <LogoText>

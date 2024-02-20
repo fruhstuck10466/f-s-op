@@ -42,8 +42,10 @@ export const Logo = styled.div`
 
 export const LogoImg = styled.div`
     a {
+        display: flex;
+        align-items: center;
     img {
-        margin-right: 14px;
+        margin-right: 10px;
         width: 50px;
         height: 50px;
         @media (max-width: ${breakpoints.m}px){
@@ -53,6 +55,11 @@ export const LogoImg = styled.div`
         @media (max-width: ${breakpoints.xs}px){
             width: 40px;
             height: 40px;
+        }
+    }
+    p {
+        @media (min-width: ${breakpoints.m}px){
+            display: none;
         }
     }
     }
