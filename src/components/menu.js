@@ -5,28 +5,33 @@ import { Link } from "gatsby";
 //styles
 import {MenuWrap, MenuHead, CloseMenu, MenuBody, MenuFoot} from "../styles/menuStyles"
 
-const navRoutes = [
-  {
-    id: 0,
-    title: "Home",
-    path: "/",
-  },
-  {
-    id: 1,
-    title: "Products",
-    path: "/products",
-  },
-  {
-    id: 2,
-    title: "About",
-    path: "/about",
-  },
-  {
-    id: 3,
-    title: "Contacts",
-    path: "/contact",
-  },
-];
+// const navRoutes = [
+//   {
+//     id: 0,
+//     title: "Home",
+//     path: "/",
+//   },
+//   {
+//     id: 1,
+//     title: "Products",
+//     path: "/products",
+//   },
+//   {
+//     id: 2,
+//     title: "About",
+//     path: "/about",
+//   },
+//   {
+//     id: 3,
+//     title: "Contacts",
+//     path: "/contact",
+//   },
+//   {
+//     id: 4,
+//     title: "Stockists",
+//     path: "/stockists",
+//   },
+// ];
 
 const transition = { duration: 1, ease: [0.165, 0.84, 0.44, 1] };
 
@@ -99,20 +104,72 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
             animate="visible"
             exit="bye"
             >
-                  {navRoutes.map((route) => (
-                    <motion.li
-                      key={route.id}>
-                      <Link to={`${route.path}`} activeClassName="active">
+                    <motion.li>
+                      <Link to="/">
                         <motion.div      
                           className="link"
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>0{route.id}/ &nbsp; </sup> <h1>{route.title}</h1>
+                          <sup>01/&nbsp;</sup> <h3>Home</h3>
                         </motion.div>
                       </Link>
                     </motion.li>
-                  ))}
+										<motion.li>
+                      <Link to="/products">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>02/&nbsp;</sup> <h1>Products</h1>
+                        </motion.div>
+                      </Link>
+                    </motion.li>
+										<motion.li>
+                      <Link to="/about">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>03/&nbsp;</sup> <h1>About</h1>
+                        </motion.div>
+                      </Link>
+                    </motion.li>
+										<motion.li>
+                      <Link to="/contact">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>04/&nbsp;</sup> <h1>Contacts</h1>
+                        </motion.div>
+                      </Link>
+                    </motion.li>
+										<motion.li>
+                      <Link to="/stockists">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>05/&nbsp;</sup> <h3>Stockists</h3>
+                        </motion.div>
+                      </Link>
+                    </motion.li>
+										<motion.li>
+                      <Link to="/">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>06/&nbsp;</sup> <h3><span className="disabled">Careers</span><span className="label">soon</span></h3>
+                        </motion.div>
+                      </Link>
+                    </motion.li>
                 </motion.ul>
             </MenuBody>
             <MenuFoot></MenuFoot>

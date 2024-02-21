@@ -60,6 +60,7 @@ export const ContactFlexInner = styled.div`
     margin-right: 0px;
   }
   @media (max-width: ${breakpoints.xl}px){
+    width: 100%;
     margin-right: 50px;
   }
   @media (max-width: ${breakpoints.s}px){

@@ -69,19 +69,25 @@ export const MenuBody = styled(motion.div)`
             font-size: 2rem;
            }  
     }
+    h3 {
+      font-family: "Archia";
+      color: ${colorPalette.text};  
+    }
     ul {
     padding: 0;
     width: 100%;
     display: flex;
     flex-direction: column;
     li {
+        position: relative;
+        width: max-content;
         list-style: none;
         //background: pink;
         font-weight: normal;
         height: 76px;
         line-height: 76px;
         padding-top: 10px;
-        overflow: hidden;  
+        //overflow: hidden;  
         padding-left: 40px;
         //border-bottom: 1px solid ${colorPalette.darkgrey};     
         @media (max-width: ${breakpoints.s}px){
@@ -115,6 +121,22 @@ export const MenuBody = styled(motion.div)`
               }
             }
           }
+          .disabled {
+            cursor: not-allowed;
+            opacity: 0.4;
+        }
+          .label {
+            opacity: 1;
+            top: -15px;
+            right: -15px;
+            position: absolute;
+            display: block;
+            font-size: 7px;
+            background: #626eff;
+            color: ${colorPalette.background};
+            border-radius: 4px;
+            padding: 4px;
+        }
           sup {
             color: ${colorPalette.text};  
             font-size: 0.8rem;
