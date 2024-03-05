@@ -46,7 +46,7 @@ const categoriesAndList = [
     title: "FAHOLO Antiseptic.",
     items: [
       "Contains Chlorhexidine BP 0.3% w/v and Cetrimide BP 3% w/v.",
-      "Disinfectant - it is often found in emergency survival kits, used both to disinfect wounds and to sanitise surface water for drinking.",
+      "Disinfectant - it is often found in emergency survival kits, used to disinfect wounds.",
       "Medical Procedures - It is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
       "Please note that it should not be used on newborn infants, large open wounds, or for long periods",
       "Pack size includes 50ml, 75ml, 100ml, 125ml, 250ml, 500ml, 1lt, 5lt",
@@ -72,7 +72,7 @@ const categoriesAndList = [
       "Medical Applications - It is commonly used in hospitals and other healthcare settings to sterilize surgical and medical equipment due to its potent antimicrobial properties.",
       "Industrial Applications - In the oil and gas industry, glutaraldehyde is used as a biocide in water treatment systems to control microbial growth. It’s also used in the leather tanning process for its cross-linking properties",
       "Cosmetics and Personal Care Products - It can also be found in some cosmetics and personal care products as a preservative to prevent microbial growth",
-      "Pack size includes 1lt, 2.5lt, 5lt",
+      "Pack size includes 5lt + Activator",
     ],
   },
   {
@@ -102,7 +102,7 @@ const categoriesAndList = [
     id: 7,
     title: "Farm Liniment BP.",
     items: [
-      "Farm Liniment is a type of topical medication that is typically used to relieve joint pain or muscle tension1. It’s often applied with friction to increase blood circulation to an injury or for sore, stiff muscles.",
+      "Farm Liniment is a type of topical medication that is typically used to relieve joint pain or muscle tension. It’s often applied with friction to increase blood circulation to an injury or for sore, stiff muscles.",
       "Pack size includes 100ml, 250ml, 300ml, 500ml, 1lt, 5lt",
     ],
   },
@@ -122,7 +122,7 @@ const categoriesAndList = [
     title: "Gentian Violet 1% Solution.",
     items: [
       "A blue-violet dye derived from coal tar and is used as a topical medication for:",
-      "Antifungal - It’s primarily used against the fungus, Candida, which causes thrush. It’s also used to treat other types of fungus infections inside the mouth and of the skin",
+      "Antifungal - It’s primarily used against the fungus, Candida, which causes thrush. It’s also used to treat other types of fungus infections inside the mouth and on the skin",
       "Antibacterial and Antiviral - It has antibacterial and antiviral activity.",
       "Skin Infections - It’s used for skin infections such as ringworm and athlete’s foot. It’s also used on minor cuts and scrapes to prevent infection.",
       "Disinfecting Wound - It’s used for disinfecting wounds.",
