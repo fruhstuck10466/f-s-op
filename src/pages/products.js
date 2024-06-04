@@ -130,7 +130,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 9,
+    id: 10,
     title: "Lysol Solution 6% and 12%.",
     items: [
       "A disinfectant concentrate used for cleaning and deodorizing. It’s proven to eliminate odor-causing bacteria, viruses, and everyday dirt and grime, used for:",
@@ -142,7 +142,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 10,
+    id: 11,
     title: "Sodium Hypochlorite 4-6%.",
     items: [
       "A common disinfectant and bleaching agent, used for:",
@@ -154,7 +154,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 11,
+    id: 12,
     title: "Surgical Spirit 70%.",
     items: [
       "Also known as rubbing alcohol or isopropyl alcohol, is a colorless liquid that is commonly used in the healthcare industry for:",
@@ -166,7 +166,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 12,
+    id: 13,
     title: "Methylated Spirit 70%.",
     items: [
       "Also known as denatured alcohol, is a versatile substance with a range of uses:",
@@ -177,7 +177,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 13,
+    id: 14,
     title: "Instant Hand Sanitizer.",
     items: [
       "A liquid, gel, or foam generally used to decrease infectious agents on the hands, can be used for:",
@@ -188,7 +188,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 14,
+    id: 15,
     title: "Medicinal Boric Acid.",
     items: [
       "A water-soluble white compound, is claimed to have antifungal and antimicrobial properties. It is used in various medicinal and homeopathic treatments, such as:",
@@ -201,7 +201,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 15,
+    id: 16,
     title: "Hand Washing Gel.",
     items: [
       "Preventing Infection - Hand Washing Gel is designed to kill germs and bacteria, which can help prevent the spread of illnesses",
@@ -209,7 +209,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 16,
+    id: 17,
     title: "Emulsifying Ointment.",
     items: [
       "A type of moisturizer used to treat dry skin conditions such as eczema and dermatitis, can be used as a:",
@@ -218,7 +218,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 17,
+    id: 18,
     title: "Pure Glycerine BP.",
     items: [
       "Also known as glycerol, is a natural compound derived from vegetable oils or animal fats. It’s a clear, colorless, odorless, and syrupy liquid with a sweet taste. Can be used in:",
@@ -229,7 +229,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 18,
+    id: 19,
     title: "Castor Oil.",
     items: [
       "Laxative - Castor oil is well-known for its laxative properties. It stimulates the intestines, helping to relieve constipation.",
@@ -241,7 +241,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 19,
+    id: 20,
     title: "Liquid Paraffin BP.",
     items: [
       "Also known as paraffinum liquidum or paraffin oil, is a highly refined mineral oil used in cosmetics and medicine. Can be used for:",
@@ -251,7 +251,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 20,
+    id: 21,
     title: "Medicinal Massage Oil.",
     items: [
       "Used in aromatherapy and massage therapy for a variety of health and wellness benefits. ",
@@ -261,7 +261,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 21,
+    id: 22,
     title: "Acetic Acid (Vinegar) 4-6%.",
     items: [
       "Also known as ethanoic acid, is a clear, colorless liquid with a strong and pungent smell. It is an organic compound and the main component of vinegar. Can be used for: ",
@@ -273,7 +273,7 @@ const categoriesAndList = [
     ],
   },
   {
-    id: 22,
+    id: 23,
     title: "Multipurpose Liquid.",
     items: [
       "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes1. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",

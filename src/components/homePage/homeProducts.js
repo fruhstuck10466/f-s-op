@@ -45,7 +45,7 @@ const headSingleAnime = {
 const HomeProducts = () => {
 const data = useStaticQuery(graphql`
     query {
-      detergentCategoryImage: file(relativePath: { eq: "detergents.jpeg" }) {
+      detergentCategoryImage: file(relativePath: { eq: "detergent.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectants.jpeg" }
+        relativePath: { eq: "disinfectants.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
@@ -61,28 +61,28 @@ const data = useStaticQuery(graphql`
           }
         }
       }
-      antisepticCategoryImage: file(relativePath: { eq: "antiseptics.jpeg" }) {
+      antisepticCategoryImage: file(relativePath: { eq: "antiseptic.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      cosmeticsCategoryImage: file(relativePath: { eq: "cosmetics.jpeg" }) {
+      cosmeticsCategoryImage: file(relativePath: { eq: "cosmetics.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      sanitizerCategoryImage: file(relativePath: { eq: "sanitizers.jpeg" }) {
+      sanitizerCategoryImage: file(relativePath: { eq: "sanitizer.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      othersCategoryImage: file(relativePath: { eq: "others.jpeg" }) {
+      othersCategoryImage: file(relativePath: { eq: "other.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -164,7 +164,7 @@ const data = useStaticQuery(graphql`
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>6/6 | Others...</p>
+                  <p>6/6 | Others + Reagents</p>
                   <Img
                     fluid={data.othersCategoryImage.childImageSharp.fluid}
                     alt="other solutions"
