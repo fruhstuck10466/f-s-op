@@ -40,7 +40,14 @@ const Stockists = () => {
     <>
       <AnimatePresence>
         <Layout>
-        <Seo title="Stockists" keywords={[`Stockist Faholo Chemicals Where can i buy Faholo Chemicals Products`]}/>
+        <Seo title="Stockists" keywords={[
+          `Stockist Faholo Chemicals`,
+          `Where can i buy Faholo Chemicals Products`,
+          `Stockists of Faholo Chemicals products in Kenya`,
+          `Where to buy Faholo Chemicals products in Nairobi`,
+          `List of stores selling Faholo Chemicals products in Kenya`,
+          `Find Faholo Chemicals cleaning products and detergents near me in Kenya`,
+           ]}/>
           <ContactContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}

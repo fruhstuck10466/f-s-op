@@ -56,8 +56,12 @@ const IndexPage = props => {
       keywords={[
         `Faholo Chemicals`,
         `Faholo Chemicals Website`,
-        `Chemical Manufacturer in Kenya`,
-        `Chemical Distributer in Kenya`,
+        `Leading detergent manufacturer in Kenya`,
+        `Leading disinfectant manufacturer in Kenya`,
+        `Leading antiseptic manufacturer in Kenya`,
+        `Best hygiene and cleaning solutions in Kenya`,
+        `Top chemical manufacturer in Nairobi`,
+        `Where to find quality sanitizers, cleaning products, antiseptics, floor cleaners, laundry detergents, allpurpose cleaners, surface disinfectants in Nairobi Kenya?`,
       ]} />
       <Hero />
       <HomeProducts />   

@@ -46,7 +46,15 @@ const About = () => {
     <>
       <AnimatePresence>
         <Layout>
-          <Seo title="About" keywords={[`About Faholo Chemicals`]} />
+          <Seo title="About" keywords={[
+            `About Faholo Chemicals`, 
+            `Who is the leading manufacturer of cleaning products and liquid detergents in Kenya?`,
+            `Who is the leading manufacturer of antiseptics in Kenya?`,
+            `Who is the leading manufacturer of disinfectants in Kenya?`,
+            `About the best chemical manufacturer in Kenya`,
+            `Information on top hygiene product manufacturers in Kenya`,
+            `Details about Faholo Chemicals in Kenya`,
+            ]} />
           <AboutContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}

@@ -40,7 +40,13 @@ const Contact = () => {
     <>
       <AnimatePresence>
         <Layout>
-          <Seo title="Contacts" keywords={[`Faholo Chemicals Contacts`]} />
+          <Seo title="Contacts" keywords={[
+            `Faholo Chemicals Contacts`,
+            `How to reach Faholo Chemicals in Nairobi?`,
+            `How to contact the top detergent manufacturer in Kenya?`,
+            `Customer service contact for Faholo Chemicals Kenya`,
+            `Support and inquiries for cleaning products in Kenya`,
+            ]} />
           <ContactContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}

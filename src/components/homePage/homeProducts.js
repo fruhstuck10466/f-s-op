@@ -45,7 +45,7 @@ const headSingleAnime = {
 const HomeProducts = () => {
 const data = useStaticQuery(graphql`
     query {
-      detergentCategoryImage: file(relativePath: { eq: "detergent.jpg" }) {
+      detergentCategoryImage: file(relativePath: { eq: "detergents.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectants.jpg" }
+        relativePath: { eq: "disinfectant.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
