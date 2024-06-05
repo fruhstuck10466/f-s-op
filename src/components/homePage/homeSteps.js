@@ -125,8 +125,8 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h4>3/3</h4></StepNumber>
                         <StepDescriptionInner>
-                            <h4>Get your goods delivered or locate us to pick them up.</h4> <br/>
-                            <h4>Location : <br/>
+                            <h4 data-nosnippet>Get your goods delivered or locate us to pick them up.</h4> <br/>
+                            <h4 data-nosnippet>Location : <br/>
                                 Bellway Industrial Park, <br/>
                                 GoDown No.4 <br/>
                                 Embakasi, Nairobi Kenya.
