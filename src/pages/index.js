@@ -53,6 +53,7 @@ const IndexPage = props => {
   return (
   <Layout>
       <Seo title="Chemical Manufacturer & Distributer"
+      description="We manufacture and distribute a wide range of pharmaceutical products locally and regionally. We specialize in production of external application products namely; Antiseptics, Disinfectants, Sanitizers, Liquid detergents and Cosmetics. Our strength is founded in our knowledge and wide market experience in the pharmaceutical industry. We believe in quality, customer care and honesty"
       keywords={[
         `Faholo Chemicals`,
         `Faholo Chemicals Website`,
