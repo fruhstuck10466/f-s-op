@@ -350,7 +350,7 @@ const Products = () => {
               `Where to buy hand sanitizers in Kenya?`,
               `Best surface disinfectants available in Nairobi`,
               `Top laundry detergents in Kenya`,
-              `Top manufacturer of detergents, antiseptics and disinfectants in Kenya`
+              `Top manufacturer of detergents, antiseptics and disinfectants in Kenya`,
               `Where to find multi-purpose cleaners in Kenya?`,
             ]}
           />
