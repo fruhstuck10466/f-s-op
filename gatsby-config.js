@@ -4,9 +4,11 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Faholo Chemicals`,
-    description: `We manufacture and distribute a wide range of pharmaceutical products locally and regionally. We specialize in production of external application products namely; Antiseptics, Disinfectants, Sanitizers, Liquid detergents and Cosmetics. Our strength is founded in our knowledge and wide market experience in the pharmaceutical industry. We believe in quality, customer care and honesty`,
+    title: `Faholo Chemicals - Chemical Manufacturer & Distributer`,
+    description: `We manufacture and distribute various external pharmaceutical products, specializing in antiseptics, disinfectants, sanitizers, detergents, and cosmetics. Our expertise and market experience ensure quality, customer care, and honesty.`,
     author: `@jobmusembi`,
+    keywords: `Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Leading antiseptic manufacturer in Kenya, Top topical chemical manufacturer in Nairobi`,
+    siteUrl: `https://www.faholochemicals.co.ke`,
   },
   plugins: [
     {
@@ -21,6 +23,15 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.faholochemicals.co.ke',
+        sitemap: 'https://www.faholochemicals.co.ke/sitemap.xml',
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    },
+    `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,

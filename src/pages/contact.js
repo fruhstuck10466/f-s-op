@@ -40,13 +40,10 @@ const Contact = () => {
     <>
       <AnimatePresence>
         <Layout>
-          <Seo title="Contacts" keywords={[
-            `Faholo Chemicals Contacts`,
-            `How to reach Faholo Chemicals in Nairobi?`,
-            `How to contact the top detergent manufacturer in Kenya?`,
-            `Customer service contact for Faholo Chemicals Kenya`,
-            `Support and inquiries for cleaning products in Kenya`,
-            ]} />
+          <Seo title="Contacts" 
+          description="Contact us for top-quality external pharmaceutical products. Our team is available during business hours to assist you. Reach us via email or call our office for exceptional customer support."
+          keywords="Support and inquiries for cleaning products in Kenya, How to reach Faholo Chemicals in Nairobi?, How to contact the top detergent manufacturer in Kenya?" 
+         />
           <ContactContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}
@@ -66,17 +63,17 @@ const Contact = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >For any Queries,</motion.div> 
+                        >Contact Us for</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Purchases or</motion.div> 
+                        >Queries, Purchases,</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Feedback ?</motion.div>
+                        > or Feedback</motion.div>
                     </motion.h1>
              
               </ContactTitle>

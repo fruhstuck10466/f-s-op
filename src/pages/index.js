@@ -52,18 +52,11 @@ const IndexPage = props => {
 
   return (
   <Layout>
-      <Seo title="Chemical Manufacturer & Distributer"
-      description="We manufacture and distribute a wide range of pharmaceutical products locally and regionally. We specialize in production of external application products namely; Antiseptics, Disinfectants, Sanitizers, Liquid detergents and Cosmetics. Our strength is founded in our knowledge and wide market experience in the pharmaceutical industry. We believe in quality, customer care and honesty"
-      keywords={[
-        `Faholo Chemicals`,
-        `Faholo Chemicals Website`,
-        `Leading detergent manufacturer in Kenya`,
-        `Leading disinfectant manufacturer in Kenya`,
-        `Leading antiseptic manufacturer in Kenya`,
-        `Best hygiene and cleaning solutions in Kenya`,
-        `Top chemical manufacturer in Nairobi`,
-        `Where to find quality sanitizers, cleaning products, antiseptics, floor cleaners, laundry detergents, allpurpose cleaners, surface disinfectants in Nairobi Kenya?`,
-      ]} />
+      <Seo 
+      title="Home"
+      description="Leading manufacturer and distributor of external pharmaceuticals, specializing in antiseptics, disinfectants, sanitizers, detergents, and cosmetics. Quality, customer care, and honesty are our core values."      
+      keywords="Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Best hygiene and cleaning solutions in Kenya, Leading antiseptic manufacturer in Kenya" 
+      />
       <Hero />
       <HomeProducts />   
       <HomeSteps /> 

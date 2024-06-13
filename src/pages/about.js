@@ -46,15 +46,10 @@ const About = () => {
     <>
       <AnimatePresence>
         <Layout>
-          <Seo title="About" keywords={[
-            `About Faholo Chemicals`, 
-            `Who is the leading manufacturer of cleaning products and liquid detergents in Kenya?`,
-            `Who is the leading manufacturer of antiseptics in Kenya?`,
-            `Who is the leading manufacturer of disinfectants in Kenya?`,
-            `About the best chemical manufacturer in Kenya`,
-            `Information on top hygiene product manufacturers in Kenya`,
-            `Details about Faholo Chemicals in Kenya`,
-            ]} />
+          <Seo title="About" 
+          description="Discover our goal to be a world-class pharmaceutical company across Africa. We focus on long-term relationships, exceptional service, innovation, and exceeding customer expectations."
+          keywords="Information on top hygiene product manufacturers in Kenya, Who is the leading manufacturer of cleaning products and liquid detergents in Kenya?, Who is the leading manufacturer of antiseptics in Kenya?, Who is the leading manufacturer of disinfectants in Kenya?" 
+         />
           <AboutContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}
@@ -90,14 +85,8 @@ const About = () => {
               </IntroAboutHeading>
                 <IntroAboutText>
                   <h3>
-                    Established in 2015 as a family company, Faholo has grown to
-                    be part of Kenya’s & East Africa’s known and trusted
-                    Chemical brands setting ambitious goals for the future to
-                    become a competitive global player. <br /> <br />
-                    Over the years of growth & hardwork, our priority has always
-                    been to carefully research and deliver products using the
-                    best practices gathered from our experience, and to warmly
-                    give the best experience to each of our clients.
+                  Established in 2015 as a family-owned enterprise, FAHOLO® has emerged as one of Kenya's and East Africa's most trusted chemical brands. Our ambitious goals drive us to become a competitive global player in the pharmaceutical and chemical industry. <br /> <br />
+                  Over the years, our unwavering commitment to growth and hard work has enabled us to carefully research and deliver products using best practices honed from extensive experience. We are dedicated to providing each client with an exceptional and personalized experience.
                   </h3>
                 </IntroAboutText>
               </IntroWrapper>
@@ -122,7 +111,7 @@ const About = () => {
                      className="smalltext"
                         variants={headSingleAnime}
                         transition={transition}
-                        >so little,</motion.div> 
+                        >so little 🤏,</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
@@ -132,21 +121,16 @@ const About = () => {
                         className="bigtext"
                         variants={headSingleAnime}
                         transition={transition}
-                        > so much.</motion.div>
+                        > so much 💪.</motion.div>
              
                     </motion.h1>
                     
               </IntroAboutHeadingOne>
                 <IntroAboutTextOne>
                   <h3>
-                  We are humbled to house a team of progressive, hard-working
-                    and forward-thinking individuals, with years of industry
-                    experience & mastering in our field of work. <br /> <br />{" "}
-                    Our collaborative partnership with our stakeholders has put
-                    our best foot forward in carrying out our operations with
-                    passion & commitment, setting industry standards in the
-                    manufacturing of a focused range of pharmaceutical and
-                    chemical products.
+                  At FAHOLO®, we are proud to house a team of progressive, hardworking, and forward-thinking professionals. With years of industry experience and mastery, our team is our greatest asset. Our collaborative partnerships with stakeholders fuel our passion and commitment, setting industry standards in manufacturing a focused range of pharmaceutical and chemical products. <br/><br/>
+                  Our extensive product range, certified by prestigious organizations like KEBS, ensures compliance with international standards, promoting business growth and environmental wellness. From external pharmaceuticals and surface disinfectants to all-purpose detergents, our meticulously crafted products are designed to meet the highest quality and safety standards. <br/><br/>
+                  Our dedication to excellence, customer satisfaction, and sustainability defines who we are and guides our operations. We actively engage in community initiatives and prioritize environmentally friendly practices to minimize our ecological footprint.
                   </h3>
                 </IntroAboutTextOne>
               </IntroWrapper>
@@ -159,9 +143,7 @@ const About = () => {
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                      To become a world-class Pharmaceutical company, having
-                      distribution networks in most of Africa’s Countries and
-                      beyond.
+                    To become a world-class pharmaceutical company, with distribution networks spanning most African countries and beyond.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>
@@ -171,10 +153,7 @@ const About = () => {
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                      To build long term relationships with our customers and
-                      clients and provide exceptional customer services by
-                      pursuing business through innovation and advanced
-                      technology.
+                    To build long-term relationships with our customers and clients by providing exceptional customer service through innovation and advanced technology.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>
@@ -184,8 +163,7 @@ const About = () => {
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                      To provide Quality services that exceed the expectations
-                      of our esteemed customers.
+                    To deliver quality services that exceed the expectations of our esteemed customers.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>

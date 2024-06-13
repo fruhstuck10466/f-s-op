@@ -69,11 +69,11 @@ const HomeSteps = () => {
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Want To Inquire or</motion.div>
+                    > Inquire, Quote,</motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Place an Order ?</motion.div>
+                    >Pay, Deliver! 🚛</motion.div>
                     {/* <motion.div
                     variants={headSingleAnime}
                     transition={transition}
@@ -89,11 +89,11 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h4>1/3</h4></StepNumber>
                         <StepDescriptionInner>
-                            <h4>With your product order (product name, pack size & quantity), reach out to our dedicated sales team for a quote through our contacts below.</h4>
+                            <h4>To place an order, including the product name, pack size, and quantity, contact our dedicated sales team for a quote using the information provided below.</h4>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
-                        <h4>See Contacts</h4> <Link to="/contact"><span><img src={ArrowRight} alt=""/></span></Link>
+                        <h4>View Contacts</h4> <Link to="/contact"><span><img src={ArrowRight} alt=""/></span></Link>
                     </StepCta>
                 </Step>
                 <Step>
@@ -104,11 +104,11 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h4>2/3</h4></StepNumber>
                         <StepDescriptionInner>
-                            <h4>Get a quote & then agree on the payment and delivery method. To pay via M-Pesa:</h4>                     
+                            <h4>For payment via M-Pesa or Bank Account, please follow the instructions below.</h4>                     
                         </StepDescriptionInner>        
                     </StepDescription>
                     <StepAcc >
-                        <h4><span>Via (Absa) Bank Account :</span> <br/>
+                        <h4><span>Via (absa) Bank Account :</span> <br/>
                             &rarr; Pay Bill Business No. - 30 30 30<br/>
                             &rarr; Account No. - 203 232 220 7 <br/>
                             <span>Via M-pesa Paybill :</span> <br/>
@@ -125,7 +125,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h4>3/3</h4></StepNumber>
                         <StepDescriptionInner>
-                            <h4 data-nosnippet>Get your goods delivered or locate us to pick them up.</h4> <br/>
+                            <h4 data-nosnippet>Choose to have your goods delivered or pick them up from our location.</h4> <br/>
                             <h4 data-nosnippet>Location : <br/>
                                 Bellway Industrial Park, <br/>
                                 GoDown No.4 <br/>
@@ -134,7 +134,7 @@ const HomeSteps = () => {
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
-                        <h4>See Directions</h4> <a href="https://www.google.com/maps/dir//faholo/@-1.3138759,36.8439214,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x182f1109e4088c39:0x81f820e2de258964!2m2!1d36.913962!2d-1.3138769"
+                        <h4>Get Directions</h4> <a href="https://www.google.com/maps/dir//faholo/@-1.3138759,36.8439214,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x182f1109e4088c39:0x81f820e2de258964!2m2!1d36.913962!2d-1.3138769"
                     aria-label="directions"><span><img src={ArrowRight} alt=""/></span></a>
                     </StepCta>
                 </Step>

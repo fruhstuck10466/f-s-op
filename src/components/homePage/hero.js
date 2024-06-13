@@ -58,17 +58,17 @@ const Hero = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >A Chemical</motion.div> 
+                        >Empowering Industries</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Manufacturing</motion.div> 
+                        >with Innovative</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Company</motion.div>
+                        >Chemical Solutions 👨🏿‍🔬</motion.div>
                     </motion.h1>
                     <motion.h3
                     initial={{opacity: 0, y: 75, skewY: 7}}
@@ -78,11 +78,7 @@ const Hero = () => {
                         duration: 1,
                         ease: [0.165, 0.84, 0.44, 1],
                     }}
-                    >Headquartered in Nairobi, Kenya; <br/>
-                    Our specialty is found in Manufacturing & <br/> 
-                    Distribution of Cosmetics & External <br/> 
-                    Pharmaceutical products aiming to<br/> 
-                    enhance your well-being.</motion.h3>
+                    >Based in Nairobi, Kenya, we specialize in manufacturing and distributing high-quality cleaning solutions and external pharmaceutical products.</motion.h3>
                 </HeroText>
                 <HeroImage>
                     <HeroImageInner

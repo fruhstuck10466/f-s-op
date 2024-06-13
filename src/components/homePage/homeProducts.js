@@ -121,8 +121,9 @@ const data = useStaticQuery(graphql`
                 <DragText><p>Drag Image to Explore Products</p></DragText>
                 <HomeProdImage>
                 <h1 className="bopp" >
-                    <div>Formulations Made</div>
-                    <div>with Integrity</div>
+                    <div>Excellence Delivered</div>
+                    <div>in Every Pharmaceutical</div>
+                    <div>& Chemical Product 📦</div>
                     </h1>
                         <Slider
                         {...settings}
@@ -187,11 +188,15 @@ const data = useStaticQuery(graphql`
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Formulations Made</motion.div>
+                    >Excellence Delivered </motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >with Integrity</motion.div>
+                    >in Every Pharmaceutical</motion.div>
+                    <motion.div
+                    variants={headSingleAnime}
+                    transition={transition}
+                    >& Chemical Product 📦</motion.div>
                     </motion.h1>
                     <motion.h3
                     ref={contentRef}
@@ -213,7 +218,7 @@ const data = useStaticQuery(graphql`
                     }}
     
                     >
-                    We focus on making efficient, research- <br/> driven & industry approved formulations <br/> that make a difference in maintaining a <br/> safe & healthy way of living.
+                    Our product range includes all-purpose cleaners, surface disinfectants, antiseptics, hand sanitizers, liquid hand soaps, detergents, cosmetics, and laboratory reagents. Each product is designed to enhance well-being, showcasing our commitment to quality, integrity and customer service. Explore our diverse range of high-quality products designed to meet your needs.
                     </motion.h3>
                     <BtnStyle>
                     <Link to="/products" >

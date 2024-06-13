@@ -46,7 +46,7 @@ export const HomeProdImage = styled.div`
     }
     .bopp{
         position: relative;
-        padding: 10% 0 0 40px;
+        padding: 15% 0 0 40px;
         //margin-bottom: 0;
         @media (min-width: ${breakpoints.s}px){
             display: none;
@@ -54,8 +54,8 @@ export const HomeProdImage = styled.div`
     }
     .bop {
         position: relative;
-        width: 350px;
-        height: 450px;
+        width: 400px;
+        height: 500px;
         @media (max-width: ${breakpoints.xl}px){
             width: 300px;
             height: 400px;

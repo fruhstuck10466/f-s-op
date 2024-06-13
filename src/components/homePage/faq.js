@@ -12,18 +12,18 @@ import { Container } from '../../styles/globalStyles';
 const faqList = [
     {
         id: 0,
-        title: "How to use a Specific Medication ?",
-        item: "Our products page summarizes the use of each product. However, Always consult with a healthcare professional before using any type of medicine."
+        title: "What is the recommended usage of a Specific Medication?",
+        item: "Our products page provides detailed guidance on the proper use of each medication. However, we strongly advise consulting with a healthcare professional prior to using any medication for optimal safety and effectiveness."
     },
     {
         id: 1,
-        title: "Product Availability & Price List ?",
-        item: "Contact us with your order to learn more about the availability & the current price list."
+        title: "Can I inquire about Product Availability and Price List?",
+        item: "To learn about product availability and our current price list, please contact us with your order details. We'll be glad to assist you promptly."
     },
     {
         id: 2,
-        title: "Deliveries outside Nairobi ?",
-        item: "This is possible through courier services at the Customer's cost."
+        title: "Do you offer deliveries outside Nairobi?",
+        item: "We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
     },
 ]
 const transitionOne = { duration: 0.2, ease: [0.6, 0.05, 0, 0.9] };
@@ -89,7 +89,7 @@ const Faq = () => {
                      <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Questions</motion.div>
+                    >Questions ⓘ</motion.div>
                     </motion.h1>
                 </FaqTitle>
                 <FaqInfo>

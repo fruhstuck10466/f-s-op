@@ -40,14 +40,10 @@ const Stockists = () => {
     <>
       <AnimatePresence>
         <Layout>
-        <Seo title="Stockists" keywords={[
-          `Stockist Faholo Chemicals`,
-          `Where can i buy Faholo Chemicals Products`,
-          `Stockists of Faholo Chemicals products in Kenya`,
-          `Where to buy Faholo Chemicals products in Nairobi`,
-          `List of stores selling Faholo Chemicals products in Kenya`,
-          `Find Faholo Chemicals cleaning products and detergents near me in Kenya`,
-           ]}/>
+        <Seo title="Stockists" 
+        description="Find our trusted stockists across various counties in Kenya. Access high-quality pharmaceutical products through our extensive network of reliable stockists near you."
+        keywords="Find Faholo Chemicals cleaning products and detergents near me in Kenya, Where can i buy Faholo Chemicals Products, List of stores selling Faholo Chemicals products in Kenya" 
+        />
           <ContactContainer
             initial={{ opacity: 0 }}
             exit={{ opacity: 0 }}

@@ -84,7 +84,7 @@ h2 {
 }
 h3 {
   font-family: "CeraPro";
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   line-height: 1.3;
   margin-top: 0;
   @media (max-width: ${breakpoints.xl}px){

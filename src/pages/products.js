@@ -314,45 +314,8 @@ const Products = () => {
         <Layout>
           <Seo
             title="Products"
-            keywords={[
-              `Faholo Chemicals Products`,
-              `Chemical Distributers and Manufacturers in Kenya`,
-              `Hand sanitizer Kenya`,
-              `Surface disinfectant Kenya`,
-              `Liquid hand soap Kenya`,
-              `All-purpose cleaner Kenya`,
-              `multi-surface cleaner Kenya`,
-              `grease-fighting dish soap Kenya`,
-              `Laundry detergent Kenya`,
-              `tile cleaner Kenya`,
-              `multi-surface floor cleaner Kenya`,
-              `hardwood floor cleaner Kenya`,
-              `Where can I buy hand sanitizers in Kenya?`,
-              `Alcohol-based hand sanitizer suppliers in Kenya`,
-              `Affordable hand sanitizers in Nairobi`,
-              `Top surface disinfectants available in Kenya`,
-              `Best antibacterial surface cleaners in Kenya`,
-              `Where to buy disinfectant sprays in Nairobi`,
-              `Moisturizing hand soaps suppliers in Kenya`,
-              `Best liquid hand soaps in Kenya`,
-              `Affordable hand soaps in Nairobi`,
-              `Top all-purpose cleaners in Kenya`,
-              `Best multi-surface cleaners available in Kenya`,
-              `Best dishwashing liquids in Kenya`,
-              `Where to buy grease-fighting dish soap in Kenya`,
-              `Top dish detergent suppliers in Kenya`,
-              `Top laundry detergents in Kenya`,
-              `Liquid detergent suppliers in Kenya`,
-              `Best fabric cleaners available in Kenya`,
-              `Multi-surface floor cleaner suppliers in Kenya`,
-              `Where to buy hardwood floor cleaner in Nairobi`,
-              `Top tile cleaners available in Kenya`,
-              `Where to buy hand sanitizers in Kenya?`,
-              `Best surface disinfectants available in Nairobi`,
-              `Top laundry detergents in Kenya`,
-              `Top manufacturer of detergents, antiseptics and disinfectants in Kenya`,
-              `Where to find multi-purpose cleaners in Kenya?`,
-            ]}
+            description="Explore our product catalogue featuring a variety of pack sizes from 50ml to 20Lt. Discover the uses of our high-quality pharmaceutical products tailored to meet diverse needs."
+            keywords="Chemical Distributers and Manufacturers in Kenya, Hand sanitizer Kenya, Surface disinfectant Kenya, Detergents supplier Kenya"
           />
           <ProductContainer
             initial={{ opacity: 0 }}
@@ -386,12 +349,11 @@ const Products = () => {
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >their uses:</motion.div>
+                        >Their Uses</motion.div>
                     </motion.h1>
             
                   <h4>
-                    The range of pack sizes offered are as follows: <br /> 50ml,
-                    100ml, 250ml, 300ml, 500ml, 1Lt, 2.5ml, 3Lt, 5Lt & 20Lt
+                  Discover our extensive range of products for Hospitals and Clinics, Pharmacies, Chemists, Educational Institutions (Schools, Colleges, Universities), Laboratories, Health and Wellness Centers, Retailers and Distributors, Government Health Departments, Nursing Homes and Care Facilities, Corporate Offices, Hotels and Hospitality Industry & Cleaning and Janitorial Service Providers in Kenya.<br/> <br/> Our range includes various pack sizes: 50ml, 100ml, 250ml, 300ml, 500ml, 1L, 2.5L, 3L, 5L, and 20L. Find detailed product uses and benefits to meet your needs.
                   </h4>
                 </ProductsInstructions>
                 <ProductsDropdown>

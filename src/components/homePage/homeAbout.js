@@ -57,9 +57,8 @@ const HomeAbout = () => {
                         }
                     }}
                     >
-                    <div
-                    
-                    >Our Journey</div>
+                    <div                 
+                    >Building a Legacy <br/> of Quality and<br/> Innovation 🔬</div>
                     </motion.h1>
                     <motion.h3
                     ref={prodTitleRef}
@@ -79,12 +78,7 @@ const HomeAbout = () => {
                             opacity: 0, y: 72,skewY: 7,
                         }
                     }}
-                    >Established in 2015,
-                     we have grown to <br/> be part of Kenya’s & 
-                     East Africa’s known <br/> and trusted Chemical brands,
-                     setting <br/> ambitious goals for the
-                     future to be <br/> a competitive global 
-                     player.
+                    >Founded in 2015, we are a leading chemical manufacturing company in Kenya and East Africa. Renowned for our commitment to quality and innovation, we aim for global competitiveness, ensuring excellence in every product we deliver. Discover more about our journey, our products, and our commitment to excellence.
                     </motion.h3>
                     <BtnStyle>
                     <Link to="/about" >
