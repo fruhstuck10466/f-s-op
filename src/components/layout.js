@@ -60,10 +60,10 @@ h3 {
 }
 h1 {
   font-family: "Archia";
-  letter-spacing: -2px;
+  letter-spacing: -2.5px;
   color: ${colorPalette.green};
   line-height: 1.15;
-  font-size: 2.9vw;
+  font-size: 4vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
@@ -71,7 +71,7 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 7.5vw;
+      font-size: 8vw;
   }    
 }
 h2 {

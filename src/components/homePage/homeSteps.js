@@ -69,11 +69,11 @@ const HomeSteps = () => {
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    > Inquire, Quote,</motion.div>
+                    > Inquire, quote,</motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Pay, Deliver! 🚛</motion.div>
+                    >pay, deliver! 🚛</motion.div>
                     {/* <motion.div
                     variants={headSingleAnime}
                     transition={transition}
@@ -83,7 +83,7 @@ const HomeSteps = () => {
             <StepsWrapInner>
                 <Step>
                     <StepHeading>
-                        <h2>Reach Out</h2>
+                        <h2>Inquiry:</h2>
                         <img src={InquireIcon} alt="conversation icon" />
                         </StepHeading>
                     <StepDescription>
@@ -98,7 +98,7 @@ const HomeSteps = () => {
                 </Step>
                 <Step>
                     <StepHeading>
-                        <h2>Quote & Payment</h2>
+                        <h2>Payment:</h2>
                         <img src={ContractIcon} alt="conversation icon" />
                         </StepHeading>
                     <StepDescription>
@@ -119,7 +119,7 @@ const HomeSteps = () => {
                 </Step>
                 <Step>
                     <StepHeading>
-                        <h2>Delivery</h2>
+                        <h2>Delivery:</h2>
                         <img src={ShippedIcon} alt="delivery icon" />
                         </StepHeading>
                     <StepDescription>

@@ -85,11 +85,11 @@ const Faq = () => {
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Asked</motion.div>
+                    >asked</motion.div>
                      <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Questions ⓘ</motion.div>
+                    >questions ⓘ</motion.div>
                     </motion.h1>
                 </FaqTitle>
                 <FaqInfo>

@@ -41,6 +41,7 @@ export const Logo = styled.div`
 `
 
 export const LogoImg = styled.div`
+    margin-right: 20px;
     a {
         display: flex;
         align-items: center;
@@ -57,17 +58,16 @@ export const LogoImg = styled.div`
             height: 40px;
         }
     }
-    p {
-        @media (min-width: ${breakpoints.m}px){
-            display: none;
-        }
-    }
+    // p {
+    //     @media (min-width: ${breakpoints.m}px){
+    //         display: none;
+    //     }
+    // }
     }
 `
 export const LogoText = styled.div`
     display: flex;
     align-items: center;
-    //position: relative;
     a {
         position: relative;
         font-family: "Archia";

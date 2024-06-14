@@ -24,10 +24,13 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                             </Link>
                         </LogoImg>
                         <LogoText>
-                            <Link to="/"><span className="disabled">Insights</span><span className="label">Soon</span></Link>
+                            <Link to="/">Home</Link>                            
                             <Link to="/products">Products</Link>
-                            <Link to="/"><span className="disabled">Careers</span><span className="label">Soon</span></Link>
                             <Link to="/about">About us</Link>
+                            <Link to="/"><span className="disabled">Insights</span><span className="label">Soon</span></Link>
+                            <Link to="/"><span className="disabled">Careers</span><span className="label">Soon</span></Link>                           
+                            <Link to="/stockists">Stockists</Link>
+                            <Link to="/contact">Contacts</Link>
                        </LogoText>                      
                     </Logo>
                     <HamburgerMenu onHoverStart={() => setHovered(!hovered)}

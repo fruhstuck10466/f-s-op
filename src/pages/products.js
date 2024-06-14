@@ -137,7 +137,7 @@ const categoriesAndList = [
       "Disinfection - It kills 99.9% of viruses and bacteria1. It can eliminate germs on hard, non-porous surfaces such as Staphylococcus aureus, Salmonella enterica, Herpes Simplex Virus Type 1 and 2, and Influenza A2 Virus",
       "Cleaning - It cuts through tough grease and grime",
       "Deodorizing - It provides long-lasting freshness",
-      "To use it for cleaning and deodorizing, dilute 1-1/4 oz. (2-1/2 tbsp.) per gallon of warm water, apply with a sponge or mop to wet all surfaces thoroughly, then wipe with a clean cloth1. To use it as a disinfectant, remove heavy soil first, then add 2-1/2oz (5 tbsp.) to one quart of water and apply with a sponge or mop, wetting surface thoroughly. Let it stand for 10 minutes, then wipe away excess",
+      "To use it for cleaning and deodorizing, dilute 1-1/4 oz. (2-1/2 tbsp.) per gallon of warm water, apply with a sponge or mop to wet all surfaces thoroughly, then wipe with a clean cloth. To use it as a disinfectant, remove heavy soil first, then add 2-1/2oz (5 tbsp.) to one quart of water and apply with a sponge or mop, wetting surface thoroughly. Let it stand for 10 minutes, then wipe away excess",
       "Pack size includes 1lt, 5lt, 20lt",
     ],
   },
@@ -276,7 +276,7 @@ const categoriesAndList = [
     id: 23,
     title: "Multipurpose Liquid.",
     items: [
-      "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes1. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",
+      "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",
       "Pack size includes 5lt, 20lt",
     ],
   },
@@ -339,17 +339,14 @@ const Products = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >Our Catalogue </motion.div> 
+                        >Our products</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >of Products and</motion.div> 
+                        >and usage</motion.div> 
 
-                       <motion.div
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >Their Uses</motion.div>
+                     
                     </motion.h1>
             
                   <h4>

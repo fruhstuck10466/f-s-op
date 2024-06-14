@@ -80,7 +80,7 @@ export const HeroImageInner = styled(motion.div)`
     position: relative;
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 80%;
     height: 70%;
     overflow: hidden;
     //border-radius: 400px 400px 400px 400px; 

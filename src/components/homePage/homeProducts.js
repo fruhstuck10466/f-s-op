@@ -121,9 +121,8 @@ const data = useStaticQuery(graphql`
                 <DragText><p>Drag Image to Explore Products</p></DragText>
                 <HomeProdImage>
                 <h1 className="bopp" >
-                    <div>Excellence Delivered</div>
-                    <div>in Every Pharmaceutical</div>
-                    <div>& Chemical Product 📦</div>
+                    <div>Get to know our</div>
+                    <div>products 🔬</div>
                     </h1>
                         <Slider
                         {...settings}
@@ -188,15 +187,11 @@ const data = useStaticQuery(graphql`
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >Excellence Delivered </motion.div>
+                    >Get to know our</motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >in Every Pharmaceutical</motion.div>
-                    <motion.div
-                    variants={headSingleAnime}
-                    transition={transition}
-                    >& Chemical Product 📦</motion.div>
+                    >products 🔬</motion.div>
                     </motion.h1>
                     <motion.h3
                     ref={contentRef}

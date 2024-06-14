@@ -88,7 +88,7 @@ const Stockists = () => {
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Mombasa</h3>
-                  <h4>Pharmacity Pharamaceuticals</h4>
+                  <h4>Pharmacity Pharmaceuticals</h4>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Bungoma</h3>

@@ -12,6 +12,7 @@ export const colorPalette = {
     background: "#FFF",
     text: "#000",
     green: "#2C7147",
+    lightgreen: "#80ed99",
     red: "#FF0000",
     blue: "#295D91",
     grey: "#F2F2F2",

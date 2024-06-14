@@ -58,7 +58,7 @@ const HomeAbout = () => {
                     }}
                     >
                     <div                 
-                    >Building a Legacy <br/> of Quality and<br/> Innovation 🔬</div>
+                    >Research and development<br/>for the future 👨🏿‍🔬</div>
                     </motion.h1>
                     <motion.h3
                     ref={prodTitleRef}

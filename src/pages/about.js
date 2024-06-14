@@ -70,17 +70,17 @@ const About = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >A Journey of Growth</motion.div> 
+                        >A Journey of growth</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >& Collaborative</motion.div> 
+                        >& collaborative</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Exploration</motion.div>
+                        >exploration</motion.div>
                     </motion.h1>
               </IntroAboutHeading>
                 <IntroAboutText>
@@ -116,12 +116,12 @@ const About = () => {
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Together we can do </motion.div>
+                        >together we can do </motion.div>
                         <motion.div
                         className="bigtext"
                         variants={headSingleAnime}
                         transition={transition}
-                        > so much 💪.</motion.div>
+                        >so much 💪.</motion.div>
              
                     </motion.h1>
                     
@@ -130,13 +130,13 @@ const About = () => {
                   <h3>
                   At FAHOLO®, we are proud to house a team of progressive, hardworking, and forward-thinking professionals. With years of industry experience and mastery, our team is our greatest asset. Our collaborative partnerships with stakeholders fuel our passion and commitment, setting industry standards in manufacturing a focused range of pharmaceutical and chemical products. <br/><br/>
                   Our extensive product range, certified by prestigious organizations like KEBS, ensures compliance with international standards, promoting business growth and environmental wellness. From external pharmaceuticals and surface disinfectants to all-purpose detergents, our meticulously crafted products are designed to meet the highest quality and safety standards. <br/><br/>
-                  Our dedication to excellence, customer satisfaction, and sustainability defines who we are and guides our operations. We actively engage in community initiatives and prioritize environmentally friendly practices to minimize our ecological footprint.
+                  Our dedication to excellence, customer satisfaction, and sustainability defines who we are and guides our operations. We actively engage in community initiatives and prioritize environmentally friendly practices to minimize our ecological footprint. Learn more from our social accounts.
                   </h3>
                 </IntroAboutTextOne>
               </IntroWrapper>
               
               <StrategyWrapper>
-                <h1>Company Strategy</h1>
+                <h1>Company strategy</h1>
                 <StrategyWrapperInner>
                   <StrategyTitle>
                     <h3>Purpose</h3>
