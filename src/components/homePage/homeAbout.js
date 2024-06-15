@@ -78,7 +78,7 @@ const HomeAbout = () => {
                             opacity: 0, y: 72,skewY: 7,
                         }
                     }}
-                    >Founded in 2015, we are a leading chemical manufacturing company in Kenya and East Africa. Renowned for our commitment to quality and innovation, we aim for global competitiveness, ensuring excellence in every product we deliver. Discover more about our journey, our products, and our commitment to excellence.
+                    >Renowned for our commitment to quality and innovation, we aim for global competitiveness, ensuring excellence in every product we deliver. Discover more about our journey, and our commitment to excellence.
                     </motion.h3>
                     <BtnStyle>
                     <Link to="/about" >

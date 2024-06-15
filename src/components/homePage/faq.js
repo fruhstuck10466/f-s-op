@@ -12,20 +12,95 @@ import { Container } from '../../styles/globalStyles';
 const faqList = [
     {
         id: 0,
-        title: "What is the recommended usage of a Specific Medication?",
-        item: "Our products page provides detailed guidance on the proper use of each medication. However, we strongly advise consulting with a healthcare professional prior to using any medication for optimal safety and effectiveness."
+        title: "What does FAHOLO® stand for?",
+        item: "Our company proudly stands on strong Christian principles. FAHOLO® is inspired by the first two letters of three enduring virtues from the Bible verse 1 Corinthians 13:13 (NLT): Three things will last forever—faith, hope, and love—and the greatest of these is love."
     },
     {
         id: 1,
-        title: "Can I inquire about Product Availability and Price List?",
-        item: "To learn about product availability and our current price list, please contact us with your order details. We'll be glad to assist you promptly."
+        title: "What types of external pharmaceutical products do you manufacture?",
+        item: "We manufacture a wide range of external pharmaceutical products, including topical creams, ointments, gels, lotions, all-purpose cleaners, surface disinfectants, antiseptics, hand sanitizers, liquid hand soaps, detergents, cosmetics, and laboratory reagents. Our products are designed for various therapeutic uses, such as pain relief, anti-inflammatory treatments, antifungal and antibacterial applications, and skincare."
     },
     {
         id: 2,
-        title: "Do you offer deliveries outside Nairobi?",
-        item: "We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
+        title: "Are your products compliant with regulatory standards?",
+        item: "Yes, all our products are manufactured in compliance with regulatory standards, including KEBS, and other relevant guidelines including ISO. We adhere to Good Manufacturing Practices (GMP) to ensure the highest quality and safety of our products."
     },
-]
+    {
+        id: 3,
+        title: "Can you provide custom formulation services?",
+        item: "Yes, we offer custom formulation services to meet the specific needs of our clients. Our experienced R&D team can work with you to develop unique formulations tailored to your requirements."
+    },
+    {
+        id: 4,
+        title: "Do you conduct stability testing on your products?",
+        item: "Yes, we conduct comprehensive stability testing on all our products to ensure they meet the necessary shelf-life and efficacy standards. Our stability testing includes a range of environmental conditions to simulate real-world storage and usage."
+    },
+    {
+        id: 5,
+        title: "What quality control measures do you have in place?",
+        item: "We have stringent quality control measures in place at every stage of the manufacturing process. This includes raw material testing, in-process checks, and final product testing to ensure our products meet the highest quality standards."
+    },
+    {
+        id: 6,
+        title: "Do you offer contract manufacturing services?",
+        item: "Yes, we offer contract manufacturing services for a variety of external pharmaceutical products. Our state-of-the-art facilities and experienced team allow us to handle large-scale production while maintaining quality and compliance."
+    },
+    {
+        id: 7,
+        title: "What is your approach to environmental sustainability?",
+        item: "We are committed to environmental sustainability and implement eco-friendly practices throughout our manufacturing process. This includes waste reduction, energy-efficient production methods, and the use of sustainable raw materials wherever possible."
+    },
+    {
+        id: 8,
+        title: "How can I place an order or inquire about your products?",
+        item: "To place an order or inquire about our products, you can contact our sales team via email or phone. Our contacts are available in the contacts page."
+    },
+    {
+        id: 9,
+        title: "What kind of packaging options do you offer?",
+        item: "We offer a variety of packaging options to suit the needs of our clients, including jerrycans, jars and bottles. We also provide customized packaging solutions to meet specific branding and regulatory requirements."
+    },
+    {
+        id: 10,
+        title: "Do you provide technical support and documentation?",
+        item: "Yes, we provide comprehensive technical support and documentation for all our products. This includes Certificates of Analysis (CoAs), Material Safety Data Sheets (MSDS), and technical data sheets."
+    },
+    {
+        id: 11,
+        title: "Can you help with regulatory submissions?",
+        item: "Yes, we have a dedicated regulatory affairs team that can assist with regulatory submissions and ensure compliance with regulations."
+    },
+    {
+        id: 12,
+        title: "What are your lead times for product delivery?",
+        item: "Lead times for product delivery vary depending on the complexity of the order and current production schedules. We strive to provide timely delivery and will communicate expected lead times upon order confirmation."
+    },
+    {
+        id: 13,
+        title: "Do you offer samples of your products",
+        item: "Yes, we can provide samples of our products for evaluation. Please contact our sales team to request samples and discuss your specific needs."
+    },
+    {
+        id: 14,
+        title: "Are your products cruelty-free and vegan?",
+        item: "Many of our products are cruelty-free and do not contain animal-derived ingredients. Please check specific product details or contact us for more information on our cruelty-free and vegan options."
+    },
+  {
+      id: 15,
+      title: "How do you ensure the safety and efficacy of your products?",
+      item: "We ensure the safety and efficacy of our products through rigorous testing and quality control measures. This includes clinical testing, dermatological testing, and adherence to international safety standards."
+  },
+  {
+      id: 16,
+      title: "What is the recommended usage of a Specific Medication?",
+      item: "Our products page provides detailed guidance on the proper use of each medication. However, we strongly advise consulting with a healthcare professional prior to using any medication for optimal safety and effectiveness."
+  },
+  {
+      id: 17,
+      title: "Do you offer deliveries outside Nairobi?",
+      item: "Yes, We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
+  },
+  ]
 const transitionOne = { duration: 0.2, ease: [0.6, 0.05, 0, 0.9] };
 
 const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };

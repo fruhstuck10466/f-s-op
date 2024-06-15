@@ -38,7 +38,7 @@ export const HeroText = styled(motion.div)`
     width: 50%;
     height: 100%;
     display: flex;
-    padding: 20px 30px 0 130px;
+    padding: 20px 60px 0 100px;
     justify-content: center;
     flex-direction: column;
     //border-right: 1px solid ${colorPalette.darkgrey};
@@ -46,7 +46,7 @@ export const HeroText = styled(motion.div)`
         padding-left 80px;
     }
     @media (max-width: ${breakpoints.m}px){
-        padding-left 50px;
+        padding: 20px 30px 0 50px;
     }
     @media (max-width: ${breakpoints.s}px){
         //border-right: none;
@@ -70,9 +70,7 @@ export const HeroImage = styled.div`
     padding-top: 20px;  
     @media (max-width: ${breakpoints.s}px){     
         width: 100%;
-        //height: 50%;
         height: 50vh;   
-        //padding: 0;
         align-items: flex-start;
     }
 `
@@ -80,7 +78,7 @@ export const HeroImageInner = styled(motion.div)`
     position: relative;
     display: flex;
     align-items: center;
-    width: 80%;
+    width: 60%;
     height: 70%;
     overflow: hidden;
     //border-radius: 400px 400px 400px 400px; 

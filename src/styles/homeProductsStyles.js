@@ -109,14 +109,14 @@ export const HomeProdText = styled(motion.div)`
     width: 50%;
     height: 100%;
     display: flex;
-    padding: 20px 30px 0 130px;
+    padding: 20px 60px 0 100px;
     justify-content: center;
     flex-direction: column;
     @media (max-width: ${breakpoints.xl}px){
-        padding-left 80px;
+        //padding-left 80px;
     }
-    @media (max-width: ${breakpoints.xl}px){
-        padding-left 50px;
+    @media (max-width: ${breakpoints.m}px){
+        padding: 20px 30px 0 50px;
     }
     @media (max-width: ${breakpoints.s}px){
         width: 100%;

@@ -63,17 +63,17 @@ const Contact = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >Contact Us for</motion.div> 
+                        >Contact us for</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Queries, Purchases,</motion.div> 
+                        >queries, purchases,</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        > or Feedback</motion.div>
+                        > or feedback</motion.div>
                     </motion.h1>
              
               </ContactTitle>

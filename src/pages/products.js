@@ -349,9 +349,9 @@ const Products = () => {
                      
                     </motion.h1>
             
-                  <h4>
+                  {/* <h4>
                   Discover our extensive range of products for Hospitals and Clinics, Pharmacies, Chemists, Educational Institutions (Schools, Colleges, Universities), Laboratories, Health and Wellness Centers, Retailers and Distributors, Government Health Departments, Nursing Homes and Care Facilities, Corporate Offices, Hotels and Hospitality Industry & Cleaning and Janitorial Service Providers in Kenya.<br/> <br/> Our range includes various pack sizes: 50ml, 100ml, 250ml, 300ml, 500ml, 1L, 2.5L, 3L, 5L, and 20L. Find detailed product uses and benefits to meet your needs.
-                  </h4>
+                  </h4> */}
                 </ProductsInstructions>
                 <ProductsDropdown>
                   {categoriesAndList.map((details, index) => (
