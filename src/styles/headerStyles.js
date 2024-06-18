@@ -10,7 +10,6 @@ export const HeaderWrap = styled.div`
     right: 0;
     left: 0;
     transition: top 0.3s;
-    //border-bottom: 1px solid ${colorPalette.darkgrey};
     background: ${colorPalette.background};
     z-index: 99;
     @media (max-width: ${breakpoints.m}px){
@@ -58,11 +57,6 @@ export const LogoImg = styled.div`
             height: 40px;
         }
     }
-    // p {
-    //     @media (min-width: ${breakpoints.m}px){
-    //         display: none;
-    //     }
-    // }
     }
 `
 export const LogoText = styled.div`
@@ -99,8 +93,6 @@ export const HamburgerMenu = styled(motion.div)`
     cursor: pointer;
     width: 100px;
     height: 100%;
-    //background: ${colorPalette.blue};
-    //border-left: 1px solid ${colorPalette.darkgrey};
     display: flex;
     align-items: center;
     justify-content: center;

@@ -164,7 +164,7 @@ const Faq = () => {
                      <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >questions ⓘ</motion.div>
+                    >questions 📌</motion.div>
                     </motion.h1>
                 </FaqTitle>
                 <FaqInfo>

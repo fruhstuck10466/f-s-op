@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 
 //styles
 import {HeaderWrap, HeaderItems, Logo, LogoImg, LogoText, HamburgerMenu} from "../styles/headerStyles"
-//import { Container } from "../styles/globalStyles"
 
 //icon
 import LogoIcon from "../assets/images/faholo-icon.png"

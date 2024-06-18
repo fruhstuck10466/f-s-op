@@ -6,15 +6,12 @@ export const StepsWrap = styled.div`
     position: relative;
     height: 100%;
     width: 100%;
-    // background: ${colorPalette.grey};
     background-color: white;
-    //border-bottom: 1px solid ${colorPalette.darkgrey};
     h1 {
         color: ${colorPalette.blue};
         padding: 70px 0 20px;
         @media (max-width: ${breakpoints.s}px){
             padding: 50px 0 20px;
-            //border-bottom: none;
         }    
     }
 `
@@ -28,7 +25,6 @@ export const StepsWrapInner = styled.div`
     height: 100%;
     width: 100%;
     padding-bottom: 100px;
-    //padding-left: 90px;
     @media (max-width: ${breakpoints.xl}px){
         
         padding-left: 0px;
@@ -46,12 +42,8 @@ export const Step = styled.div`
     height: 400px;
     display: flex;
     flex-direction: column;
-    //border-radius: 5px;
     border: 1px solid #ccc;
     box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0;
-    //box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 85, 85) 20px -20px;
-    // box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-    // border-radius: 30px;
     width: 30%;
     background: ${colorPalette.background};
     color: ${colorPalette.text};
@@ -71,11 +63,9 @@ export const Step = styled.div`
 export const StepHeading = styled.div`
     position: relative;
     display: flex;
-    //height: auto;
     justify-content: space-between;
     margin: 0 20px 20px;
     padding: 40px 0 0;
-    //background: pink;
     @media (max-width: ${breakpoints.m}px){
         padding: 25px 0 5px;
     }
@@ -86,7 +76,6 @@ export const StepHeading = styled.div`
         font-size: 1.1rem;
         text-transform: none;
         color: #295D91;
-        //font-family: "CeraPro";
     }
     &:after {
     position: absolute;
@@ -147,7 +136,6 @@ export const StepCta = styled.div`
 position: relative;
 display: flex;
 align-items: center;
-//background: pink;
 justify-content: space-between;
 margin-left: 20px;
 margin-right: 20px;
@@ -156,12 +144,10 @@ margin-bottom: 30px;
     h4 {
         margin: 0;
         font-size: 1rem;
-        //font-family: "Archia";
         letter-spacing: -1px;
     }
     span {
         background: #295D91;
-        //border-radius: 100px;
         height: 70px;
         width: 70px;
         display: flex;

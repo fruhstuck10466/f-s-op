@@ -6,7 +6,6 @@ export const FaqWrap = styled.div`
     position: relative;
     height: 100%;
     width: 100%;
-    //border-bottom: 1px solid ${colorPalette.darkgrey};
     background: ${colorPalette.blue};
     color: ${colorPalette.background};
     @media (max-width: ${breakpoints.s}px){
@@ -32,16 +31,8 @@ export const FaqTitle = styled.div`
         width: 100%;
     }
     h1 {
-        // font-size: 3.5vw;
         color: ${colorPalette.background};
-        // @media (max-width: ${breakpoints.xl}px){
-        //     font-size: 3.7vw;
-        // }
-        // @media (max-width: ${breakpoints.m}px){
-        //     font-size: 4.2vw;
-        // }
         @media (max-width: ${breakpoints.s}px){
-            //font-size: 8vw;
             margin-bottom: 30px;
         }   
         
@@ -51,7 +42,6 @@ export const FaqInfo = styled.div`
     position: relative;
     width: 70%;
     height: 100%;
-    //background: pink;
     @media (max-width: ${breakpoints.s}px){
         width: 100%;
     }
@@ -64,7 +54,6 @@ export const FaqHeader = styled.div`
     width: 100%;
     height: 32px;
     display: flex;
-    //background: yellow;
     align-items: center;
     justify-content: space-between;
     margin: 10px 0;

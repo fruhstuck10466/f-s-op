@@ -14,7 +14,7 @@ export const FooterWrapper = styled.div`
     color: ${colorPalette.background};
     &:after {
         border-radius: 1em;
-        border-top: 1px solid #000;
+        border-top: 1px solid #fff;
         content: "";
         position: absolute;
         right: 100%;
@@ -48,7 +48,6 @@ export const FooterImage = styled.div`
   p {
     font-size: 1.8vw;
     opacity: 1;
-    //font-family: "Archia";
     text-transform: none;
     color: ${colorPalette.green};
     @media (max-width: ${breakpoints.m}px){
@@ -123,9 +122,7 @@ export const FooterCredits = styled.div`
   }
   a {
     color: ${colorPalette.grey};
-    //font-family: "Archia";
     text-transform: uppercase;
-    //text-decoration: underline;
   }
   @media (max-width: ${breakpoints.m}px){
     right: 3%;

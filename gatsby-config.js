@@ -9,6 +9,7 @@ module.exports = {
     author: `@jobmusembi`,
     keywords: `Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Leading antiseptic manufacturer in Kenya, Top topical chemical manufacturer in Nairobi`,
     siteUrl: `https://www.faholochemicals.co.ke`,
+    image: `src/assets/images/faholo-team-social.jpg`,
   },
   plugins: [
     {

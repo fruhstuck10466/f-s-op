@@ -6,7 +6,6 @@ export const HomeProdWrap = styled(motion.div)`
     position: relative;
     height: 100vh;
     width: 100%;
-    //border-bottom: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         height: 700px;
     }
@@ -15,7 +14,6 @@ export const HomeProdWrap = styled(motion.div)`
     }
     @media (max-width: ${breakpoints.s}px){
         height: auto;
-        //border-bottom: none;
     } 
 `
 export const HomeProdWrapInner = styled.div` 
@@ -35,7 +33,6 @@ export const HomeProdImage = styled.div`
     padding-top: 20px;
     align-items: center;
     justify-content: center;
-    //border-right: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.s}px){
         border-right: none;
         width: 100%;
@@ -47,7 +44,6 @@ export const HomeProdImage = styled.div`
     .bopp{
         position: relative;
         padding: 15% 0 0 40px;
-        //margin-bottom: 0;
         @media (min-width: ${breakpoints.s}px){
             display: none;
         } 
@@ -112,9 +108,6 @@ export const HomeProdText = styled(motion.div)`
     padding: 20px 60px 0 100px;
     justify-content: center;
     flex-direction: column;
-    @media (max-width: ${breakpoints.xl}px){
-        //padding-left 80px;
-    }
     @media (max-width: ${breakpoints.m}px){
         padding: 20px 30px 0 50px;
     }
@@ -128,7 +121,6 @@ export const HomeProdText = styled(motion.div)`
     }
     h1 {
         @media (max-width: ${breakpoints.s}px){
-            //margin-top: 15%;
             display: none;
         }
     }

@@ -41,7 +41,7 @@ const Stockists = () => {
       <AnimatePresence>
         <Layout>
         <Seo title="Stockists" 
-        description="Find our trusted stockists across various counties in Kenya. Access high-quality pharmaceutical products through our extensive network of reliable stockists near you."
+        description="Find our trusted stockists across various counties in Kenya and near you."
         keywords="Find Faholo Chemicals cleaning products and detergents near me in Kenya, Where can i buy Faholo Chemicals Products, List of stores selling Faholo Chemicals products in Kenya" 
         />
           <ContactContainer
@@ -64,16 +64,6 @@ const Stockists = () => {
                         variants={headSingleAnime}
                         transition={transition}
                         >Stockists</motion.div> 
-
-                     {/* <motion.div
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >Purchases or</motion.div> 
-
-                       <motion.div
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >Feedback ?</motion.div> */}
                     </motion.h1>
              
               </ContactTitle>

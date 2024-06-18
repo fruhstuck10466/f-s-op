@@ -24,7 +24,6 @@ export const MenuHead = styled.div`
     top: 0;
     right: 0;
     left: 0;
-    //border-bottom: 1px solid ${colorPalette.background};
     @media (max-width: ${breakpoints.m}px){
         height: 64px;
     } 
@@ -39,7 +38,6 @@ export const CloseMenu = styled.div`
     width: 100px;
     height: 100%;
     background: ${colorPalette.background};
-    //border-left: 1px solid ${colorPalette.text};
     display: flex;
     align-items: center;
     justify-content: center;
@@ -82,14 +80,11 @@ export const MenuBody = styled(motion.div)`
         position: relative;
         width: max-content;
         list-style: none;
-        //background: pink;
         font-weight: normal;
         height: 76px;
         line-height: 76px;
         padding-top: 10px;
-        //overflow: hidden;  
         padding-left: 40px;
-        //border-bottom: 1px solid ${colorPalette.darkgrey};     
         @media (max-width: ${breakpoints.s}px){
             height: 56px;
             line-height: 56px;

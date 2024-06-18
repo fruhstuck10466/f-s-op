@@ -164,6 +164,7 @@ const Layout = ({ children }) => {
       site {
         siteMetadata {
           title
+          description
         }
       }
     }
@@ -192,7 +193,9 @@ const Layout = ({ children }) => {
       <Header 
       toggleMenu={toggleMenu}
       setToggleMenu={setToggleMenu}
-      siteTitle={data.site.siteMetadata.title} />
+      siteTitle={data.site.siteMetadata.title} 
+      siteDescription={data.site.siteMetadata.description}
+      />
       <Menu
       toggleMenu={toggleMenu}
       setToggleMenu={setToggleMenu}

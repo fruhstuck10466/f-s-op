@@ -95,7 +95,6 @@ export const BtnStyleOne = styled.div`
       width: 100%;
     }
     @media (max-width: ${breakpoints.s}px) {
-      //margin-bottom: 15%;
       height: 48px;
       width: 100%;
     }

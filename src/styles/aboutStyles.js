@@ -63,7 +63,6 @@ export const IntroAboutHeading = styled.div`
 
 export const IntroAboutText = styled.div`
   width: 50%;
-  //border-left: 1px solid ${colorPalette.darkgrey};
   @media (max-width: ${breakpoints.s}px){
     width: 100%;
     border-left: none;
@@ -81,7 +80,6 @@ export const IntroAboutText = styled.div`
 
 export const IntroAboutTextOne = styled.div`
   width: 50%;
-  //border-left: 1px solid ${colorPalette.darkgrey};
   @media (max-width: ${breakpoints.s}px){
     width: 100%;
     border-left: none;

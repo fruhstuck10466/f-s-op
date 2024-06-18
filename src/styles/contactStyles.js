@@ -71,7 +71,6 @@ export const ContactFlexInner = styled.div`
 
 export const ContactTitle = styled(motion.div)`
   width: 35%;
-  border-right: 1px solid ${colorPalette.darkgrey};
   @media (max-width: ${breakpoints.s}px){
     width: 100%;
     margin-bottom: 20px;

@@ -47,7 +47,7 @@ const About = () => {
       <AnimatePresence>
         <Layout>
           <Seo title="About" 
-          description="Discover our goal to be a world-class pharmaceutical company across Africa. We focus on long-term relationships, exceptional service, innovation, and exceeding customer expectations."
+          description="Discover our goal to be a world-class pharmaceutical company across Africa."
           keywords="Information on top hygiene product manufacturers in Kenya, Who is the leading manufacturer of cleaning products and liquid detergents in Kenya?, Who is the leading manufacturer of antiseptics in Kenya?, Who is the leading manufacturer of disinfectants in Kenya?" 
          />
           <AboutContainer

@@ -7,7 +7,6 @@ export const HeroWrap = styled.div`
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
     width: 100%;
-    //border-bottom: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         height: 700px;
     }
@@ -15,9 +14,6 @@ export const HeroWrap = styled.div`
         height: 600px;
     }
     @media (max-width: ${breakpoints.s}px){
-        //border-bottom: none;
-        //height: 100vh;
-        //height: calc(var(--vh, 1vh) * 100);
         overflow: hidden;
         height: auto;
         margin-bottom: 50px;
@@ -41,7 +37,6 @@ export const HeroText = styled(motion.div)`
     padding: 20px 60px 0 100px;
     justify-content: center;
     flex-direction: column;
-    //border-right: 1px solid ${colorPalette.darkgrey};
     @media (max-width: ${breakpoints.xl}px){
         padding-left 80px;
     }
@@ -49,8 +44,6 @@ export const HeroText = styled(motion.div)`
         padding: 20px 30px 0 50px;
     }
     @media (max-width: ${breakpoints.s}px){
-        //border-right: none;
-        //background: pink;
         width: 100%;
         height: auto;
         padding: 30% 40px 0px;    
@@ -81,7 +74,6 @@ export const HeroImageInner = styled(motion.div)`
     width: 60%;
     height: 70%;
     overflow: hidden;
-    //border-radius: 400px 400px 400px 400px; 
     @media (max-width: ${breakpoints.xl}px){
         width: 70%;  
     } 
@@ -90,7 +82,6 @@ export const HeroImageInner = styled(motion.div)`
         height: 100%; 
         justify-content: center;
         align-items: flex-start;
-        //padding: 0 20px;
     }
   img {
       position: absolute;
@@ -118,9 +109,6 @@ export const ContactMeta = styled(motion.div)`
             background: #fff;
             padding: 7px;
             border-radius: 10px;
-            // @media (max-width: ${breakpoints.s}px){
-            //     text-decoration: underline;
-            // }
         }
     }    
     p {
@@ -162,7 +150,6 @@ export const ArrowMeta = styled(motion.div)`
     height: 150px;
     width: 150px;
     border-radius: 100px;
-    //background: ${colorPalette.blue};
     animation: ${myanimation} 10s infinite;
     display: flex;
     align-items: center;

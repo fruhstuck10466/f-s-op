@@ -24,8 +24,8 @@ const categoriesAndList = [
     title: "Povidone Iodine 10% w/v.",
     items: [
       "A topical antiseptic used for the prevention and treatment of skin infections on minor wounds, cuts, grazes, abrasions and blisters.",
-      "Minor Wounds - It is used to prevent and treat minor wounds and skin infections. This includes cuts, small areas of burn, ulcers, and minor injuries",
-      "Surgical Procedures - It is also used to sanitize the skin before a surgical procedure is performed",
+      "Minor Wounds - Povidone Iodine is used to prevent and treat minor wounds and skin infections. This includes cuts, small areas of burn, ulcers, and minor injuries",
+      "Surgical Procedures - Povidone Iodine is also used to sanitize the skin before a surgical procedure is performed",
       "Pack size includes 50ml, 100ml, 125ml, 200ml, 500ml, 1lt, 5lt",
     ],
   },
@@ -35,8 +35,8 @@ const categoriesAndList = [
     items: [
       "Contains Iodine 2.5% w/v, KI 2.5 w/v.",
       "An antiseptic solution that contains iodine and potassium iodide, and used on minor wounds, cuts and scrapes to aid their healing process.",
-      "Disinfectant - it is often found in emergency survival kits, used both to disinfect wounds and to sanitise surface water for drinking.",
-      "Medical Procedures - It is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
+      "Disinfectant - Tincture of Iodine is often found in emergency survival kits, used both to disinfect wounds and to sanitise surface water for drinking.",
+      "Medical Procedures - Tincture of Iodine is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
       "Please note that it should not be used on newborn infants, large open wounds, or for long periods",
       "Pack size includes 30ml, 50ml, 100ml, 200ml, 250ml, 500ml, 1lt, 5lt",
     ],
@@ -46,8 +46,8 @@ const categoriesAndList = [
     title: "FAHOLO Antiseptic.",
     items: [
       "Contains Chlorhexidine BP 0.3% w/v and Cetrimide BP 3% w/v.",
-      "Disinfectant - it is often found in emergency survival kits, used to disinfect wounds.",
-      "Medical Procedures - It is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
+      "Disinfectant - FAHOLO Antiseptic is often found in emergency survival kits, used to disinfect wounds.",
+      "Medical Procedures - FAHOLO Antiseptic is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
       "Please note that it should not be used on newborn infants, large open wounds, or for long periods",
       "Pack size includes 50ml, 75ml, 100ml, 125ml, 250ml, 500ml, 1lt, 5lt",
     ],
@@ -57,10 +57,10 @@ const categoriesAndList = [
     title: "Chlorhexidine BP 5% w/v.",
     items: [
       "It is an antiseptic and a disinfectant and used in:",
-      "Mouth and Throat - It helps reduce the number of germs in your mouth, and can help with mouth infections, mouth ulcers, gum disease, and sore throats. It is also used for denture care.",
+      "Mouth and Throat - Chlorhexidine helps reduce the number of germs in your mouth, and can help with mouth infections, mouth ulcers, gum disease, and sore throats. It is also used for denture care.",
       "Skin - Chlorhexidine is used to clean the skin after an injury, before surgery, or before an injection. It is also used for skin infections",
-      "Surgical Equipment - It is used in hospitals and clinics to clean skin or surgical equipment before surgery",
-      "Dental Practice - It is used to sterilize for surgeries and in healthcare practice, to reduce pocket depth in periodontitis, and to treat gingivitis",
+      "Surgical Equipment - Chlorhexidine is used in hospitals and clinics to clean skin or surgical equipment before surgery",
+      "Dental Practice - Chlorhexidine is used to sterilize for surgeries and in healthcare practice, to reduce pocket depth in periodontitis, and to treat gingivitis",
       "Pack size includes 250ml, 500ml, 1lt, 5lt",
     ],
   },
@@ -69,9 +69,9 @@ const categoriesAndList = [
     title: "Glutalbenzal.",
     items: [
       "Contains Glutaraldehyde 2.4% w/v, Benzalkonium Chloride 0.5% and used in:",
-      "Medical Applications - It is commonly used in hospitals and other healthcare settings to sterilize surgical and medical equipment due to its potent antimicrobial properties.",
+      "Medical Applications - Glutalbenzal is commonly used in hospitals and other healthcare settings to sterilize surgical and medical equipment due to its potent antimicrobial properties.",
       "Industrial Applications - In the oil and gas industry, glutaraldehyde is used as a biocide in water treatment systems to control microbial growth. It’s also used in the leather tanning process for its cross-linking properties",
-      "Cosmetics and Personal Care Products - It can also be found in some cosmetics and personal care products as a preservative to prevent microbial growth",
+      "Cosmetics and Personal Care Products - Glutalbenzal can also be found in some cosmetics and personal care products as a preservative to prevent microbial growth",
       "Pack size includes 5lt + Activator",
     ],
   },
@@ -93,8 +93,8 @@ const categoriesAndList = [
     title: "Benzyl Benzoate 25% Solution(Lotion).",
     items: [
       "A topical medication used to treat infestations of lice and scabies.",
-      "Lice treatment - it is applied to thoroughly wet the dry hair and scalp or skin. The medicine is left on the affected areas for 24 hours, then washed off with warm water and soap or regular shampoo.",
-      "Scabies treatment - it is applied to cover the entire skin surface from the neck down, including the soles of your feet, and rubbed in well. The medicine is left on the body for 24 hours, then thoroughly washed off with warm water and soap.",
+      "Lice treatment - Benzyl Benzoate is applied to thoroughly wet the dry hair and scalp or skin. The medicine is left on the affected areas for 24 hours, then washed off with warm water and soap or regular shampoo.",
+      "Scabies treatment - Benzyl Benzoate is applied to cover the entire skin surface from the neck down, including the soles of your feet, and rubbed in well. The medicine is left on the body for 24 hours, then thoroughly washed off with warm water and soap.",
       "Pack size includes 100ml, 250ml, 500ml, 1lt, 5lt",
     ],
   },
@@ -102,7 +102,7 @@ const categoriesAndList = [
     id: 7,
     title: "Farm Liniment BP.",
     items: [
-      "Farm Liniment is a type of topical medication that is typically used to relieve joint pain or muscle tension. It’s often applied with friction to increase blood circulation to an injury or for sore, stiff muscles.",
+      "Farm Liniment is a type of topical medication that is typically used to relieve joint pain or muscle tension. Farm Liniment is often applied with friction to increase blood circulation to an injury or for sore, stiff muscles.",
       "Pack size includes 100ml, 250ml, 300ml, 500ml, 1lt, 5lt",
     ],
   },
@@ -111,9 +111,9 @@ const categoriesAndList = [
     title: "Hydrogen Peroxide 6% & 30%.",
     items: [
       "A more concentrated solution typically used for:",
-      "Disinfectant - It can reduce the risk of infection when used to sanitize surfaces, produce, or products. It’s an effective disinfectant that can oxidize the cell membrane of a microorganism, leading to the death of the pathogen. It’s also indicated as an effective disinfectant against SARS-CoV-2, the virus that causes COVID-19",
-      "Hair Bleaching and Lightening - It’s used in hair dyes and teeth whitening products due to its higher concentration, which allows for faster and more dramatic results",
-      "Industrial Cleaning - It’s used in industrial settings for cleaning and disinfecting",
+      "Disinfectant - Hydrogen Peroxide can reduce the risk of infection when used to sanitize surfaces, produce, or products. It’s an effective disinfectant that can oxidize the cell membrane of a microorganism, leading to the death of the pathogen. It’s also indicated as an effective disinfectant against SARS-CoV-2, the virus that causes COVID-19",
+      "Hair Bleaching and Lightening - Hydrogen Peroxide is used in hair dyes and teeth whitening products due to its higher concentration, which allows for faster and more dramatic results",
+      "Industrial Cleaning - Hydrogen Peroxide is used in industrial settings for cleaning and disinfecting",
       "Pack size includes 200ml, 500ml, 5lt",
     ],
   },
@@ -122,10 +122,10 @@ const categoriesAndList = [
     title: "Gentian Violet 1% Solution.",
     items: [
       "A blue-violet dye derived from coal tar and is used as a topical medication for:",
-      "Antifungal - It’s primarily used against the fungus, Candida, which causes thrush. It’s also used to treat other types of fungus infections inside the mouth and on the skin",
-      "Antibacterial and Antiviral - It has antibacterial and antiviral activity.",
-      "Skin Infections - It’s used for skin infections such as ringworm and athlete’s foot. It’s also used on minor cuts and scrapes to prevent infection.",
-      "Disinfecting Wound - It’s used for disinfecting wounds.",
+      "Antifungal - Gentian Violet is primarily used against the fungus, Candida, which causes thrush. It’s also used to treat other types of fungus infections inside the mouth and on the skin",
+      "Antibacterial and Antiviral - Gentian Violet has antibacterial and antiviral activity.",
+      "Skin Infections - Gentian Violet is used for skin infections such as ringworm and athlete’s foot. It’s also used on minor cuts and scrapes to prevent infection.",
+      "Disinfecting Wound - Gentian Violet is used for disinfecting wounds.",
       "Pack size includes 30ml, 50ml, 100ml, 5lt",
     ],
   },
@@ -134,9 +134,9 @@ const categoriesAndList = [
     title: "Lysol Solution 6% and 12%.",
     items: [
       "A disinfectant concentrate used for cleaning and deodorizing. It’s proven to eliminate odor-causing bacteria, viruses, and everyday dirt and grime, used for:",
-      "Disinfection - It kills 99.9% of viruses and bacteria1. It can eliminate germs on hard, non-porous surfaces such as Staphylococcus aureus, Salmonella enterica, Herpes Simplex Virus Type 1 and 2, and Influenza A2 Virus",
-      "Cleaning - It cuts through tough grease and grime",
-      "Deodorizing - It provides long-lasting freshness",
+      "Disinfection - Lysol Solution kills 99.9% of viruses and bacteria1. It can eliminate germs on hard, non-porous surfaces such as Staphylococcus aureus, Salmonella enterica, Herpes Simplex Virus Type 1 and 2, and Influenza A2 Virus",
+      "Cleaning - Lysol Solution cuts through tough grease and grime",
+      "Deodorizing - Lysol Solution provides long-lasting freshness",
       "To use it for cleaning and deodorizing, dilute 1-1/4 oz. (2-1/2 tbsp.) per gallon of warm water, apply with a sponge or mop to wet all surfaces thoroughly, then wipe with a clean cloth. To use it as a disinfectant, remove heavy soil first, then add 2-1/2oz (5 tbsp.) to one quart of water and apply with a sponge or mop, wetting surface thoroughly. Let it stand for 10 minutes, then wipe away excess",
       "Pack size includes 1lt, 5lt, 20lt",
     ],
@@ -146,9 +146,9 @@ const categoriesAndList = [
     title: "Sodium Hypochlorite 4-6%.",
     items: [
       "A common disinfectant and bleaching agent, used for:",
-      "Disinfection - It’s used to deactivate biological materials by inactivating vegetative bacteria, fungi, lipid and non-lipid viruses, and other liquid specimens. It’s also used for emergency disinfection of drinking water",
-      "Cleaning - It’s used in the laboratory to decontaminate surfaces and equipment",
-      "Bleaching - It’s the active ingredient in chlorine bleach",
+      "Disinfection - Sodium Hypochlorite is used to deactivate biological materials by inactivating vegetative bacteria, fungi, lipid and non-lipid viruses, and other liquid specimens. It’s also used for emergency disinfection of drinking water",
+      "Cleaning - Sodium Hypochlorite is used in the laboratory to decontaminate surfaces and equipment",
+      "Bleaching - Sodium Hypochlorite is the active ingredient in chlorine bleach",
       "It’s important to handle Sodium Hypochlorite 4-6% with care as it may be corrosive to metals, cause severe skin burns and eye damage, and is very toxic to aquatic life. Always wear protective gloves, protective clothing, eye protection, and face protection when using this substance. If swallowed, rinse mouth and do not induce vomiting. If it comes into contact with skin or hair, remove all contaminated clothing immediately",
       "Pack size includes 500ml, 1lt, 5lt, 20lt",
     ],
@@ -158,10 +158,10 @@ const categoriesAndList = [
     title: "Surgical Spirit 70%.",
     items: [
       "Also known as rubbing alcohol or isopropyl alcohol, is a colorless liquid that is commonly used in the healthcare industry for:",
-      "Disinfection - It is used to clean and sterilize surfaces, equipment, and tools in hospitals and other healthcare settings. It is effective at killing many types of bacteria, viruses, and fungi, making it an essential tool in infection control",
-      "Skin Preparation - It is used to disinfect small cuts and for sterilizing and hardening the skin. It is also used in skin preparation during sterile procedures",
-      "Cooling Agent - It is commonly used as a cooling agent for feverish conditions. It is typically applied topically to the skin, where it evaporates quickly, producing a cooling sensation that helps to reduce fever and soothe the skin",
-      "Adhesive Removal - It is used in the removal of adhesive bandages and other medical tapes. It can help to dissolve the adhesive, making it easier to remove the bandage without causing discomfort or irritation to the skin",
+      "Disinfection - Surgical Spirit is used to clean and sterilize surfaces, equipment, and tools in hospitals and other healthcare settings. It is effective at killing many types of bacteria, viruses, and fungi, making it an essential tool in infection control",
+      "Skin Preparation - Surgical Spirit is used to disinfect small cuts and for sterilizing and hardening the skin. It is also used in skin preparation during sterile procedures",
+      "Cooling Agent - Surgical Spirit is commonly used as a cooling agent for feverish conditions. It is typically applied topically to the skin, where it evaporates quickly, producing a cooling sensation that helps to reduce fever and soothe the skin",
+      "Adhesive Removal - Surgical Spirit is used in the removal of adhesive bandages and other medical tapes. It can help to dissolve the adhesive, making it easier to remove the bandage without causing discomfort or irritation to the skin",
       "Pack size includes 50ml, 100ml, 250ml, 500ml, 1lt, 5lt, 20lt",
     ],
   },
@@ -170,9 +170,9 @@ const categoriesAndList = [
     title: "Methylated Spirit 70%.",
     items: [
       "Also known as denatured alcohol, is a versatile substance with a range of uses:",
-      "Disinfection - It’s a bactericidal hospital-grade disinfectant suitable for general purpose disinfection and cleaning of surfaces. It can also be used to sterilize equipment",
-      "Cleaning - It’s used in industries, clinical settings, and households for cleaning surfaces and shining glass and stainless steel",
-      "Antiseptic - It’s often used to clean wounds and prevent infection",
+      "Disinfection - Methylated Spirit is a bactericidal hospital-grade disinfectant suitable for general purpose disinfection and cleaning of surfaces. It can also be used to sterilize equipment",
+      "Cleaning - Methylated Spirit is used in industries, clinical settings, and households for cleaning surfaces and shining glass and stainless steel",
+      "Antiseptic - Methylated Spirit is often used to clean wounds and prevent infection",
       "Pack size includes 60ml, 100ml, 250ml, 300ml, 500ml, 1lt, 5lt, 20lt",
     ],
   },
@@ -195,7 +195,7 @@ const categoriesAndList = [
       "Vaginal Health - It is often a part of homeopathic medicines used for treating vaginal discharge and itching",
       "Skin Care - Boric acid is used in dilute solutions as a treatment for diaper rash, insect bites and stings, and sunburns",
       "Ear Infections - It is helpful in treating various types of ear infections in both humans and pets",
-      "Foot Odor - It is helpful in treating foul foot odor. A person suffering from excessively smelly feet can apply boric acid powder mixed with talc to the inner side of footwear",
+      "Foot Odor - Boric Acid is helpful in treating foul foot odor. A person suffering from excessively smelly feet can apply boric acid powder mixed with talc to the inner side of footwear",
       "Wound Care - Boric acid when mixed with distilled water serves as a wound spray. The solution contains antiseptic properties that help in treating minor wounds such as cuts and burns",
       "Pack size includes 25gm, 50gm, 100gm, 250gm",
     ],
@@ -213,7 +213,7 @@ const categoriesAndList = [
     title: "Emulsifying Ointment.",
     items: [
       "A type of moisturizer used to treat dry skin conditions such as eczema and dermatitis, can be used as a:",
-      "Moisturizer - It is used to moisturize very dry skin, such as in eczema or dermatitis. It leaves a thin layer of oil on the surface of the skin that stops water from evaporating, resulting in a soothing, softening, and moisturizing effect",
+      "Moisturizer - Emulsifying Ointment is used to moisturize very dry skin, such as in eczema or dermatitis. It leaves a thin layer of oil on the surface of the skin that stops water from evaporating, resulting in a soothing, softening, and moisturizing effect",
       "Pack size includes 100gm, 250gm, 500gm",
     ],
   },
@@ -314,7 +314,7 @@ const Products = () => {
         <Layout>
           <Seo
             title="Products"
-            description="Explore our product catalogue featuring a variety of pack sizes from 50ml to 20Lt. Discover the uses of our high-quality pharmaceutical products tailored to meet diverse needs."
+            description="Explore our product catalogue and usage featuring a variety of pack sizes from 50ml to 20Lt."
             keywords="Chemical Distributers and Manufacturers in Kenya, Hand sanitizer Kenya, Surface disinfectant Kenya, Detergents supplier Kenya"
           />
           <ProductContainer
@@ -344,14 +344,8 @@ const Products = () => {
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >and usage</motion.div> 
-
-                     
-                    </motion.h1>
-            
-                  {/* <h4>
-                  Discover our extensive range of products for Hospitals and Clinics, Pharmacies, Chemists, Educational Institutions (Schools, Colleges, Universities), Laboratories, Health and Wellness Centers, Retailers and Distributors, Government Health Departments, Nursing Homes and Care Facilities, Corporate Offices, Hotels and Hospitality Industry & Cleaning and Janitorial Service Providers in Kenya.<br/> <br/> Our range includes various pack sizes: 50ml, 100ml, 250ml, 300ml, 500ml, 1L, 2.5L, 3L, 5L, and 20L. Find detailed product uses and benefits to meet your needs.
-                  </h4> */}
+                        >and usage</motion.div>                 
+                    </motion.h1>         
                 </ProductsInstructions>
                 <ProductsDropdown>
                   {categoriesAndList.map((details, index) => (

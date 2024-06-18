@@ -5,33 +5,6 @@ import { Link } from "gatsby";
 //styles
 import {MenuWrap, MenuHead, CloseMenu, MenuBody, MenuFoot} from "../styles/menuStyles"
 
-// const navRoutes = [
-//   {
-//     id: 0,
-//     title: "Home",
-//     path: "/",
-//   },
-//   {
-//     id: 1,
-//     title: "Products",
-//     path: "/products",
-//   },
-//   {
-//     id: 2,
-//     title: "About",
-//     path: "/about",
-//   },
-//   {
-//     id: 3,
-//     title: "Contacts",
-//     path: "/contact",
-//   },
-//   {
-//     id: 4,
-//     title: "Stockists",
-//     path: "/stockists",
-//   },
-// ];
 
 const transition = { duration: 1, ease: [0.165, 0.84, 0.44, 1] };
 

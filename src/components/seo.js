@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, title, keywords }) {
             description
             author
             keywords
+            image
           }
         }
       }
@@ -27,6 +28,7 @@ function SEO({ description, lang, meta, title, keywords }) {
   )
 
   //const keywords = site.siteMetadata.keywords
+  const image = site.siteMetadata.image
   const metaKeywords = keywords || site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
@@ -60,6 +62,10 @@ function SEO({ description, lang, meta, title, keywords }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: image,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
@@ -89,6 +95,7 @@ SEO.defaultProps = {
 
 SEO.propTypes = {
   description: PropTypes.string,
+  image: PropTypes.string,
   keywords: PropTypes.string,
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
