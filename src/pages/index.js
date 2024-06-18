@@ -53,8 +53,8 @@ const IndexPage = props => {
   return (
   <Layout>
       <Seo 
-      title="Home"
-      description="Leading manufacturer and distributor of external pharmaceuticals, specializing in antiseptics, disinfectants, sanitizers, detergents, and cosmetics."      
+      title="Faholo Chemicals - Chemical Manufacturer & Distributer"
+      description="Leading manufacturer and distributor of external pharmaceuticals, specializing in antiseptics, disinfectants, sanitizers, detergents, and cosmetics in Nairobi, Kenya."      
       keywords="Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Best hygiene and cleaning solutions in Kenya, Leading antiseptic manufacturer in Kenya" 
       />
       <Hero />

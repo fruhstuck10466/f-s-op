@@ -70,6 +70,10 @@ function SEO({ description, lang, meta, title, keywords }) {
           content: `summary`,
         },
         {
+          name: `twitter:image`,
+          content: image,
+        },
+        {
           name: `twitter:creator`,
           content: site.siteMetadata?.author || ``,
         },

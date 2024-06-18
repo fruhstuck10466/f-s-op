@@ -46,8 +46,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Faholo Chemicals Ltd`,
+        short_name: `Faholo Chemicals`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#F4F2F0`,
