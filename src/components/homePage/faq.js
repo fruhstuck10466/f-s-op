@@ -12,8 +12,8 @@ import { Container } from '../../styles/globalStyles';
 const faqList = [
     {
         id: 0,
-        title: "What does FAHOLO® stand for?",
-        item: "Our company proudly stands on strong Christian principles. FAHOLO® is inspired by the first two letters of three enduring virtues from the Bible verse 1 Corinthians 13:13 (NLT): Three things will last forever—faith, hope, and love—and the greatest of these is love."
+        title: "Do you offer deliveries outside Nairobi?",
+        item: "Yes, We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
     },
     {
         id: 1,
@@ -23,7 +23,7 @@ const faqList = [
     {
         id: 2,
         title: "Are your products compliant with regulatory standards?",
-        item: "Yes, all our products are manufactured in compliance with regulatory standards, including KEBS, and other relevant guidelines including ISO. We adhere to Good Manufacturing Practices (GMP) to ensure the highest quality and safety of our products."
+        item: "Yes, all our products are manufactured in compliance with regulatory standards, including KEBS, and we dare to catch up on other relevant guidelines including ISO. We adhere to Good Manufacturing Practices (GMP) to ensure the highest quality and safety of our products."
     },
     {
         id: 3,
@@ -48,7 +48,7 @@ const faqList = [
     {
         id: 7,
         title: "What is your approach to environmental sustainability?",
-        item: "We are committed to environmental sustainability and implement eco-friendly practices throughout our manufacturing process. This includes waste reduction, energy-efficient production methods, and the use of sustainable raw materials wherever possible."
+        item: "We are committed to environmental sustainability and implement eco-friendly practices throughout our manufacturing process. This includes waste reduction, energy-efficient production methods, and the use of sustainable raw and paackaging materials wherever possible."
     },
     {
         id: 8,
@@ -96,9 +96,9 @@ const faqList = [
       item: "Our products page provides detailed guidance on the proper use of each medication. However, we strongly advise consulting with a healthcare professional prior to using any medication for optimal safety and effectiveness."
   },
   {
-      id: 17,
-      title: "Do you offer deliveries outside Nairobi?",
-      item: "Yes, We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
+    id: 17,
+    title: "What does FAHOLO® stand for?",
+    item: "Our company proudly stands on strong Christian principles. FAHOLO® is inspired by the first two letters of three enduring virtues from the Bible verse 1 Corinthians 13:13 (NLT): Three things will last forever—faith, hope, and love—and the greatest of these is love."
   },
   ]
 const transitionOne = { duration: 0.2, ease: [0.6, 0.05, 0, 0.9] };

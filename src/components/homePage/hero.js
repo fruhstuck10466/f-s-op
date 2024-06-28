@@ -74,7 +74,7 @@ const Hero = () => {
                         duration: 1,
                         ease: [0.165, 0.84, 0.44, 1],
                     }}
-                    >Based in Nairobi, we are a Kenyan operated manufacturing and distributing company with a strong focus on high-quality cleaning solutions and external pharmaceutical products.</motion.h3>
+                    >Based in Nairobi, we are a Kenyan operated manufacturing and distributing company with a strong focus on high-quality external pharmaceutical products and cleaning solutions.</motion.h3>
                 </HeroText>
                 <HeroImage>
                     <HeroImageInner

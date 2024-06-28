@@ -12,7 +12,7 @@ import {BtnStyle} from "../../styles/globalStyles"
 const HomeAbout = () => {
     const data = useStaticQuery(graphql`
     query {
-      faholoFrontImage: file(relativePath: { eq: "f-f.jpeg" }) {
+      faholoFrontImage: file(relativePath: { eq: "f-f.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid

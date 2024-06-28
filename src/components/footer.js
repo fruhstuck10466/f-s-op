@@ -40,11 +40,11 @@ const Footer = () => {
             </a></p>
             <p>
             <a
-              aria-label="Instagram"
-              href="https://www.instagram.com/faholochemicals"
-              alt="Instagram Link"
+              aria-label="LinkedIn"
+              href="https://www.linkedin.com/company/faholo-chemicals"
+              alt="LinkedIn Link"
             >
-              Instagram
+              LinkedIn
             </a>
             </p>
           </FooterDetailsOne>

@@ -63,7 +63,7 @@ h1 {
   letter-spacing: -2.5px;
   color: ${colorPalette.green};
   line-height: 1.15;
-  font-size: 4vw;
+  font-size: 3.5vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
