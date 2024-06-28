@@ -68,10 +68,14 @@ justify-content: center;
 
 export const HomeAboutImageInner = styled.div`
     position: relative;
-    width: 60%;
+    width: 50%;
     height: 70%;
     opacity: 0.8;
     overflow: hidden;
+    img {
+        border-radius: 20px;
+        object-fit: contain;
+    }
     @media (max-width: ${breakpoints.xl}px){
         width: 70%;  
     } 

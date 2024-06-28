@@ -93,11 +93,16 @@ export const SliderInner = styled.div`
   height: 100%;
   width: 100%;
   cursor: grab;
+  border-radius: 20px;
   p {
     text-transform: none;
     color: ${colorPalette.background};
     color: ${colorPalette.text};
   }
+    img {
+        border-radius: 20px;
+        object-fit: contain;
+    }
 `;
 
 export const HomeProdText = styled(motion.div)`
