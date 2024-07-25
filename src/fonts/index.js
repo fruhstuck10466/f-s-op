@@ -1,4 +1,4 @@
-import CeraPro from "./font/Cera Pro Light.otf";
+import Montserrat from "./font/Montserrat-Light.ttf";
 import Archia from "./font/archia-regular-webfont.ttf";
 
-export { CeraPro, Archia };
+export { Montserrat, Archia };

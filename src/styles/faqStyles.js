@@ -52,7 +52,8 @@ export const FaqInfo = styled.div`
 export const FaqHeader = styled.div`
     cursor: pointer;
     width: 100%;
-    height: 32px;
+    height: max-content;
+    //height: 35px;
     display: flex;
     align-items: center;
     justify-content: space-between;

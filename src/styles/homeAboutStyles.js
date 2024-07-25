@@ -73,7 +73,7 @@ export const HomeAboutImageInner = styled.div`
     opacity: 0.8;
     overflow: hidden;
     img {
-        border-radius: 20px;
+        // border-radius: 20px;
         object-fit: contain;
     }
     @media (max-width: ${breakpoints.xl}px){

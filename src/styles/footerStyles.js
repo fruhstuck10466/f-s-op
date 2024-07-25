@@ -10,7 +10,7 @@ export const FooterWrapper = styled.div`
     position: relative;
     text-decoration: none;
     text-transform: none;
-    font-family: "CeraPro";
+    font-family: "Montserrat", sans-serif;
     color: ${colorPalette.background};
     &:after {
         border-radius: 1em;
@@ -47,6 +47,7 @@ export const FooterImage = styled.div`
   }
   p {
     font-size: 1.8vw;
+    text-align: center;
     opacity: 1;
     text-transform: none;
     color: ${colorPalette.green};
@@ -102,8 +103,8 @@ export const FooterCompany = styled.div`
   bottom: 3%;
   left: 3%;
   p {
+    font-family: "Montserrat";
     color: ${colorPalette.background};
-    font-family: "CeraPro";
     text-transform: uppercase;
   }
   @media (max-width: ${breakpoints.m}px){
@@ -117,8 +118,8 @@ export const FooterCredits = styled.div`
   right: 3%;
   p {
     color: ${colorPalette.background};
+    font-family: "Montserrat";
     text-align: right;
-    font-family: "CeraPro";
   }
   a {
     color: ${colorPalette.grey};

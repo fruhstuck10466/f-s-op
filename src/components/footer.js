@@ -19,7 +19,7 @@ const Footer = () => {
         <FooterWrapper>
             <FooterImage style={{backgroundImage: `url(${Chem})`}}>
             
-        <p>We Believe in Quality, Integrity & Customer Service</p>
+        <p>We Believe in Quality, <br/>Integrity & Customer Service</p>
       </FooterImage>
       <FooterContent>
         <FooterDetails>

@@ -21,17 +21,17 @@ import { AnimatePresence, motion } from "framer-motion";
 const GlobalStyle = createGlobalStyle`
 ${normalize}
 @font-face {
-  font-family: "CeraPro";
-  font-weight: normal;
-  font-style: normal;
-  src: url("${font.CeraPro}") format("opentype");
-  font-display: swap;
-}
-@font-face {
   font-family: "Archia";
   font-weight: normal;
   font-style: normal;
   src: url("${font.Archia}") format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-style: normal;
+  src: url("${font.Montserrat}") format("truetype");
   font-display: swap;
 }
 * {
@@ -45,7 +45,8 @@ body {
 body {
   height: 100%;
   font-size: 16px;
-  font-family: 'CeraPro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: normal;
   background: ${colorPalette.background};
   -webkit-font-smoothing: antialiased;
   overscroll-behavior-y: none;
@@ -54,7 +55,8 @@ body {
 
 h1,
 h2,
-h3 {
+h3
+ {
   margin: 0 0 1.05rem;
   font-weight: normal;
 }
@@ -71,7 +73,7 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 8vw;
+      font-size: 8.5vw;
   }    
 }
 h2 {
@@ -83,7 +85,6 @@ h2 {
   }
 }
 h3 {
-  font-family: "CeraPro";
   font-size: 1.3vw;
   line-height: 1.3;
   margin-top: 0;
@@ -99,7 +100,6 @@ h3 {
   }
 }
 h4 {
-  font-family: "CeraPro";
   font-size: 1.2vw;
   line-height: 1.3;
   font-weight: normal;
@@ -117,7 +117,6 @@ h4 {
 }
 p {
   font-size: 1.1em;
-  //text-transform: uppercase;
   letter-spacing: -1px;
   font-family: "Archia";
   color: ${colorPalette.green};

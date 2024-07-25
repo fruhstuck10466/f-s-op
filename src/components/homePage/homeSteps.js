@@ -69,11 +69,11 @@ const HomeSteps = () => {
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    > Inquire, quote, pay,</motion.div>
+                    > Inquiry to</motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >deliver! 🚛</motion.div>
+                    >delivery! 🚛</motion.div>
                     {/* <motion.div
                     variants={headSingleAnime}
                     transition={transition}
@@ -125,12 +125,12 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h4>3/3</h4></StepNumber>
                         <StepDescriptionInner>
-                            <h4 data-nosnippet>Choose to have your goods delivered or pick them up from our location.</h4> <br/>
-                            <h4 data-nosnippet>Location : <br/>
+                            <h4 data-nosnippet>Choose to have your goods delivered or pick them up from our location : Bellway Industrial Park, GoDown No.4, Embakasi, Nairobi Kenya.</h4> <br/>
+                            {/* <h4 data-nosnippet>Location : <br/>
                                 Bellway Industrial Park, <br/>
                                 GoDown No.4 <br/>
                                 Embakasi, Nairobi Kenya.
-                            </h4>
+                            </h4> */}
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
