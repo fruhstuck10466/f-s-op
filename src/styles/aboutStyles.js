@@ -69,7 +69,7 @@ export const IntroAboutText = styled.div`
   }
   h3 {
     width: 90%;
-    letter-spacing: -1px;
+    //letter-spacing: -1px;
     padding: 200px 40px 50px 40px;
     @media (max-width: ${breakpoints.s}px){
       width: 100%;
@@ -86,7 +86,7 @@ export const IntroAboutTextOne = styled.div`
   }
   h3 {
     width: 90%;
-    letter-spacing: -1px;
+    //letter-spacing: -1px;
     padding: 50px 40px 50px 40px;
     @media (max-width: ${breakpoints.s}px){
       width: 100%;
@@ -138,14 +138,14 @@ export const StrategyTitle = styled.div`
   width: 20%;
   margin-right: 20px;
   h3 {
-    color: ${colorPalette.green};
-    letter-spacing: -1px;
+    color: ${colorPalette.text};
+    //letter-spacing: -1px;
   }
 `;
 export const StrategyInfo = styled.div`
   width: 50%;
   h3 {
-    letter-spacing: -1px;
+    //letter-spacing: -1px;
   }
   @media (max-width: 700px) {
     width: 70%;

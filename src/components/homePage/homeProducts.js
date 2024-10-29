@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectant.jpg" }
+        relativePath: { eq: "disinfectant.png" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
@@ -119,10 +119,58 @@ const data = useStaticQuery(graphql`
         id="prod-div">
             <HomeProdWrapInner>
                 <DragText><p>Drag Image to Explore Products</p></DragText>
+                <HomeProdText>
+                    <motion.h1
+                    ref={contentRef}
+                    animate={animation}
+                    variants={headParentAnime}
+                    initial="hidden"
+                    visible={{
+                        opacity: 1,
+                        transition: { staggerChildren: 0.1, delayChildren: 0.8 }
+                    }}
+                    >
+                    <motion.div
+                    variants={headSingleAnime}
+                    transition={transition}
+                    >Get to know our</motion.div>
+                    <motion.div
+                    variants={headSingleAnime}
+                    transition={transition}
+                    >products </motion.div>
+                    </motion.h1>
+                    <motion.h3
+                    ref={contentRef}
+                    animate={animation}
+                    initial="hidden"
+                    variants={{
+                        visible: {
+                            opacity: 1,
+                            y: 0,
+                            skewY: 0,
+                            transition: {
+                                duration: 0.6,
+                                ease: [0.165, 0.84, 0.44, 1],
+                              }
+                        },
+                        hidden: {
+                            opacity: 0, y: 72,skewY: 7,
+                        }
+                    }}
+    
+                    >
+                    We manufacture our range of products with care and we endeavour to provide the best product experience to our customers. We’re passionate about accessible health systems and partnerships with healthcare distribution networks in all parts of Kenya, with a mission to move the needle in maintaining hygienic lives.                    </motion.h3>
+                    <BtnStyle>
+                    <Link to="/products" >
+                    <button>
+                    <span>Explore Catalogue</span>
+                    </button></Link>
+                    </BtnStyle>
+                </HomeProdText>
                 <HomeProdImage>
                 <h1 className="bopp" >
                     <div>Get to know our</div>
-                    <div>products 🔬</div>
+                    <div>products</div>
                     </h1>
                         <Slider
                         {...settings}
@@ -173,55 +221,7 @@ const data = useStaticQuery(graphql`
                         </Slider>
             
                 </HomeProdImage>
-                <HomeProdText>
-                    <motion.h1
-                    ref={contentRef}
-                    animate={animation}
-                    variants={headParentAnime}
-                    initial="hidden"
-                    visible={{
-                        opacity: 1,
-                        transition: { staggerChildren: 0.1, delayChildren: 0.8 }
-                    }}
-                    >
-                    <motion.div
-                    variants={headSingleAnime}
-                    transition={transition}
-                    >Get to know our</motion.div>
-                    <motion.div
-                    variants={headSingleAnime}
-                    transition={transition}
-                    >products 🔬</motion.div>
-                    </motion.h1>
-                    <motion.h3
-                    ref={contentRef}
-                    animate={animation}
-                    initial="hidden"
-                    variants={{
-                        visible: {
-                            opacity: 1,
-                            y: 0,
-                            skewY: 0,
-                            transition: {
-                                duration: 0.6,
-                                ease: [0.165, 0.84, 0.44, 1],
-                              }
-                        },
-                        hidden: {
-                            opacity: 0, y: 72,skewY: 7,
-                        }
-                    }}
-    
-                    >
-                    Our product range includes all-purpose cleaners, surface disinfectants, antiseptics, hand sanitizers, liquid hand soaps, detergents, cosmetics, and laboratory reagents. Each product is designed to enhance well-being, showcasing our commitment to quality, integrity and customer service. Explore our diverse range of high-quality products designed to meet your needs.
-                    </motion.h3>
-                    <BtnStyle>
-                    <Link to="/products" >
-                    <button>
-                    <span>Explore Catalogue</span>
-                    </button></Link>
-                    </BtnStyle>
-                </HomeProdText>
+                
             </HomeProdWrapInner>
         </HomeProdWrap>
     );

@@ -23,7 +23,7 @@ export const HomeAboutWrapInner = styled.div`
     height: 100%;
     display: flex;
     @media (max-width: ${breakpoints.s}px){
-        flex-direction: column-reverse;
+        flex-direction: column;
 
     } 
 `
@@ -36,6 +36,12 @@ display: flex;
 padding: 20px 60px 0 100px;
 justify-content: center;
 flex-direction: column;
+h3 {
+    width: 80%;
+    @media (max-width: ${breakpoints.s}px){
+        width: 80%;
+    }
+}
 @media (max-width: ${breakpoints.xl}px){
     padding-left 80px;
 }
@@ -73,8 +79,13 @@ export const HomeAboutImageInner = styled.div`
     opacity: 0.8;
     overflow: hidden;
     img {
-        // border-radius: 20px;
+        position: absolute;
         object-fit: contain;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%; 
+        height: 100%; 
     }
     @media (max-width: ${breakpoints.xl}px){
         width: 70%;  

@@ -14,9 +14,11 @@ export const colorPalette = {
     green: "#2C7147",
     lightgreen: "#80ed99",
     red: "#FF0000",
+    lightred: "#EC3234",
     blue: "#295D91",
     grey: "#F2F2F2",
-    darkgrey: "#BFBFBF",
+    darkgrey: "#B9B7B7",
+    brown: "#DAD7CD",
 }
 
 export const Container = styled.div`
@@ -63,16 +65,9 @@ a {
       outline: none;
       background: ${colorPalette.green};
       span {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         text-transform: uppercase;
         color: ${colorPalette.background};
-        font-family: "Archia";
-        @media (max-width: ${breakpoints.m}px) {
-          font-size: 0.8rem;
-        }
-        @media (max-width: ${breakpoints.xs}px) {
-          font-size: 0.7rem;
-        }
       }
       &:hover {
         transition: 0.2s ease-in-out;
@@ -119,7 +114,6 @@ a {
         font-size: 0.9rem;
         text-transform: uppercase;
         color: ${colorPalette.text};
-        font-family: "Archia";
         @media (max-width: ${breakpoints.s}px) {
           font-size: 0.8rem;
         }

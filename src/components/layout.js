@@ -34,6 +34,13 @@ ${normalize}
   src: url("${font.Montserrat}") format("truetype");
   font-display: swap;
 }
+  @font-face {
+  font-family: "Roboto";
+  font-weight: normal;
+  font-style: normal;
+  src: url("${font.Roboto}") format("truetype");
+  font-display: swap;
+}
 * {
   box-sizing: border-box;
 }
@@ -44,8 +51,8 @@ body {
 
 body {
   height: 100%;
-  font-size: 16px;
-  font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  font-family: 'Archia', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   background: ${colorPalette.background};
   -webkit-font-smoothing: antialiased;
@@ -61,11 +68,10 @@ h3
   font-weight: normal;
 }
 h1 {
-  font-family: "Archia";
   letter-spacing: -2.5px;
-  color: ${colorPalette.green};
-  line-height: 1.15;
-  font-size: 3.5vw;
+  color: ${colorPalette.text};
+  line-height: 1.25;
+  font-size: 4.3vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
@@ -73,11 +79,10 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 8.5vw;
+      font-size: 9vw;
   }    
 }
 h2 {
-  font-family: "Archia";
   font-size: 1.4em;
   letter-spacing: -1px;
   @media (max-width: ${breakpoints.s}px){
@@ -85,19 +90,13 @@ h2 {
   }
 }
 h3 {
-  font-size: 1.3vw;
-  line-height: 1.3;
+  font-size: 14px;
+  letter-spacing: normal;
+  line-height: 1.25;
   margin-top: 0;
-  @media (max-width: ${breakpoints.xl}px){
-      font-size: 1.8vw;
-  }
-  @media (max-width: ${breakpoints.m}px){
-      font-size: 2vw;
-      line-height: 1.4;
-  }
-  @media (max-width: ${breakpoints.s}px){
-      font-size: 4vw;
-  }
+   @media (max-width: ${breakpoints.s}px){
+       font-size: 12px;
+   }
 }
 h4 {
   font-size: 1.2vw;
@@ -116,15 +115,11 @@ h4 {
   }
 }
 p {
-  font-size: 1.1em;
-  letter-spacing: -1px;
-  font-family: "Archia";
-  color: ${colorPalette.green};
+  font-size: 14px;
+  line-height: 1.25;
+  color: ${colorPalette.text};
   @media (max-width: ${breakpoints.s}px){
-    font-size: 0.9rem;
-  }
-  @media (max-width: ${breakpoints.xs}px){
-    font-size: 0.8em;
+    font-size: 12px;
   }
 }
 .body-lock {

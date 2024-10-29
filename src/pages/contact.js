@@ -72,39 +72,40 @@ const Contact = () => {
               <ContactFlex>
                 <ContactFlexInner>
                   <h3>Office Hours</h3>
-                  <h4>
+                  <h3>
                     Mon-Fri: 8:00AM - 5:00PM <br />
                     Sat: 8:00AM - 12:00 Noon <br />
                     Sun: Closed
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Email:</h3>
-                  <h4>faholochemicals@gmail.com</h4>
+                  <h3>faholochemicals@gmail.com</h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
-                  <h3>Office Contacts:</h3>
-                  <h4>
+                  <h3>Office (Landline):</h3>
+                  <h3>
                     (+254) 790 753 945 (main) <br />
                     (+254) 770 321 966 <br />                    
                     (+254) 737 483 812
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
-                  <h3>Sales Contacts:</h3>
-                  <h4>
+                  <h3>Sales (Phone, Whatsapp):</h3>
+                  <h3>
                     (+254) 704 071 649 <br />
                     (+254) 790 409 381 <br />
                     (+254) 703 585 966{" "}
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Office Location:</h3>
-                  <h4>
+                  <h3>
                     Bellway Industrial Park,
-                    <br /> GoDown No. 4 <br />
-                    Embakasi, Nairobi Kenya.
-                  </h4>
+                    <br /> GoDown No. 4 
+                    <br /> Off Airport North Road,
+                    <br />Embakasi, Nairobi Kenya.
+                  </h3>
                 </ContactFlexInner>
               </ContactFlex>
             </ContactWrapper>

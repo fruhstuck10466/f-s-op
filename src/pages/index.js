@@ -59,9 +59,9 @@ const IndexPage = props => {
       />
       <Hero />
       <HomeProducts />   
-      <HomeSteps /> 
-      <HomeAbout />  
       <Faq />
+      <HomeAbout /> 
+      <HomeSteps />  
       <Footer />
     </Layout>
   )

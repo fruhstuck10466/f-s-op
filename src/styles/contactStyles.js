@@ -24,19 +24,9 @@ export const ContactWrapper = styled.div`
     flex-direction: column;
     margin-top: 130px;
   }
-  h4 {
-    @media (max-width: ${breakpoints.s}px){
-      font-size: 1rem;
-    }
-  }
   h3 {
     margin: 5px 0;
-    color: ${colorPalette.blue};
-    font-family: "Archia";
-    letter-spacing: -1px;
-    @media (max-width: ${breakpoints.s}px){
-      font-size: 1rem;
-    }
+    color: ${colorPalette.text};
   }
 `;
 export const ContactFlex = styled.div`

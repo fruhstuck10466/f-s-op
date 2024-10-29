@@ -37,6 +37,12 @@ export const HeroText = styled(motion.div)`
     padding: 20px 60px 0 100px;
     justify-content: center;
     flex-direction: column;
+    h3 {
+    width: 80%;
+    @media (max-width: ${breakpoints.s}px){
+        width: 80%;
+    }
+    }
     @media (max-width: ${breakpoints.xl}px){
         padding-left 80px;
     }
@@ -71,28 +77,36 @@ export const HeroImageInner = styled(motion.div)`
     position: relative;
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 100%;
     height: 70%;
     overflow: hidden;
     @media (max-width: ${breakpoints.xl}px){
-        width: 70%;  
+        width: 100%;  
     } 
     @media (max-width: ${breakpoints.s}px){
         width: 100%;
         height: 100%; 
         justify-content: center;
-        align-items: flex-start;
+        align-items: center;
     }
   img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      object-fit: cover;
-      object-position: center center;
-      width: 100%;
-      height: 100%;
-      @media (max-width: ${breakpoints.s}px){
-        padding: 0 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; 
+    height: 522px; 
+      @media (max-width: ${breakpoints.m}px){
+        width: 380px; 
+        height: 396px;
+    } 
+    @media (max-width: ${breakpoints.s}px){
+        width: 350px; 
+        height: 365px; 
+    } 
+    @media (max-width: ${breakpoints.xs}px){
+        width: 300px; 
+        height: 313px;
     } 
     }
 `
@@ -102,7 +116,7 @@ export const ContactMeta = styled(motion.div)`
     left: 0;
     margin-left: 40px;
     @media (max-width: ${breakpoints.s}px){
-        display: none;
+        //display: none;
         margin-left: 20px;
         bottom: 3%;
         p {
@@ -136,9 +150,9 @@ export const ContactMeta = styled(motion.div)`
 `
 const myanimation = keyframes`
   0% {background-color: ${colorPalette.green};}
-  25%{background-color: ${colorPalette.blue};}
+  25%{background-color: ${colorPalette.lightred};}
   50%{background-color:${colorPalette.green};}
-  75%{background-color: ${colorPalette.blue};}
+  75%{background-color: ${colorPalette.lightred};}
   100% {background-color: ${colorPalette.green};}
 `
 

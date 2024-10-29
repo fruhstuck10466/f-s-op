@@ -95,7 +95,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>02/&nbsp;</sup> <h1>Products</h1>
+                          <sup>02/&nbsp;</sup> <h1>Our Products</h1>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -106,7 +106,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>03/&nbsp;</sup> <h1>About</h1>
+                          <sup>03/&nbsp;</sup> <h1>About us</h1>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -117,7 +117,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>04/&nbsp;</sup> <h1>Contacts</h1>
+                          <sup>04/&nbsp;</sup> <h1>Contact us</h1>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -139,7 +139,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>06/&nbsp;</sup> <h3><span className="disabled">Careers</span><span className="label">soon</span></h3>
+                        <p>Find Us : <br/> Bellway Industrial Park, <br/> GoDown No.4,<br/>  Off Airport North Road, <br/> Embakasi, Nairobi Kenya.</p> 
                         </motion.div>
                       </Link>
                     </motion.li>

@@ -10,7 +10,8 @@ import { HeroWrap, HeroWrapInner, HeroText, HeroImage, HeroImageInner, ContactMe
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/lann.png"
+import Chem from "../../assets/images/lannn.png"
+import ArrowRight from "../../assets/svg/arrow-right-black.svg";
 
 //framer
 import { motion } from 'framer-motion';
@@ -58,12 +59,17 @@ const Hero = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        >Contributing to the</motion.div> 
+                        >Contributing</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >quality of life 🧬</motion.div> 
+                        >to the quality</motion.div> 
+
+                        <motion.div
+                        variants={headSingleAnime}
+                        transition={transition}
+                        >of life</motion.div> 
 
                     </motion.h1>
                     <motion.h3
@@ -74,7 +80,7 @@ const Hero = () => {
                         duration: 1,
                         ease: [0.165, 0.84, 0.44, 1],
                     }}
-                    >Based in Nairobi, we are a Kenyan operated manufacturing and distributing company with a strong focus on high-quality external pharmaceutical products and cleaning solutions.</motion.h3>
+                    >We are a Kenyan operated manufacturing and distributing company based in Nairobi, with a strong focus on high-quality external pharmaceutical products and cleaning solutions.</motion.h3>
                 </HeroText>
                 <HeroImage>
                     <HeroImageInner
@@ -87,7 +93,7 @@ const Hero = () => {
                     }}
                     >           
                         <img
-                        src={Chem} alt="dna structure"/>
+                        src={Chem} alt="hero collage"/>
                     </HeroImageInner>                    
                 </HeroImage>                
                 </HeroWrapInner>
@@ -101,7 +107,7 @@ const Hero = () => {
                       ease: [0.165, 0.84, 0.44, 1],
                   }}
                   >
-                     <p> <Link to="/contact" >Contact Us</Link></p>
+                     <p> <Link to="/about" >Our Values<span><img src={ArrowRight} alt=""/></span></Link></p>
                   </ContactMeta>
                   <ArrowMeta
                   initial={{scale: 0}}

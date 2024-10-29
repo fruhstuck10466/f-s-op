@@ -8,7 +8,7 @@ export const MenuWrap = styled(motion.div)`
     right: 0;
     height: 100%;
     width: 40%;
-    background: ${colorPalette.lightgreen};
+    background: ${colorPalette.brown};
     color: ${colorPalette.text};
     z-index: 999;
     overflow: hidden;
@@ -59,7 +59,6 @@ export const MenuBody = styled(motion.div)`
     width: 100%;
     display: flex;
     align-items: center;
-    font-family: "Archia";
     padding-left: 0px;
     h1 {
         color: ${colorPalette.text};  
@@ -68,8 +67,11 @@ export const MenuBody = styled(motion.div)`
            }  
     }
     h3 {
-      font-family: "Archia";
+      line-height: 76px;
       color: ${colorPalette.text};  
+      @media (max-width: ${breakpoints.s}px){
+            line-height: 56px;
+          }
     }
     ul {
     padding: 0;
@@ -85,6 +87,9 @@ export const MenuBody = styled(motion.div)`
         line-height: 76px;
         padding-top: 10px;
         padding-left: 40px;
+        &:last-child{
+            line-height: normal;
+        }
         @media (max-width: ${breakpoints.s}px){
             height: 56px;
             line-height: 56px;

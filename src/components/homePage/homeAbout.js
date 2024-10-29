@@ -1,6 +1,7 @@
 import React, {useEffect}  from 'react';
-import Img from "gatsby-image";
-import { useStaticQuery, graphql, Link } from "gatsby";
+//import Img from "gatsby-image";
+import {Link } from "gatsby";
+//import { useStaticQuery, graphql, Link } from "gatsby";
 import { useAnimation, motion } from 'framer-motion';
 
 //intersection observer
@@ -9,18 +10,20 @@ import {useInView} from "react-intersection-observer"
 import {HomeAboutWrap, HomeAboutWrapInner, HomeAboutText, HomeAboutImage, HomeAboutImageInner} from "../../styles/homeAboutStyles"
 import {BtnStyle} from "../../styles/globalStyles"
 
+import sdg from "../../assets/images/f-f.jpg"
+
 const HomeAbout = () => {
-    const data = useStaticQuery(graphql`
-    query {
-      faholoFrontImage: file(relativePath: { eq: "f-f.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 600) {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-      `);
+    // const data = useStaticQuery(graphql`
+    // query {
+    //   faholoFrontImage: file(relativePath: { eq: "f-f.jpg" }) {
+    //     childImageSharp {
+    //       fluid(maxWidth: 600) {
+    //         ...GatsbyImageSharpFluid
+    //       }
+    //     }
+    //   }
+    // }
+    //   `);
 
       const animation = useAnimation();
       const [prodTitleRef, inView] = useInView({
@@ -58,7 +61,7 @@ const HomeAbout = () => {
                     }}
                     >
                     <div                 
-                    >Research and development<br/>for the future 👨🏿‍🔬</div>
+                    >Research and development<br/>for the future</div>
                     </motion.h1>
                     <motion.h3
                     ref={prodTitleRef}
@@ -89,7 +92,9 @@ const HomeAbout = () => {
                 </HomeAboutText>
                 <HomeAboutImage>
                     <HomeAboutImageInner>
-                    <Img
+                      <img
+                        src={sdg} alt="sdg goal"/>
+                    {/* <Img
                     style={{
                         position: "absolute",
                         left: 0,
@@ -101,7 +106,7 @@ const HomeAbout = () => {
                       }}
                     fluid={data.faholoFrontImage.childImageSharp.fluid}
                     alt="faholo-front-gate"
-                  />
+                  /> */}
                     </HomeAboutImageInner>
                 </HomeAboutImage>
             </HomeAboutWrapInner>

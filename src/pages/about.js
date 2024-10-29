@@ -80,7 +80,7 @@ const About = () => {
                        <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >exploration</motion.div>
+                        >effort</motion.div>
                     </motion.h1>
               </IntroAboutHeading>
                 <IntroAboutText>
@@ -111,7 +111,7 @@ const About = () => {
                      className="smalltext"
                         variants={headSingleAnime}
                         transition={transition}
-                        >so little 🤏,</motion.div> 
+                        >so little,</motion.div> 
 
                        <motion.div
                         variants={headSingleAnime}
@@ -121,7 +121,7 @@ const About = () => {
                         className="bigtext"
                         variants={headSingleAnime}
                         transition={transition}
-                        >so much 💪.</motion.div>
+                        >so much.</motion.div>
              
                     </motion.h1>
                     

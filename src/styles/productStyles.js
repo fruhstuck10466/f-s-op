@@ -21,13 +21,6 @@ export const ProductsWrapper = styled.div`
     padding: 0 20px;
     margin-top: 130px;
   }
-  h3 {
-    letter-spacing: -0.5px;
-    @media (max-width: ${breakpoints.s}px){
-     
-      font-size: 1rem;
-    }
-  }
 `;
 export const ProductsWrapperInner = styled.div`
   position: relative;
@@ -45,10 +38,10 @@ export const ProductsInstructions = styled.div`
   @media (max-width: ${breakpoints.s}px){
     width: 100%;
   }
-  h4 {
+  h3 {
     margin-top: 50px;
     width: 90%;
-    letter-spacing: -1px;  
+    //letter-spacing: -1px;  
     @media (max-width: ${breakpoints.s}px){
       width: 100%;
       font-size: 1.1rem;
@@ -83,8 +76,7 @@ export const CategoriesHeader = styled.div`
 `;
 export const CategoryTitle = styled.div`
   h3 {
-    font-family: "Archia";
-    color: ${colorPalette.blue};
+    color: ${colorPalette.text};
   }
 `;
 

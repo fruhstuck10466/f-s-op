@@ -71,32 +71,32 @@ const Stockists = () => {
               <ContactFlex>
                 <ContactFlexInner>
                   <h3>Nairobi</h3>
-                  <h4>
+                  <h3>
                     Transwide Pharmaceuticals <br />
                     NILA Pharmaceuticals
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Mombasa</h3>
-                  <h4>Pharmacity Pharmaceuticals</h4>
+                  <h3>Pharmacity Pharmaceuticals</h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Bungoma</h3>
-                  <h4>
+                  <h3>
                     Bungoma Chemist
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Machakos</h3>
-                  <h4>
+                  <h3>
                     Thwake Pharmaceuticals
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
                   <h3>Mandera</h3>
-                  <h4>
+                  <h3>
                   Mandera Drugmart
-                  </h4>
+                  </h3>
                 </ContactFlexInner>
               </ContactFlex>
             </ContactWrapper>

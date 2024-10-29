@@ -392,7 +392,7 @@ const CategoriesAccordion = ({ details, expanded, setExpanded }) => {
         transition={{ duration: 0.8, ease: [0.6, 0.05, 0, 0.9] }}
       >
         {details.items.map((items, index) => (
-          <span key={index}><h4>&#8226; {items}</h4></span>
+          <span key={index}><h3>&#8226; {items}</h3></span>
         ))}
       </CategoriesList>
     </>

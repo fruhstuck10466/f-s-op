@@ -70,6 +70,7 @@ export const HomeProdImage = styled.div`
 
 `
 export const DragText = styled.div`
+    display: none;
     position: absolute;
     transform-origin: top left;
     transform: translateY(100%) rotate(-90deg);
@@ -128,6 +129,11 @@ export const HomeProdText = styled(motion.div)`
         @media (max-width: ${breakpoints.s}px){
             display: none;
         }
+    }
+    h3 {
+    width: 80%;
+    @media (max-width: ${breakpoints.s}px){
+        width: 80%;
     }
 
 `

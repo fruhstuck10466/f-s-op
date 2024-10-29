@@ -10,7 +10,6 @@ export const FooterWrapper = styled.div`
     position: relative;
     text-decoration: none;
     text-transform: none;
-    font-family: "Montserrat", sans-serif;
     color: ${colorPalette.background};
     &:after {
         border-radius: 1em;
@@ -45,20 +44,20 @@ export const FooterImage = styled.div`
     height: 35vh;
     
   }
-  p {
-    font-size: 1.8vw;
-    text-align: center;
-    opacity: 1;
-    text-transform: none;
-    color: ${colorPalette.green};
-    @media (max-width: ${breakpoints.m}px){
-        font-size: 3vw;
-    }
-    @media (max-width: ${breakpoints.s}px){
-        font-size: 4vw;
+  // p {
+  //   font-size: 1.8vw;
+  //   text-align: center;
+  //   opacity: 1;
+  //   text-transform: none;
+  //   color: ${colorPalette.green};
+  //   @media (max-width: ${breakpoints.m}px){
+  //       font-size: 3vw;
+  //   }
+  //   @media (max-width: ${breakpoints.s}px){
+  //       font-size: 4vw;
         
-    }
-  }
+  //   }
+  // }
 `;
 
 export const FooterContent = styled.div`
@@ -66,7 +65,7 @@ export const FooterContent = styled.div`
   height: 50vh;
   width: 100%;
   background: ${colorPalette.green};
-  @media (max-width: ${breakpoints.s}px){
+  @media (max-width: ${breakpoints.m}px){
     height: 55vh;
   }
   p {
@@ -80,30 +79,58 @@ export const FooterContent = styled.div`
 
 export const FooterDetails = styled.div`
   display: flex;
+  justify-content: space-between;
+  width: 100%;
   flex-wrap: wrap;
-  padding: 54px 0 0 54px;
+  padding: 54px 54px 0 54px;
   @media (max-width: ${breakpoints.m}px){
-    flex-direction: row;
-    padding: 24px 0 0 24px;
+    flex-direction: column;
+    padding: 24px 24px 0 24px;
+    justify-content: flex-start;
+    //height: 100%;
+  }
+`;
+
+export const FooterDetailsWrapper = styled.div`
+  display: flex;
+  gap: 40px;
+  @media (max-width: ${breakpoints.s}px){
+    //flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
   }
 `;
 
 export const FooterDetailsOne = styled.div`
   display: flex;
   flex-direction: column;
-  margin-right: 100px;
+`;
+
+
+export const Disclaimer = styled.div`
+  width: 40%; /* Set width to 40% */
+  text-align: left; /* Align text to the right */
+  font-size: 14px;
+  //color: ${colorPalette.background};
+  margin-left: auto; /* Pushes the disclaimer to the far right */
+  p {
+  color: ${colorPalette.darkgrey};
+  }
   @media (max-width: ${breakpoints.m}px){
-    margin-right: 80px;
-    margin-bottom: 20px;
+    width: 100%;
+    margin: 20px 0 50px 0;
+    p {
+     font-size: 8px;
+    }
   }
 `;
+
 
 export const FooterCompany = styled.div`
   position: absolute;
   bottom: 3%;
   left: 3%;
   p {
-    font-family: "Montserrat";
     color: ${colorPalette.background};
     text-transform: uppercase;
   }
@@ -118,7 +145,6 @@ export const FooterCredits = styled.div`
   right: 3%;
   p {
     color: ${colorPalette.background};
-    font-family: "Montserrat";
     text-align: right;
   }
   a {

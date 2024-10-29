@@ -6,8 +6,8 @@ export const FaqWrap = styled.div`
     position: relative;
     height: 100%;
     width: 100%;
-    background: ${colorPalette.blue};
-    color: ${colorPalette.background};
+    background: ${colorPalette.grey};
+    color: ${colorPalette.text};
     @media (max-width: ${breakpoints.s}px){
         border-bottom: none;
     } 
@@ -31,7 +31,7 @@ export const FaqTitle = styled.div`
         width: 100%;
     }
     h1 {
-        color: ${colorPalette.background};
+        color: ${colorPalette.text};
         @media (max-width: ${breakpoints.s}px){
             margin-bottom: 30px;
         }   
@@ -63,7 +63,7 @@ export const FaqHeader = styled.div`
 
 export const FaqQuestion = styled.div`
     h3 {
-        font-family: "Archia";
+        //font-family: "Archia";
         letter-spacing: -0.5px;
     }
 `
@@ -73,8 +73,8 @@ export const FaqIcon = styled.div`
     height: 100%;
     span {
     width: 16px;
-    height: 4px;
-    background: ${colorPalette.grey};
+    height: 2.5px;
+    background: ${colorPalette.text};
     transition: 0.1 ease-in-out;
     }
 `
