@@ -73,9 +73,11 @@ const Contact = () => {
                 <ContactFlexInner>
                   <h3>Office Hours</h3>
                   <h3>
-                    Mon-Fri: 8:00AM - 5:00PM <br />
+                    Mon: 9:00AM - 5:00PM <br />
+                    Tue-Fri: 8:00AM - 5:00PM <br />
                     Sat: 8:00AM - 12:00 Noon <br />
-                    Sun: Closed
+                    Sun: Closed<br />
+                    Public Holidays: Closed
                   </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>

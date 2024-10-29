@@ -45,16 +45,11 @@ export const LogoImg = styled.div`
         display: flex;
         align-items: center;
     img {
-        margin-right: 10px;
-        width: 100%;
-        height: 45px;
+        width: 100px;
+        height: 100%;
         @media (max-width: ${breakpoints.m}px){
-           // width: 48px;
-            height: 48px;
-        }
-        @media (max-width: ${breakpoints.xs}px){
-           // width: 40px;
-            height: 40px;
+            width: 100px;
+            height: 100%;
         }
     }
     p {
@@ -67,8 +62,6 @@ export const LogoText = styled.div`
     align-items: center;
     a {
         position: relative;
-        //font-family: "Archia";
-        //text-transform: uppercase;
         padding-left: 24px;
         @media (max-width: ${breakpoints.l}px){
            display: none;

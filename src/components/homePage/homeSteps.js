@@ -85,7 +85,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To place an order, including the product name, pack size, and quantity, contact our dedicated sales team for a quote using the information provided below. *As we are a manufacturing company, kindly consider we have a MOQ, otherwise refer to our stockists.</h3>
+                            <h3>To place an order, including the product name, pack size, and quantity, contact our dedicated sales team for a quote using the information provided below. *Please note - as we are a manufacturing company, kindly consider we have a MOQ, otherwise contact us to know a stockist near you.</h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>

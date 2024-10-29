@@ -161,16 +161,16 @@ export const ArrowMeta = styled(motion.div)`
     bottom: 5%;
     right: 0;
     margin-right: 20px;
-    height: 150px;
-    width: 150px;
+    height: 100px;
+    width: 100px;
     border-radius: 100px;
     animation: ${myanimation} 10s infinite;
     display: flex;
     align-items: center;
     justify-content: center;
-    @media (max-width: ${breakpoints.s}px){
-        height: 100px;
-        width: 100px;
+    @media (max-width: ${breakpoints.m}px){
+        height: 90px;
+        width: 90px;
         bottom: 3%;
     } 
     p {

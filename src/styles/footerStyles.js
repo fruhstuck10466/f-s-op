@@ -117,7 +117,7 @@ export const Disclaimer = styled.div`
   color: ${colorPalette.darkgrey};
   }
   @media (max-width: ${breakpoints.m}px){
-    width: 100%;
+    width: 70%;
     margin: 20px 0 50px 0;
     p {
      font-size: 8px;
