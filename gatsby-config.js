@@ -24,15 +24,6 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-robots-txt',
-      options: {
-        host: 'https://www.faholochemicals.co.ke',
-        sitemap: 'https://www.faholochemicals.co.ke/sitemap.xml',
-        policy: [{userAgent: '*', allow: '/'}]
-      }
-    },
-    `gatsby-plugin-advanced-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
