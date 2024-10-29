@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectant.png" }
+        relativePath: { eq: "disinfectant.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
