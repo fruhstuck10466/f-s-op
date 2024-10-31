@@ -3,6 +3,7 @@ import Footer from "../components/footer"
 import Faq from "../components/homePage/faq"
 import Hero from "../components/homePage/hero"
 import HomeAbout from "../components/homePage/homeAbout"
+import Reviews from "../components/homePage/reviews"
 import HomeProducts from "../components/homePage/homeProducts"
 import HomeSteps from "../components/homePage/homeSteps"
 import Layout from "../components/layout"
@@ -61,6 +62,7 @@ const IndexPage = props => {
       <HomeProducts />   
       <Faq />
       <HomeAbout /> 
+      <Reviews />
       <HomeSteps />  
       <Footer />
     </Layout>

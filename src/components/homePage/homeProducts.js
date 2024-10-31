@@ -159,7 +159,7 @@ const data = useStaticQuery(graphql`
                     }}
     
                     >
-                    We manufacture our range of products with care and we endeavour to provide the best product experience to our customers. We’re passionate about accessible health systems and partnerships with healthcare distribution networks in all parts of Kenya, with a mission to move the needle in maintaining hygienic lives.                    </motion.h3>
+                    We take pride in carefully crafting our range of products to ensure an exceptional experience for our customers. Committed to accessible health systems, we actively partner with healthcare distribution networks across Kenya, driven by our mission to enhance hygiene standards and support healthier lives.                    </motion.h3>
                     <BtnStyle>
                     <Link to="/products" >
                     <button>

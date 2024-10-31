@@ -94,8 +94,8 @@ export const HeroImageInner = styled(motion.div)`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 500px; 
-    height: 522px; 
+    width: 600px; 
+    height: 626px; 
       @media (max-width: ${breakpoints.m}px){
         width: 380px; 
         height: 396px;

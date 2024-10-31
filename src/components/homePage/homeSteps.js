@@ -69,11 +69,11 @@ const HomeSteps = () => {
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    > Leading the way</motion.div>
+                    > Inquiry to</motion.div>
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >to better health</motion.div>
+                    >delivery!</motion.div>
                     </motion.h1>
            
             <StepsWrapInner>
