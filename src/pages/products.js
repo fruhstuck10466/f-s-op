@@ -3,6 +3,31 @@ import Footer from "../components/footer";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
+import PovidoneIodineImage from "/src/assets/images/products/povidone-iodine-faholo-chemicals.jpg"
+import TinctureofIodineImage from "/src/assets/images/products/tincture-of-iodine-faholo-chemicals.jpg"
+import AntisepticImage from "/src/assets/images/products/antiseptic-faholo-chemicals.jpg"
+import ChlorhexidineImage from "/src/assets/images/products/chlorhexidine-faholo-chemicals.jpg"
+import GlutalbenzalImage from "/src/assets/images/products/glutalbenzal-faholo-chemicals.jpg"
+import CalamineLotionImage from "/src/assets/images/products/calamine-lotion-faholo-chemicals.jpg"
+import BenzylBenzoateImage from "/src/assets/images/products/benzyl-benzoate-faholo-chemicals.jpg"
+import FarmLinimentImage from "/src/assets/images/products/farm-liniment-faholo-chemicals.jpg"
+import HydrogenPeroxideImage from "/src/assets/images/products/hydrogen-peroxide-faholo-chemicals.jpg"
+import GentianVioletImage from "/src/assets/images/products/gentian-violet-faholo-chemicals.jpg"
+import LysolSolutionImage from "/src/assets/images/products/lysol-faholo-chemicals.jpg"
+import SodiumHypochloriteImage from "/src/assets/images/products/sodium-hypochlorite-faholo-chemicals.jpg"
+import SurgicalSpiritImage from "/src/assets/images/products/surgical-spirit-faholo-chemicals.jpg"
+import MethylatedSpiritImage from "/src/assets/images/products/methylated-spirit-faholo-chemicals.jpg"
+import InstantHandSanitizerImage from "/src/assets/images/products/instant-hand-sanitiser-faholo-chemicals.jpg"
+import MedicinalBoricAcidImage from "/src/assets/images/products/boric-acid-faholo-chemicals.jpg"
+import HandWashingGel from "/src/assets/images/products/handwashing-gel-faholo-chemicals.jpg"
+import EmulsifyingOintmentImage from "/src/assets/images/products/emulsifying-ointment-faholo-chemicals.jpg"
+import PureGlycerineImage from "/src/assets/images/products/pure-glycerin-faholo-chemicals.jpg"
+import CastorOilImage from "/src/assets/images/products/castor-oil-faholo-chemicals.jpg"
+import LiquidParaffinImage from "/src/assets/images/products/liquid-paraffin-faholo-chemicals.jpg"
+import MassageOilImage from "/src/assets/images/products/massage-oil-faholo-chemicals.jpg"
+import AceticAcidImage from "/src/assets/images/products/acetic-acid-faholo-chemicals.jpg"
+import MultipurposeLiquidImage from "/src/assets/images/products/cleaning-detergent-faholo-chemicals.jpg"
+
 import { AnimatePresence, motion } from "framer-motion";
 
 //styles
@@ -16,12 +41,16 @@ import {
   CategoryIcon,
   CategoriesList,
   CategoryTitle,
+  ProductDetailsContainer,
+  ProductImage,
+  ProductUsage,
 } from "../styles/productStyles";
 
 const categoriesAndList = [
   {
     id: 0,
     title: "Povidone Iodine 10% w/v.",
+    image: PovidoneIodineImage, // Placeholder for product image
     items: [
       "A topical antiseptic used for the prevention and treatment of skin infections on minor wounds, cuts, grazes, abrasions and blisters.",
       "Minor Wounds - Povidone Iodine is used to prevent and treat minor wounds and skin infections. This includes cuts, small areas of burn, ulcers, and minor injuries",
@@ -32,6 +61,7 @@ const categoriesAndList = [
   {
     id: 1,
     title: "Tincture of Iodine 2.5% w/v.",
+    image: TinctureofIodineImage,
     items: [
       "Contains Iodine 2.5% w/v, KI 2.5 w/v.",
       "An antiseptic solution that contains iodine and potassium iodide, and used on minor wounds, cuts and scrapes to aid their healing process.",
@@ -44,6 +74,7 @@ const categoriesAndList = [
   {
     id: 2,
     title: "FAHOLO Antiseptic.",
+    image: AntisepticImage,
     items: [
       "Contains Chlorhexidine BP 0.3% w/v and Cetrimide BP 3% w/v.",
       "Disinfectant - FAHOLO Antiseptic is often found in emergency survival kits, used to disinfect wounds.",
@@ -55,6 +86,7 @@ const categoriesAndList = [
   {
     id: 3,
     title: "Chlorhexidine BP 5% w/v.",
+    image: ChlorhexidineImage,
     items: [
       "It is an antiseptic and a disinfectant and used in:",
       "Mouth and Throat - Chlorhexidine helps reduce the number of germs in your mouth, and can help with mouth infections, mouth ulcers, gum disease, and sore throats. It is also used for denture care.",
@@ -67,6 +99,7 @@ const categoriesAndList = [
   {
     id: 4,
     title: "Glutalbenzal.",
+    image: GlutalbenzalImage,
     items: [
       "Contains Glutaraldehyde 2.4% w/v, Benzalkonium Chloride 0.5% and used in:",
       "Medical Applications - Glutalbenzal is commonly used in hospitals and other healthcare settings to sterilize surgical and medical equipment due to its potent antimicrobial properties.",
@@ -78,6 +111,7 @@ const categoriesAndList = [
   {
     id: 5,
     title: "Calamine Lotion.",
+    image: CalamineLotionImage,
     items: [
       "Skin Irritations - It is used to relieve pain, itching, and discomfort from minor skin irritations such as poison ivy, poison oak, and poison sumac. It also helps to dry the oozing and weeping caused by irritation due to these plants.",
       "Insect Bites - Calamine lotion can be applied to insect bites to relieve itchiness and provide a cooling sensation.",
@@ -91,6 +125,7 @@ const categoriesAndList = [
   {
     id: 6,
     title: "Benzyl Benzoate 25% Solution(Lotion).",
+    image: BenzylBenzoateImage,
     items: [
       "A topical medication used to treat infestations of lice and scabies.",
       "Lice treatment - Benzyl Benzoate is applied to thoroughly wet the dry hair and scalp or skin. The medicine is left on the affected areas for 24 hours, then washed off with warm water and soap or regular shampoo.",
@@ -101,6 +136,7 @@ const categoriesAndList = [
   {
     id: 7,
     title: "Farm Liniment BP.",
+    image: FarmLinimentImage,
     items: [
       "Farm Liniment is a type of topical medication that is typically used to relieve joint pain or muscle tension. Farm Liniment is often applied with friction to increase blood circulation to an injury or for sore, stiff muscles.",
       "Pack size includes 100ml, 250ml, 300ml, 500ml, 1lt, 5lt",
@@ -109,6 +145,7 @@ const categoriesAndList = [
   {
     id: 8,
     title: "Hydrogen Peroxide 6% & 30%.",
+    image: HydrogenPeroxideImage,
     items: [
       "A more concentrated solution typically used for:",
       "Disinfectant - Hydrogen Peroxide can reduce the risk of infection when used to sanitize surfaces, produce, or products. It’s an effective disinfectant that can oxidize the cell membrane of a microorganism, leading to the death of the pathogen. It’s also indicated as an effective disinfectant against SARS-CoV-2, the virus that causes COVID-19",
@@ -120,6 +157,7 @@ const categoriesAndList = [
   {
     id: 9,
     title: "Gentian Violet 1% Solution.",
+    image: GentianVioletImage,
     items: [
       "A blue-violet dye derived from coal tar and is used as a topical medication for:",
       "Antifungal - Gentian Violet is primarily used against the fungus, Candida, which causes thrush. It’s also used to treat other types of fungus infections inside the mouth and on the skin",
@@ -132,6 +170,7 @@ const categoriesAndList = [
   {
     id: 10,
     title: "Lysol Solution 6% and 12%.",
+    image: LysolSolutionImage,
     items: [
       "A disinfectant concentrate used for cleaning and deodorizing. It’s proven to eliminate odor-causing bacteria, viruses, and everyday dirt and grime, used for:",
       "Disinfection - Lysol Solution kills 99.9% of viruses and bacteria1. It can eliminate germs on hard, non-porous surfaces such as Staphylococcus aureus, Salmonella enterica, Herpes Simplex Virus Type 1 and 2, and Influenza A2 Virus",
@@ -144,6 +183,7 @@ const categoriesAndList = [
   {
     id: 11,
     title: "Sodium Hypochlorite 4-6%.",
+    image: SodiumHypochloriteImage,
     items: [
       "A common disinfectant and bleaching agent, used for:",
       "Disinfection - Sodium Hypochlorite is used to deactivate biological materials by inactivating vegetative bacteria, fungi, lipid and non-lipid viruses, and other liquid specimens. It’s also used for emergency disinfection of drinking water",
@@ -156,6 +196,7 @@ const categoriesAndList = [
   {
     id: 12,
     title: "Surgical Spirit 70%.",
+    image: SurgicalSpiritImage,
     items: [
       "Also known as rubbing alcohol or isopropyl alcohol, is a colorless liquid that is commonly used in the healthcare industry for:",
       "Disinfection - Surgical Spirit is used to clean and sterilize surfaces, equipment, and tools in hospitals and other healthcare settings. It is effective at killing many types of bacteria, viruses, and fungi, making it an essential tool in infection control",
@@ -168,6 +209,7 @@ const categoriesAndList = [
   {
     id: 13,
     title: "Methylated Spirit 70%.",
+    image: MethylatedSpiritImage,
     items: [
       "Also known as denatured alcohol, is a versatile substance with a range of uses:",
       "Disinfection - Methylated Spirit is a bactericidal hospital-grade disinfectant suitable for general purpose disinfection and cleaning of surfaces. It can also be used to sterilize equipment",
@@ -179,6 +221,7 @@ const categoriesAndList = [
   {
     id: 14,
     title: "Instant Hand Sanitizer.",
+    image: InstantHandSanitizerImage,
     items: [
       "A liquid, gel, or foam generally used to decrease infectious agents on the hands, can be used for:",
       "Disinfection: Hand sanitizers that contain at least 60% alcohol can quickly reduce the number of germs in many situations. They act by killing certain germs on the skin",
@@ -190,6 +233,7 @@ const categoriesAndList = [
   {
     id: 15,
     title: "Medicinal Boric Acid.",
+    image: MedicinalBoricAcidImage,
     items: [
       "A water-soluble white compound, is claimed to have antifungal and antimicrobial properties. It is used in various medicinal and homeopathic treatments, such as:",
       "Vaginal Health - It is often a part of homeopathic medicines used for treating vaginal discharge and itching",
@@ -203,6 +247,7 @@ const categoriesAndList = [
   {
     id: 16,
     title: "Hand Washing Gel.",
+    image: HandWashingGel,
     items: [
       "Preventing Infection - Hand Washing Gel is designed to kill germs and bacteria, which can help prevent the spread of illnesses",
       "Pack size includes 500ml, 1lt, 3lt, 5lt, 20lt",
@@ -211,6 +256,7 @@ const categoriesAndList = [
   {
     id: 17,
     title: "Emulsifying Ointment.",
+    image: EmulsifyingOintmentImage,
     items: [
       "A type of moisturizer used to treat dry skin conditions such as eczema and dermatitis, can be used as a:",
       "Moisturizer - Emulsifying Ointment is used to moisturize very dry skin, such as in eczema or dermatitis. It leaves a thin layer of oil on the surface of the skin that stops water from evaporating, resulting in a soothing, softening, and moisturizing effect",
@@ -220,6 +266,7 @@ const categoriesAndList = [
   {
     id: 18,
     title: "Pure Glycerine BP.",
+    image: PureGlycerineImage,
     items: [
       "Also known as glycerol, is a natural compound derived from vegetable oils or animal fats. It’s a clear, colorless, odorless, and syrupy liquid with a sweet taste. Can be used in:",
       "Skin Care - Glycerine is a humectant, a type of moisturizing agent that pulls water into the outer layer of your skin from deeper levels of your skin and the air. It is commonly used in skin care products to increase hydration on the top layer of your skin. It can also improve skin barrier function, provide protection against skin irritants, accelerate wound-healing processes, and relieve dry skin.",
@@ -231,6 +278,7 @@ const categoriesAndList = [
   {
     id: 19,
     title: "Castor Oil.",
+    image: CastorOilImage,
     items: [
       "Laxative - Castor oil is well-known for its laxative properties. It stimulates the intestines, helping to relieve constipation.",
       "Skin and Hair Care - Castor oil is often used in skin and hair care products due to its moisturizing properties. It can help improve conditions like acne and stretch marks, and promote hair growth.",
@@ -243,6 +291,7 @@ const categoriesAndList = [
   {
     id: 20,
     title: "Liquid Paraffin BP.",
+    image: LiquidParaffinImage,
     items: [
       "Also known as paraffinum liquidum or paraffin oil, is a highly refined mineral oil used in cosmetics and medicine. Can be used for:",
       "Constipation - In oral dosage form, liquid paraffin is used as a stool softener. It is used in the treatment of constipation by preventing dry and hard stools.",
@@ -253,6 +302,7 @@ const categoriesAndList = [
   {
     id: 21,
     title: "Medicinal Massage Oil.",
+    image: MassageOilImage,
     items: [
       "Used in aromatherapy and massage therapy for a variety of health and wellness benefits. ",
       "Aromatherapy - Essential oils used in massage oils can have various degrees of antimicrobial activity and are believed to have antiviral, antifungal, insecticidal, and antioxidant properties. They can provide respiratory disinfection, decongestant, and psychological benefits.",
@@ -263,6 +313,7 @@ const categoriesAndList = [
   {
     id: 22,
     title: "Acetic Acid (Vinegar) 4-6%.",
+    image: AceticAcidImage,
     items: [
       "Also known as ethanoic acid, is a clear, colorless liquid with a strong and pungent smell. It is an organic compound and the main component of vinegar. Can be used for: ",
       "Industrial Use - Acetic acid is used in many industrial processes for the production of substrates. It is often used as a chemical reagent for the production of a number of chemical compounds like acetic anhydride, ester, vinyl acetate monomer, vinegar, and many other polymeric materials.",
@@ -275,6 +326,7 @@ const categoriesAndList = [
   {
     id: 23,
     title: "Multipurpose Liquid.",
+    image: MultipurposeLiquidImage,
     items: [
       "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",
       "Pack size includes 5lt, 20lt",
@@ -391,9 +443,20 @@ const CategoriesAccordion = ({ details, expanded, setExpanded }) => {
         animate={{ height: isOpen ? "100%" : "0" }}
         transition={{ duration: 0.8, ease: [0.6, 0.05, 0, 0.9] }}
       >
-        {details.items.map((items, index) => (
-          <span key={index}><h3>&#8226; {items}</h3></span>
-        ))}
+         {isOpen && (
+          <ProductDetailsContainer>
+            <ProductImage>
+              <img src={details.image} alt={details.title} />
+            </ProductImage>
+            <ProductUsage>
+              {details.items.map((item, index) => (
+                <span key={index}>
+                  <h3>&#8226; {item}</h3>
+                </span>
+              ))}
+            </ProductUsage>
+          </ProductDetailsContainer>
+        )}
       </CategoriesList>
     </>
   );

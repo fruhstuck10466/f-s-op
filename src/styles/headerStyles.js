@@ -86,6 +86,11 @@ export const LogoText = styled.div`
 
 `
 
+export const LogoLink = styled.div`
+    position: relative; 
+    margin-left: 12px;
+`
+
 export const HamburgerMenu = styled(motion.div)`
     cursor: pointer;
     width: 100px;

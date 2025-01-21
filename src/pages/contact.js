@@ -11,6 +11,7 @@ import {
   ContactFlex,
   ContactFlexInner,
   ContactTitle,
+  MapContainer,
 } from "../styles/contactStyles";
 
 const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };
@@ -110,7 +111,19 @@ const Contact = () => {
                   </h3>
                 </ContactFlexInner>
               </ContactFlex>
+             
             </ContactWrapper>
+            <MapContainer>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7694187827346!2d36.91143297521527!3d-1.3138262986736984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1109e4088c39%3A0x81f820e2de258964!2sFaholo%20Chemicals%20Ltd.!5e0!3m2!1sen!2ske!4v1737465746008!5m2!1sen!2ske"
+                  width="100%"
+                  height="400"
+                  style={{ border: 0 }}
+                  allowFullScreen=""
+                  loading="lazy"
+                  title="Google Maps Location"
+                ></iframe>
+              </MapContainer>
             <Footer />
           </ContactContainer>
         </Layout>

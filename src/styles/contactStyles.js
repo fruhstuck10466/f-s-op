@@ -67,3 +67,13 @@ export const ContactTitle = styled(motion.div)`
     border-right: none;
   }
 `
+
+export const MapContainer = styled(motion.div)`
+  //margin-bottom: 20px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+`

@@ -100,3 +100,29 @@ export const CategoriesList = styled(motion.div)`
     display: block;
   }
 `;
+
+export const ProductDetailsContainer = styled(motion.div)`
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+  @media (max-width: ${breakpoints.m}px){
+    flex-direction: column; /* Stacks image and usage on smaller screens */
+    //align-items: center;
+    gap: 15px;
+    }
+`;
+
+export const ProductImage = styled(motion.div)`
+  img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+`;
+
+export const ProductUsage = styled(motion.div)`
+  flex: 1;
+  min-width: 250px;
+`;

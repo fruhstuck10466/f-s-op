@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectant.jpg" }
+        relativePath: { eq: "disinfectants.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
@@ -75,7 +75,14 @@ const data = useStaticQuery(graphql`
           }
         }
       }
-      sanitizerCategoryImage: file(relativePath: { eq: "sanitizer.jpg" }) {
+      sanitizerCategoryImage: file(relativePath: { eq: "sanitiser.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 600) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+      reagentsCategoryImage: file(relativePath: { eq: "reagents.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -177,42 +184,49 @@ const data = useStaticQuery(graphql`
                         className="bop"
                         >
                         <SliderInner>
-                  <p>1/6 | Disinfectants</p>
+                  <p>1/7 | Disinfectants</p>
                   <Img
                     fluid={data.disinfectantCategoryImage.childImageSharp.fluid}
                     alt="Disinfectants"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>2/6 | Detergents</p>
+                  <p>2/7 | Detergents</p>
                   <Img
                     fluid={data.detergentCategoryImage.childImageSharp.fluid}
                     alt="Detergents"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>3/6 | Antiseptics</p>
+                  <p>3/7 | Antiseptics</p>
                   <Img
                     fluid={data.antisepticCategoryImage.childImageSharp.fluid}
                     alt="Antiseptics"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>4/6 | Cosmetics</p>
+                  <p>4/7 | Cosmetics</p>
                   <Img
                     fluid={data.cosmeticsCategoryImage.childImageSharp.fluid}
                     alt="Cosmetics"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>5/6 | Sanitizers</p>
+                  <p>5/7 | Sanitizers</p>
                   <Img
                     fluid={data.sanitizerCategoryImage.childImageSharp.fluid}
-                    alt="Sanitizing solutions"
+                    alt="Sanitising solutions"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>6/6 | Others + Reagents</p>
+                  <p>6/7 | Reagents</p>
+                  <Img
+                    fluid={data.reagentsCategoryImage.childImageSharp.fluid}
+                    alt="reagents solutions"
+                  />
+                </SliderInner>
+                <SliderInner>
+                  <p>7/7 | More</p>
                   <Img
                     fluid={data.othersCategoryImage.childImageSharp.fluid}
                     alt="other solutions"

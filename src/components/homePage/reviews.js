@@ -2,7 +2,7 @@
 import React from "react";
 import { ReviewsSection, Title, ReviewsContainer, ReviewCard, ReviewImage, ReviewText }from "../../styles/reviewStyles"
 
-import reviewImg from "../../assets/images/feedback.jpg"; // Replace with the path to the circular image you want to use
+import reviewImg from "../../assets/images/rating.png"; // Replace with the path to the circular image you want to use
 
 const reviews = [
   "As a supplier of essential cleaning materials, detergents, disinfectants, and sanitizers to government hospitals and healthcare facilities, maintaining a high standard of quality and dependability is critical to our business. We are incredibly fortunate to work with FAHOLO, which has consistently exceeded our expectations in every aspect of their service.",
@@ -23,7 +23,7 @@ const Reviews = () => {
             <img src={reviewImg} alt="review thumbnail"/>
             </ReviewImage>
             {/* <ReviewImage src={reviewImg} alt="Reviewer" /> */}
-            <ReviewText><p>{review}</p></ReviewText>
+            <ReviewText><p>"{review}"</p></ReviewText>
           </ReviewCard>
         ))}
       </ReviewsContainer>
