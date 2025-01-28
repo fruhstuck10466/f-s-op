@@ -10,7 +10,7 @@ import { HeroWrap, HeroWrapInner, HeroText, HeroImage, HeroImageInner, ContactMe
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/lannn.png"
+import Chem from "../../assets/images/lannn.jpg"
 import ArrowRight from "../../assets/svg/arrow-right-black.svg";
 
 //framer
