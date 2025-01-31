@@ -27,21 +27,7 @@ ${normalize}
   src: url("${font.Archia}") format("truetype");
   font-display: swap;
 }
-@font-face {
-  font-family: "DMSerif";
-  font-weight: normal;
-  font-style: normal;
-  src: url("${font.DMSerif}") format("truetype");
-  font-display: swap;
-}
 
-@font-face {
-  font-family: "RobotoMono";
-  font-weight: normal;
-  font-style: normal;
-  src: url("${font.RobotoMono}") format("truetype");
-  font-display: swap;
-}
 
 * {
   box-sizing: border-box;
