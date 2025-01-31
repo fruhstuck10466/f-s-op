@@ -7,18 +7,18 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
+  font-family: "DMSerif";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/Montserrat-Light.ttf") format("truetype");
+  src: url("./font//DMSerifText-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 
 @font-face {
-  font-family: "Roboto";
+  font-family: "RobotoMono";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/Roboto-Regular.ttf") format("truetype");
+  src: url("./font/RobotoMono-VariableFont_wght.ttf") format("truetype");
   font-display: swap;
 }

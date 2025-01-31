@@ -6,7 +6,7 @@ export const StepsWrap = styled.div`
     position: relative;
     height: 100%;
     width: 100%;
-    background-color: ${colorPalette.background};
+    background-color: #f9f9f9;
     h1 {
         color: ${colorPalette.text};
         //text-align: center;
@@ -43,7 +43,7 @@ export const Step = styled.div`
     display: flex;
     flex-direction: column;
     border-radius: 20px;
-    border: 1px solid #ccc;
+    //border: 1px solid #ccc;
     box-shadow: rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 46, 170, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -10px 10px, rgba(0, 0, 0, 0.05) -0 0; 
     background: ${colorPalette.grey};
     color: ${colorPalette.text};

@@ -50,8 +50,8 @@ export const HomeProdImage = styled.div`
     }
     .bop {
         position: relative;
-        width: 400px;
-        height: 500px;
+        width: 350px;
+        height: 450px;
         @media (max-width: ${breakpoints.xl}px){
             width: 300px;
             height: 400px;

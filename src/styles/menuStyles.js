@@ -7,8 +7,8 @@ export const MenuWrap = styled(motion.div)`
     top: 0;
     right: 0;
     height: 100%;
-    width: 40%;
-    background: ${colorPalette.brown};
+    width: 100%;
+    background: ${colorPalette.background};
     color: ${colorPalette.text};
     z-index: 999;
     overflow: hidden;

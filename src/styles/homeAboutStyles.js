@@ -74,24 +74,35 @@ justify-content: center;
 
 export const HomeAboutImageInner = styled.div`
     position: relative;
-    width: 50%;
+    width: 100%;
     height: 70%;
-    opacity: 0.8;
     overflow: hidden;
+    // @media (max-width: ${breakpoints.xl}px){
+    //     width: 100%;  
+    //     height: 100%;
+    // } 
+    // @media (max-width: ${breakpoints.s}px){
+    //     width: 100%;
+    //     height: 100%; 
+    //     justify-content: center;
+    //     align-items: center;
+    // }
     img {
         position: absolute;
-        object-fit: contain;
+        //object-fit: contain;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        width: 100%; 
-        height: 100%; 
+        width: 400px; 
+        height: 400px; 
+         @media (max-width: ${breakpoints.m}px){
+        width: 300px; 
+        height: 300px;
+            } 
+            @media (max-width: ${breakpoints.xs}px){
+                width: 300px; 
+                height: 300px;
+            } 
     }
-    @media (max-width: ${breakpoints.xl}px){
-        width: 70%;  
-    } 
-    @media (max-width: ${breakpoints.s}px){
-        width: 100%;
-        height: 100%; 
-    }
+   
 `

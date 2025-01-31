@@ -28,19 +28,21 @@ ${normalize}
   font-display: swap;
 }
 @font-face {
-  font-family: "Montserrat";
+  font-family: "DMSerif";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.Montserrat}") format("truetype");
+  src: url("${font.DMSerif}") format("truetype");
   font-display: swap;
 }
-  @font-face {
-  font-family: "Roboto";
+
+@font-face {
+  font-family: "RobotoMono";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.Roboto}") format("truetype");
+  src: url("${font.RobotoMono}") format("truetype");
   font-display: swap;
 }
+
 * {
   box-sizing: border-box;
 }
@@ -68,7 +70,7 @@ h3
   font-weight: normal;
 }
 h1 {
-  letter-spacing: -2.5px;
+  letter-spacing: -3.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
   font-size: 4.3vw;

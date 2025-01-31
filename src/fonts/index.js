@@ -1,5 +1,5 @@
-import Montserrat from "./font/Montserrat-Light.ttf";
+import RobotoMono from "./font/RobotoMono-VariableFont_wght.ttf";
 import Archia from "./font/archia-regular-webfont.ttf";
-import Roboto from "./font/Roboto-Regular.ttf";
+import DMSerif from "./font/DMSerifText-Regular.ttf";
 
-export { Montserrat, Archia, Roboto };
+export { RobotoMono, Archia, DMSerif };

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { motion } from "framer-motion";
 import {breakpoints, colorPalette} from "./globalStyles"
-import BacImg from "../assets/images/globe.jpeg"
+import BacImg from "../assets/images/team-image.jpg"
 
 export const AboutContainer = styled(motion.div)`
   position: relative;
@@ -14,6 +14,7 @@ export const IntroWrapper = styled.div`
   display: flex;
   height: 100%;
   width: 100%;
+  padding-bottom: 80px;
   border-bottom: 1px solid ${colorPalette.darkgrey};
   @media (max-width: ${breakpoints.s}px){
     display: block;
@@ -99,17 +100,18 @@ export const IntroAboutTextOne = styled.div`
 
 export const IntroAboutImage = styled.div`
 position: relative;
-  height: 45vh;
+  height: 70vh;
   width: 100%;
   background-image: url(${BacImg});
   background-attachment: fixed;
-  background-position: center;
+  //background-attachment: inherit;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.8;
   @media (max-width: ${breakpoints.m}px){
     background-attachment: inherit;
-    height: 35vh;
+    height: 25vh;
   }
 `
 //strategy

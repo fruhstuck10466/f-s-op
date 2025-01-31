@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {breakpoints} from "./globalStyles"
 
 export const ReviewsSection = styled.div`
-  margin: 20px;
+  margin: 80px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,8 +35,7 @@ export const ReviewCard = styled.div`
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  width: 300px;
-
+  width: 400px;
   @media (max-width: ${breakpoints.m}px) {
      width: 100%;
   }
