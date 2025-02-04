@@ -85,7 +85,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To order, including the product name, pack size, and quantity, contact our sales team for a quote using the information in the contact page. *Please note - as we are a manufacturing company, kindly consider we have a MOQ(1 carton), however you can find us at a pharmacy / stockist near you.</h3>
+                            <h3>To order, contact our sales team for a quote using the information in the contact page.</h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
@@ -104,12 +104,13 @@ const HomeSteps = () => {
                         </StepDescriptionInner>        
                     </StepDescription>
                     <StepAcc >
-                        <h3>Via (absa) Bank Account :<br/>
-                            &rarr; Pay Bill Business No. - 30 30 30<br/>
-                            &rarr; Account No. - 203 232 220 7 <br/>
+                        <h3>
                             Via M-pesa Paybill : <br/>
                             &rarr; Business No. - 410 728 7, <br/>
-                            &rarr; A/C - YOUR NAME OR BUSINESS NAME 
+                            &rarr; A/C - YOUR NAME OR BUSINESS NAME <br/> 
+                            Via Absa Bank Account :<br/>
+                            &rarr; Pay Bill Business No. - 30 30 30<br/>
+                            &rarr; Account No. - 203 232 220 7 <br/>        
                         </h3>
                     </StepAcc>
                 </Step>
@@ -121,12 +122,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>3/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3 data-nosnippet>Choose to have your goods delivered or pick them up from our location : Bellway Industrial Park, GoDown No.4, Off Airport North Road, Embakasi, Nairobi Kenya.</h3> <br/>
-                            {/* <h4 data-nosnippet>Location : <br/>
-                                Bellway Industrial Park, <br/>
-                                GoDown No.4 <br/>
-                                Embakasi, Nairobi Kenya.
-                            </h4> */}
+                            <h3 data-nosnippet>Choose to have your goods delivered or pick them up from our location.</h3> <br/>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>

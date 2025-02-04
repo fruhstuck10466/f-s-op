@@ -118,6 +118,7 @@ export const StepDescriptionInner = styled.div`
     width: 80%;
     margin-right: 20px;
     margin-left: 20px;
+    text-align: justify;
     @media (max-width: ${breakpoints.s}px){
         margin-bottom: 15%;
     }

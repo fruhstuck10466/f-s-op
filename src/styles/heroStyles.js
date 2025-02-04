@@ -79,10 +79,7 @@ export const HeroImageInner = styled(motion.div)`
     align-items: center;
     width: 100%;
     height: 70%;
-    overflow: hidden;
-    @media (max-width: ${breakpoints.xl}px){
-        width: 100%;  
-    } 
+    overflow: hidden; 
     @media (max-width: ${breakpoints.s}px){
         width: 100%;
         height: 100%; 
@@ -94,8 +91,8 @@ export const HeroImageInner = styled(motion.div)`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px; 
-    height: 400px; 
+    width: 500px; 
+    height: 500px; 
     @media (max-width: ${breakpoints.m}px){
         width: 300px; 
         height: 300px;

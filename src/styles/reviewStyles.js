@@ -51,7 +51,7 @@ export const ReviewImage = styled.div`
 `
 
 export const ReviewText = styled.div`
-  text-align: center;
+  text-align: justify;
   font-size: 16px;
   color: #333;
 `

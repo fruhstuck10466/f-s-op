@@ -76,9 +76,8 @@ const Contact = () => {
                   <h3>
                     Mon: 9:00AM - 5:00PM <br />
                     Tue-Fri: 8:00AM - 5:00PM <br />
-                    Sat: 8:00AM - 12:00 Noon <br />
-                    Sun: Closed<br />
-                    Public Holidays: Closed
+                    Sat: 8:00AM - Noon <br />
+                    Sun & Public Holidays: Closed<br />
                   </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>

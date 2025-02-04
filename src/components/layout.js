@@ -56,7 +56,7 @@ h3
   font-weight: normal;
 }
 h1 {
-  letter-spacing: -3.5px;
+  letter-spacing: -2.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
   font-size: 4.3vw;
