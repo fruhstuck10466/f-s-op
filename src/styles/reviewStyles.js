@@ -45,13 +45,13 @@ export const ReviewImage = styled.div`
   img {
     width: 80px;
   height: 80px;
-  border-radius: 50%;
+  //border-radius: 50%;
   margin-bottom: 15px;
   }
 `
 
 export const ReviewText = styled.div`
-  text-align: justify;
+  //text-align: justify;
   font-size: 16px;
   color: #333;
 `

@@ -38,7 +38,7 @@ height: 100%;
       color: ${colorPalette.blue};
     }
     .bigtext {
-      font-size: 9rem;
+      font-size: 7rem;
       color: ${colorPalette.blue}; 
       @media (max-width: ${breakpoints.s}px){
         line-height: 5.5rem;

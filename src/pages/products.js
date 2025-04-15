@@ -68,6 +68,7 @@ const categoriesAndList = [
       "Disinfectant - Tincture of Iodine is often found in emergency survival kits, used both to disinfect wounds and to sanitise surface water for drinking.",
       "Medical Procedures - Tincture of Iodine is frequently used in hospitals as a disinfectant because it can destroy both bacteria and viruses. It is also used in many medical procedure such as colonoscopies and some x-ray exams",
       "Please note that it should not be used on newborn infants, large open wounds, or for long periods",
+      "Effectively penetrates the skin to target fungal infections beneath the surface of the skin or affected area.",
       "Pack size includes 30ml, 50ml, 100ml, 200ml, 250ml, 500ml, 1lt, 5lt",
     ],
   },
