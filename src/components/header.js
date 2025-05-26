@@ -6,6 +6,7 @@ import {HeaderWrap, HeaderItems, Logo, LogoImg, LogoText, LogoLink, HamburgerMen
 //icon
 import LogoIcon from "../assets/images/new-site-logo.png"
 import WameIcon from "../assets/svg/WhatsAppButtonGreenSmall.svg"
+//import JumiaIcon from "../assets/images/jumia.png"
 import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 
@@ -37,7 +38,12 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                             <a aria-label="Chat on WhatsApp" href="https://wa.me/254704071649?text=Hi%20I%20found%20your%20website%20and%20Im%20interested%20in%20your%20products.%20Could%20you%20please%20assist%20me%20with%20more%20information%20Thank%20you"> 
                             <img alt="Chat on WhatsApp" src={WameIcon} />
                             </a>
-                        </LogoLink>                    
+                        </LogoLink> 
+                        {/* <JumiaLink>
+                            <a aria-label="Order on Jumia" href="https://www.jumia.co.ke/catalog/?q=faholo"> 
+                            <img alt="Order on Jumia" src={JumiaIcon} />
+                            </a>
+                        </JumiaLink>                        */}
                     </Logo>
                     <HamburgerMenu onHoverStart={() => setHovered(!hovered)}
           onHoverEnd={() => setHovered(!hovered)} onClick={() => setToggleMenu(!toggleMenu)}>

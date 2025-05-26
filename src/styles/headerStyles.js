@@ -47,10 +47,6 @@ export const LogoImg = styled.div`
     img {
         width: 100px;
         height: 100%;
-        @media (max-width: ${breakpoints.m}px){
-            width: 100px;
-            height: 100%;
-        }
     }
     p {
         text-transform: uppercase;
@@ -90,7 +86,14 @@ export const LogoLink = styled.div`
     position: relative; 
     margin-left: 12px;
 `
-
+// export const JumiaLink = styled.div`
+//     position: relative; 
+//     margin-left: 6px;
+//     img {
+//         width: 40px;
+//         height: 100%;
+//     }
+// `
 export const HamburgerMenu = styled(motion.div)`
     cursor: pointer;
     width: 100px;

@@ -27,7 +27,20 @@ ${normalize}
   src: url("${font.Archia}") format("truetype");
   font-display: swap;
 }
-
+@font-face {
+  font-family: "Newsreader";
+  font-weight: normal;
+  font-style: normal;
+  src: url("${font.Newsreader}") format("truetype");
+  font-display: swap;
+}
+  @font-face {
+  font-family: "Mulish";
+  font-weight: normal;
+  font-style: normal;
+  src: url("${font.Mulish}") format("truetype");
+  font-display: swap;
+}
 
 * {
   box-sizing: border-box;
@@ -39,8 +52,8 @@ body {
 
 body {
   height: 100%;
-  font-size: 14px;
-  font-family: 'Archia', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   background: ${colorPalette.background};
   -webkit-font-smoothing: antialiased;
@@ -56,10 +69,11 @@ h3
   font-weight: normal;
 }
 h1 {
+  font-family: "Newsreader";
   letter-spacing: -2.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
-  font-size: 4.3vw;
+  font-size: 4.5vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
@@ -78,7 +92,7 @@ h2 {
   }
 }
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: normal;
   line-height: 1.25;
   margin-top: 0;
@@ -103,7 +117,7 @@ h4 {
   }
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.25;
   color: ${colorPalette.text};
   @media (max-width: ${breakpoints.s}px){

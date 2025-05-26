@@ -6,3 +6,18 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: "Newsreader";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/Newsreader_60pt-Medium.ttf") format("truetype");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Mulish";
+  font-weight: normal;
+  font-style: normal;
+  src: url("./font/Mulish-Regular.ttf") format("truetype");
+  font-display: swap;
+}

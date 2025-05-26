@@ -5,9 +5,9 @@ import { ReviewsSection, Title, ReviewsContainer, ReviewCard, ReviewImage, Revie
 import reviewImg from "../../assets/images/rating.png"; // Replace with the path to the circular image you want to use
 
 const reviews = [
-  "As a supplier of essential cleaning materials, detergents, disinfectants, and sanitizers to government hospitals and healthcare facilities, maintaining a high standard of quality and dependability is critical to our business. We are incredibly fortunate to work with FAHOLO® Chemicals Ltd.®, which has consistently exceeded our expectations in every aspect of their service.",
-  "Their product range is exceptional, each item we purchase, from detergents to high-grade disinfectants, performs effectively and reliably, aligning perfectly with the rigorous standards our clients demand. The quality control and thorough attention to detail are clearly evident, ensuring that we always receive products we can stand behind. Beyond the high quality, their pricing structure offers tremendous value, especially in bulk orders, allowing us to provide great deals to our distributors without compromising on quality.",
-  "Their team is not only knowledgeable but also responsive and helpful, addressing any concerns with professionalism and speed. Working with FAHOLO® Chemicals Ltd. has been a game-changer for us, allowing us to confidently fulfill our clients’ needs while upholding the highest standards. We highly recommend them to any business in need of top-notch cleaning supplies, and we look forward to a continued successful partnership!"
+  "As a key supplier of cleaning agents, detergents, disinfectants, and sanitisers to government hospitals and healthcare facilities, we prioritise quality and reliability. Our partnership with FAHOLO® Chemicals Ltd. has been exemplary, their consistent performance and exceptional service have surpassed our expectations across the board.",
+  "Their product range is consistently reliable and meets the high standards required by our clients. Quality control is thorough, and each delivery reflects attention to detail. The pricing structure also offers strong value, especially on bulk orders, allowing us to remain competitive without compromising on quality.",
+  "FAHOLO® Chemicals Ltd.’s team is highly knowledgeable, responsive, and professional, always addressing our needs promptly. Their support has been instrumental in helping us meet client demands with confidence. We highly recommend them and look forward to continued collaboration."
 ];
 
 const Reviews = () => {
@@ -23,7 +23,7 @@ const Reviews = () => {
             <img src={reviewImg} alt="review thumbnail"/>
             </ReviewImage>
             {/* <ReviewImage src={reviewImg} alt="Reviewer" /> */}
-            <ReviewText><p>"{review}"</p></ReviewText>
+            <ReviewText><p>{review}</p></ReviewText>
           </ReviewCard>
         ))}
       </ReviewsContainer>

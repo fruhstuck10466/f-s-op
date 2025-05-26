@@ -8,8 +8,8 @@ export const MenuWrap = styled(motion.div)`
     right: 0;
     height: 100%;
     width: 100%;
-    background: ${colorPalette.background};
-    color: ${colorPalette.text};
+    background: ${colorPalette.babyblue};
+    color: ${colorPalette.background};
     z-index: 999;
     overflow: hidden;
     @media (max-width: 600px) {
@@ -61,14 +61,14 @@ export const MenuBody = styled(motion.div)`
     align-items: center;
     padding-left: 0px;
     h1 {
-        color: ${colorPalette.text};  
+        color: ${colorPalette.background};  
         @media (max-width: ${breakpoints.s}px){ 
             font-size: 2rem;
            }  
     }
     h3 {
       line-height: 76px;
-      color: ${colorPalette.text};  
+      color: ${colorPalette.background};  
       @media (max-width: ${breakpoints.s}px){
             line-height: 56px;
           }
@@ -100,6 +100,9 @@ export const MenuBody = styled(motion.div)`
         position: relative;
         display: flex;
         align-items: center;
+        p {
+          color: ${colorPalette.background};    
+        }
         }
         a {
           position: relative;
@@ -138,7 +141,7 @@ export const MenuBody = styled(motion.div)`
             padding: 4px;
         }
           sup {
-            color: ${colorPalette.text};  
+            color: ${colorPalette.background};  
             font-size: 0.8rem;
           }
         }

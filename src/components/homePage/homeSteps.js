@@ -85,7 +85,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To order, contact our sales team for a quote using the information in the contact page.</h3>
+                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page.</h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
@@ -100,7 +100,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>2/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>For payment via M-Pesa or Bank Account, please follow the instructions below.</h3>                     
+                            <h3>For payments via M-Pesa or bank transfer, please refer to the instructions provided below.</h3>                     
                         </StepDescriptionInner>        
                     </StepDescription>
                     <StepAcc >
@@ -122,7 +122,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>3/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3 data-nosnippet>Choose to have your goods delivered or pick them up from our location.</h3> <br/>
+                            <h3 data-nosnippet>You may choose to have your goods delivered or collect them directly from our premises.</h3> <br/>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>

@@ -19,6 +19,7 @@ export const colorPalette = {
     grey: "#F2F2F2",
     darkgrey: "#B9B7B7",
     brown: "#DAD7CD",
+    babyblue: "#001E50",
 }
 
 export const Container = styled.div`
