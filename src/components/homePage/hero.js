@@ -118,7 +118,7 @@ const Hero = () => {
                       ease: [0.165, 0.84, 0.44, 1],
                   }}
                   >
-                      <Link to="/#prod-div" >
+                      <Link to="/#footer-div" >
                       <motion.div
                       
                       animate={{rotate: -20}}
@@ -132,7 +132,7 @@ const Hero = () => {
                           height: "100%",
                           width: "100%",
                       }}>
-                      <p>scroll</p>
+                      <p>Available <br/> on Jumia</p>
                       </motion.div>
                       </Link>
                     

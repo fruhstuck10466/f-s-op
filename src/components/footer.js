@@ -49,10 +49,18 @@ const Footer = () => {
               </a>
               </p>
             </FooterDetailsOne>
-            <FooterDetailsOne>
+            <FooterDetailsOne id="footer-div">
               <p>Support</p>
               <p><Link to="/contact">Contact Us</Link></p>
-              <p><Link to="/#faq-div">FAQs</Link></p>
+              <p>
+              <a
+                aria-label="Jumia"
+                href="https://www.jumia.co.ke/catalog/?q=Faholo"
+                alt="Jumia Link"
+              >
+                Jumia Kenya
+              </a>
+              </p>
             </FooterDetailsOne>
             </FooterDetailsWrapper>
             <Disclaimer>
