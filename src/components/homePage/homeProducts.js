@@ -61,21 +61,21 @@ const data = useStaticQuery(graphql`
           }
         }
       }
-      antisepticCategoryImage: file(relativePath: { eq: "antiseptic.jpg" }) {
+      antisepticCategoryImage: file(relativePath: { eq: "antiseptic-c.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      cosmeticsCategoryImage: file(relativePath: { eq: "cosmetics.jpg" }) {
+      cosmeticsCategoryImage: file(relativePath: { eq: "cosmetics-cc.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      sanitizerCategoryImage: file(relativePath: { eq: "sanitiser.jpg" }) {
+      sanitizerCategoryImage: file(relativePath: { eq: "sanitisers-c.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid

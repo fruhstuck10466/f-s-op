@@ -136,14 +136,14 @@ const About = () => {
               </IntroWrapper>
               
               <StrategyWrapper>
-                <h1>Company strategy</h1>
+                <h1>Company strategy - {new Date().getFullYear()}</h1>
                 <StrategyWrapperInner>
                   <StrategyTitle>
                     <h3>Purpose</h3>
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                    To become a world-class pharmaceutical company, with distribution networks spanning most African countries and beyond.
+                    To improve lives through innovative and ethical pharmaceutical and chemical products.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>
@@ -153,7 +153,7 @@ const About = () => {
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                    To build long-term relationships with our customers and clients by providing exceptional customer service through innovation and advanced technology.
+                    To deliver high-quality, compliant, and sustainable products through research, innovation, and strategic partnerships.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>
@@ -163,7 +163,7 @@ const About = () => {
                   </StrategyTitle>
                   <StrategyInfo>
                     <h3>
-                    To deliver quality services that exceed the expectations of our esteemed customers.
+                    To be a trusted global leader in pharma and chemicals, driving better health and industrial progress.
                     </h3>
                   </StrategyInfo>
                 </StrategyWrapperInner>

@@ -34,7 +34,8 @@ height: 100%;
       padding: 40px 0 0 20px;
     }
     .smalltext {
-      font-size: 0.8rem;
+      font-size: 1rem;
+      letter-spacing: 0.1px;
       color: ${colorPalette.blue};
     }
     .bigtext {

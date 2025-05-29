@@ -52,7 +52,7 @@ body {
 
 body {
   height: 100%;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   background: ${colorPalette.background};
@@ -73,7 +73,7 @@ h1 {
   letter-spacing: -2.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
-  font-size: 4.5vw;
+  font-size: 5vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
@@ -81,7 +81,7 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 9vw;
+      font-size: 10vw;
   }    
 }
 h2 {
@@ -92,12 +92,12 @@ h2 {
   }
 }
 h3 {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: normal;
   line-height: 1.25;
   margin-top: 0;
    @media (max-width: ${breakpoints.s}px){
-       font-size: 12px;
+       font-size: 16px;
    }
 }
 h4 {
@@ -117,11 +117,11 @@ h4 {
   }
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.25;
   color: ${colorPalette.text};
   @media (max-width: ${breakpoints.s}px){
-    font-size: 12px;
+    font-size: 16px;
   }
 }
 .body-lock {
