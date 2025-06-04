@@ -85,11 +85,11 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. (NB: MoQ = 4Pcs)</h3>
+                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. <b>NB: MoQ = 4Pcs</b></h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
-                        <h3>View Contacts</h3> <Link to="/contact"><span><img src={ArrowRight} alt=""/></span></Link>
+                        <h3><b>View Contacts</b></h3> <Link to="/contact"><span><img src={ArrowRight} alt=""/></span></Link>
                     </StepCta>
                 </Step>
                 <Step>
@@ -105,10 +105,10 @@ const HomeSteps = () => {
                     </StepDescription>
                     <StepAcc >
                         <h3>
-                            Via M-pesa Paybill : <br/>
+                            Via <b>M-pesa</b> Paybill : <br/>
                             &rarr; Business No. - 410 728 7, <br/>
-                            &rarr; A/C - YOUR NAME OR BUSINESS NAME <br/> 
-                            Via Absa Bank Account :<br/>
+                            &rarr; A/C - Your Name OR Business Name <br/> 
+                            Via <b>Absa</b> Bank Account :<br/>
                             &rarr; Pay Bill Business No. - 30 30 30<br/>
                             &rarr; Account No. - 203 232 220 7 <br/>        
                         </h3>
@@ -126,7 +126,7 @@ const HomeSteps = () => {
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
-                        <h3>Get Directions</h3> <a href="https://www.google.com/maps/dir//faholo/@-1.3138759,36.8439214,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x182f1109e4088c39:0x81f820e2de258964!2m2!1d36.913962!2d-1.3138769"
+                        <h3><b>Get Directions</b></h3> <a href="https://www.google.com/maps/dir//faholo/@-1.3138759,36.8439214,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x182f1109e4088c39:0x81f820e2de258964!2m2!1d36.913962!2d-1.3138769"
                     aria-label="directions"><span><img src={ArrowRight} alt=""/></span></a>
                     </StepCta>
                 </Step>
