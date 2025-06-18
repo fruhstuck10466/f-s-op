@@ -10,7 +10,7 @@ import {useInView} from "react-intersection-observer"
 import {HomeAboutWrap, HomeAboutWrapInner, HomeAboutText, HomeAboutImage, HomeAboutImageInner} from "../../styles/homeAboutStyles"
 import {BtnStyle} from "../../styles/globalStyles"
 
-import sdg from "../../assets/images/f-f.jpg"
+import sdg from "../../assets/images/gh.jpg"
 
 const HomeAbout = () => {
     // const data = useStaticQuery(graphql`
