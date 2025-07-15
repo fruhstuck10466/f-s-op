@@ -10,7 +10,7 @@ import { HeroWrap, HeroWrapInner, HeroText, HeroImage, HeroImageInner, ContactMe
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/land.jpg"
+import Chem from "../../assets/images/oll.jpg"
 import ArrowRight from "../../assets/svg/arrow-right-black.svg";
 
 //framer
@@ -132,7 +132,7 @@ const Hero = () => {
                           height: "100%",
                           width: "100%",
                       }}>
-                      <p>Available <br/> on Jumia</p>
+                      <p>Welcome</p>
                       </motion.div>
                       </Link>
                     

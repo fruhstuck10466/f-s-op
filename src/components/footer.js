@@ -41,11 +41,11 @@ const Footer = () => {
               </a></p>
               <p>
               <a
-                aria-label="LinkedIn"
-                href="https://www.linkedin.com/company/faholo-chemicals"
-                alt="LinkedIn Link"
+                aria-label="Tiktok"
+                href="https://www.tiktok.com/@faholochemicals"
+                alt="Tiktok Link"
               >
-                LinkedIn
+                Tiktok
               </a>
               </p>
             </FooterDetailsOne>
