@@ -109,11 +109,11 @@ export const ContactMeta = styled(motion.div)`
     left: 0;
     margin-left: 40px;
     @media (max-width: ${breakpoints.s}px){
-        //display: none;
+        display: none;
         margin-left: 20px;
         bottom: 3%;
         p {
-            background: #c05d06ff;
+            //background: #c05d06ff;
             padding: 7px;
             border-radius: 10px;
         }
