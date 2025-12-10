@@ -88,8 +88,8 @@ const Contact = () => {
                   <h3>Office (Landline):</h3>
                   <h3>
                     (+254) 790 753 945 (main) <br />
-                    (+254) 770 321 966 <br />                    
-                    (+254) 737 483 812
+                    (+254) 770 321 966                   
+              
                   </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
@@ -97,6 +97,7 @@ const Contact = () => {
                   <h3>
                     (+254) 704 071 649 <br />
                     (+254) 790 409 381 <br />
+                    (+254) 737 483 812 <br />
                     (+254) 703 585 966{" "}
                   </h3>
                 </ContactFlexInner>

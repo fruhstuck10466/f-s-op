@@ -73,7 +73,7 @@ const Stockists = () => {
                   <h3>Nairobi</h3>
                   <h3>
                     Transwide Pharmaceuticals <br />
-                    NILA Pharmaceuticals
+                    NILA Pharmaceuticals ... and more
                   </h3>
                 </ContactFlexInner>
                 <ContactFlexInner>
@@ -96,6 +96,12 @@ const Stockists = () => {
                   <h3>Mandera</h3>
                   <h3>
                   Mandera Drugmart
+                  </h3>
+                </ContactFlexInner>
+                <ContactFlexInner>
+                  <h3>Your Location</h3>
+                  <h3>
+                  Contact us to know a stockist near you.
                   </h3>
                 </ContactFlexInner>
               </ContactFlex>

@@ -113,7 +113,7 @@ export const ContactMeta = styled(motion.div)`
         margin-left: 20px;
         bottom: 3%;
         p {
-            background: #fff;
+            background: #c05d06ff;
             padding: 7px;
             border-radius: 10px;
         }
