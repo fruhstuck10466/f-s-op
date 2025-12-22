@@ -78,7 +78,7 @@ h1 {
       font-size: 3.3vw;
   }
   @media (max-width: ${breakpoints.m}px){
-      font-size: 4vw;
+      font-size: 5vw;
   }
   @media (max-width: ${breakpoints.s}px){
       font-size: 10vw;
@@ -96,7 +96,10 @@ h3 {
   letter-spacing: normal;
   line-height: 1.25;
   margin-top: 0;
-   @media (max-width: ${breakpoints.s}px){
+   @media (max-width: ${breakpoints.m}px){
+       font-size: 12px;
+   }
+       @media (max-width: ${breakpoints.s}px){
        font-size: 16px;
    }
 }
@@ -120,6 +123,9 @@ p {
   font-size: 18px;
   line-height: 1.25;
   color: ${colorPalette.text};
+  @media (max-width: ${breakpoints.m}px){
+    font-size: 14px;
+  }
   @media (max-width: ${breakpoints.s}px){
     font-size: 16px;
   }

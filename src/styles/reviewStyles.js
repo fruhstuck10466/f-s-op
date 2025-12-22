@@ -39,6 +39,9 @@ export const ReviewCard = styled.div`
   @media (max-width: ${breakpoints.m}px) {
      width: 100%;
   }
+  @media (max-width: ${breakpoints.s}px) {
+     width: 100%;
+  }
 `
 
 export const ReviewImage = styled.div`
@@ -54,4 +57,7 @@ export const ReviewText = styled.div`
   //text-align: justify;
   font-size: 16px;
   color: #333;
+  @media (max-width: ${breakpoints.l}px) {
+     text-align: centre;
+  }
 `
