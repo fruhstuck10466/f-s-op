@@ -38,7 +38,7 @@ export const HeroText = styled(motion.div)`
     justify-content: center;
     flex-direction: column;
     h3 {
-    width: 80%;
+    width: 90%;
     @media (max-width: ${breakpoints.s}px){
         width: 80%;
     }
@@ -91,11 +91,11 @@ export const HeroImageInner = styled(motion.div)`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px; 
-    height: 400px; 
+    width: 500px; 
+    height: 500px; 
     @media (max-width: ${breakpoints.m}px){
-        width: 300px; 
-        height: 300px;
+        width: 250px; 
+        height: 250px;
     } 
     @media (max-width: ${breakpoints.xs}px){
         width: 300px; 

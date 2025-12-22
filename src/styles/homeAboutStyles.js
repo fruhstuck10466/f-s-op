@@ -37,7 +37,7 @@ padding: 20px 60px 0 100px;
 justify-content: center;
 flex-direction: column;
 h3 {
-    width: 80%;
+    width: 90%;
     @media (max-width: ${breakpoints.s}px){
         width: 80%;
     }

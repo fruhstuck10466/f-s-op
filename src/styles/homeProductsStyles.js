@@ -131,7 +131,7 @@ export const HomeProdText = styled(motion.div)`
         }
     }
     h3 {
-    width: 80%;
+    width: 90%;
     @media (max-width: ${breakpoints.s}px){
         width: 80%;
     }

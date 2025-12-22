@@ -73,12 +73,12 @@ h1 {
   letter-spacing: -2.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
-  font-size: 5vw;
+  font-size: 4vw;
   @media (max-width: ${breakpoints.xl}px){
       font-size: 3.3vw;
   }
   @media (max-width: ${breakpoints.m}px){
-      font-size: 5vw;
+      font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
       font-size: 10vw;
@@ -96,11 +96,11 @@ h3 {
   letter-spacing: normal;
   line-height: 1.25;
   margin-top: 0;
-   @media (max-width: ${breakpoints.m}px){
-       font-size: 12px;
+  @media (max-width: ${breakpoints.m}px){
+       font-size: 14px;
    }
-       @media (max-width: ${breakpoints.s}px){
-       font-size: 16px;
+   @media (max-width: ${breakpoints.s}px){
+       font-size: 14px;
    }
 }
 h4 {
@@ -124,11 +124,11 @@ p {
   line-height: 1.25;
   color: ${colorPalette.text};
   @media (max-width: ${breakpoints.m}px){
-    font-size: 14px;
-  }
-  @media (max-width: ${breakpoints.s}px){
-    font-size: 16px;
-  }
+       font-size: 14px;
+   }
+   @media (max-width: ${breakpoints.s}px){
+       font-size: 14px;
+   }
 }
 .body-lock {
   overflow-y: hidden;
