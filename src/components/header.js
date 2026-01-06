@@ -35,7 +35,7 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                             <Link to="/"><span className="disabled">Careers</span><span className="label">Soon</span></Link>                                                        */}
                        </LogoText>  
                        <LogoLink>
-                            <a aria-label="Chat on WhatsApp" href="https://wa.me/254704071649?text=Hi%20I%20found%20your%20website%20and%20Im%20interested%20in%20your%20products.%20Could%20you%20please%20assist%20me%20with%20more%20information%20Thank%20you"> 
+                            <a aria-label="Chat on WhatsApp" href="https://wa.me/254111203302?text=Hello%20Faholo%20Chemicals%20👋%0AI’m%20contacting%20you%20from%20your%20website%20and%20would%20like%20assistance%20with%20your%20products,%20pricing,%20or%20placing%20an%20order."> 
                             <img alt="Chat on WhatsApp" src={WameIcon} />
                             </a>
                         </LogoLink> 
