@@ -144,7 +144,7 @@ const data = useStaticQuery(graphql`
                     <motion.div
                     variants={headSingleAnime}
                     transition={transition}
-                    >products </motion.div>
+                    >product ranges </motion.div>
                     </motion.h1>
                     <motion.h3
                     ref={contentRef}
@@ -176,8 +176,8 @@ const data = useStaticQuery(graphql`
                 </HomeProdText>
                 <HomeProdImage>
                 <h1 className="bopp" >
-                    <div>Get to know our</div>
-                    <div>products</div>
+                    <div>Introducing our</div>
+                    <div>product ranges</div>
                     </h1>
                         <Slider
                         {...settings}

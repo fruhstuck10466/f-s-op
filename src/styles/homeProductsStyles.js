@@ -21,8 +21,10 @@ export const HomeProdWrapInner = styled.div`
     width: 100%;
     height: 100%;
     display: flex;
+    //flex-direction: row;
     @media (max-width: ${breakpoints.s}px){
-        display: block;
+       //display: block;
+        flex-direction: column-reverse;
     } 
 `
 export const HomeProdImage = styled.div` 

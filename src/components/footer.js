@@ -49,7 +49,7 @@ const Footer = () => {
               </a>
               </p>
             </FooterDetailsOne>
-            <FooterDetailsOne id="footer-div">
+            <FooterDetailsOne>
               <p>Support</p>
               <p><Link to="/contact">Contact Us</Link></p>
               <p>

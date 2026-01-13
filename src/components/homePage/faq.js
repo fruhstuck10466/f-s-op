@@ -12,8 +12,8 @@ import { Container } from '../../styles/globalStyles';
 const faqList = [
     {
         id: 0,
-        title: "Do you offer deliveries outside Nairobi?",
-        item: "Yes, We facilitate deliveries outside Nairobi through courier services. Please note that these services are at the customer's expense."
+        title: "Do you offer deliveries ?",
+        item: "Yes, We facilitate free fast deliveries within Nairobi, but outside Nairobi/Kenya - through courier services, deliveries are at the customer's expense."
     },
     {
         id: 1,

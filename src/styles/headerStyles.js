@@ -1,10 +1,33 @@
 import { motion } from "framer-motion";
 import styled from "styled-components";
-import {colorPalette, breakpoints} from "./globalStyles"
+import { colorPalette, breakpoints } from "./globalStyles"
+
+export const TopBanner = styled.div`
+  height: 32px;
+  width: 100%;
+  background: ${colorPalette.red};
+  color: #fff;
+  font-size: 13px;
+
+  @media (max-width: ${breakpoints.m}px) {
+    height: 28px;
+    font-size: 12px;
+  }
+`;
+
+export const TopBannerInner = styled.div`
+  height: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+`;
 
 export const HeaderWrap = styled.div`
     position: fixed;
-    height: 95px;
+    height: 85px;
     width: 100%;
     top: 0;
     right: 0;
@@ -27,6 +50,8 @@ export const HeaderItems = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: white;
+    border-bottom: 0.2px solid black;
 `
 
 export const Logo = styled.div`
@@ -41,12 +66,18 @@ export const Logo = styled.div`
 
 export const LogoImg = styled.div`
     margin-right: 20px;
+    @media (max-width: ${breakpoints.s}px){
+        margin-right: 10px;
+    }
     a {
         display: flex;
         align-items: center;
     img {
         width: 100px;
         height: 100%;
+        @media (max-width: ${breakpoints.s}px){
+        width: 80px;
+    }
     }
     p {
         text-transform: uppercase;
@@ -85,15 +116,18 @@ export const LogoText = styled.div`
 export const LogoLink = styled.div`
     position: relative; 
     margin-left: 12px;
+    @media (max-width: ${breakpoints.m}px) {
+        margin-left: 8px;
+        }
+    @media (max-width: ${breakpoints.s}px) {
+        margin-left: 4px;
+        img {
+            width: 100%;
+            height: 30px;
+        }
+    }
 `
-// export const JumiaLink = styled.div`
-//     position: relative; 
-//     margin-left: 6px;
-//     img {
-//         width: 40px;
-//         height: 100%;
-//     }
-// `
+
 export const HamburgerMenu = styled(motion.div)`
     cursor: pointer;
     width: 100px;
@@ -104,7 +138,7 @@ export const HamburgerMenu = styled(motion.div)`
     flex-direction: column;
     span {
         height: 2px;
-        width: 50px;
+        width: 40px;
         background: ${colorPalette.text};
         margin-bottom: 5px;
         &:last-child{
