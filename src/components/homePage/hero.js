@@ -80,11 +80,11 @@ const Hero = () => {
                         ease: [0.165, 0.84, 0.44, 1],
                     }}
                 >
-                    As a leading manufacturer and supplier of high-quality chemicals we offer a comprehensive range 
-                    of chemicals used as disinfectants,
-                    antiseptics, cosmetics, cleaning solutions, and laboratory applications.
+                    As a leading manufacturer and supplier of high-quality chemical products we offer a comprehensive range 
+                   used as disinfectants,
+                    antiseptics, cosmetics, sanitisers, cleaning solutions, and laboratory applications.
                     All products are manufactured, bottled, and packaged at our facility in
-                    Nairobi, Kenya; we belive in quality, honesty and customer service.
+                    Nairobi, Kenya; We believe in Quality, Honesty and Customer service.
                 </motion.p>
 
             </HeroContent>

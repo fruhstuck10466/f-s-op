@@ -81,7 +81,7 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 10vw;
+      font-size: 8vw;
   }    
 }
 h2 {
@@ -97,7 +97,7 @@ h3 {
   line-height: 1.25;
   margin-top: 0;
   @media (max-width: ${breakpoints.m}px){
-       font-size: 12px;
+       font-size: 14px;
    }
   //  @media (max-width: ${breakpoints.s}px){
   //      font-size: 14px;

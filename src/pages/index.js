@@ -59,8 +59,9 @@ const IndexPage = props => {
       keywords="Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Best hygiene and cleaning solutions in Kenya, Leading antiseptic manufacturer in Kenya" 
       />
       <Hero />
+       <Faq />
       <HomeProducts />   
-      <Faq />
+     
       <Reviews />
       <HomeAbout /> 
       <HomeSteps />  

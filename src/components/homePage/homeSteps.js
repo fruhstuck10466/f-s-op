@@ -85,7 +85,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. <b>NB: MoQ = 1 Carton</b></h3>
+                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. <b>NB: Factory MoQ = 1 Carton, we do not sell single pieces from the factory however you can contact us to recommend a distributor near you</b></h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
