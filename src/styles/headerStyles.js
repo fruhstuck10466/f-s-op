@@ -17,12 +17,16 @@ export const TopBanner = styled.div`
 
 export const TopBannerInner = styled.div`
   height: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  //max-width: 1200px;
+//   margin: 0 auto;
+//   margin-left: 16px;
   padding: 0 16px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  //justify-content: space-between;
+  span {
+  margin-left: 16px;
+  }
 `;
 
 export const HeaderWrap = styled.div`

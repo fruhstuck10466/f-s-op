@@ -6,7 +6,7 @@ export const HeroWrap = styled.div`
 
     width: 100%;
     position: relative;
-    background: ${colorPalette.background};
+    background: ${colorPalette.green};
     padding-top: 130px; /* equal to header height */
 
   @media (max-width: ${breakpoints.m}px) {
@@ -33,43 +33,72 @@ export const HeroWrap = styled.div`
     // } 
 `
 
-export const HeroImageWrap = styled(motion.div)`
- width: 100%;
-  aspect-ratio: 16 / 7;
-  max-height: 400px;
-  overflow: hidden;
+export const HeroInner = styled.div`
+  //max-width: 1400px;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: flex;
+  align-items: stretch;
 
-  img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+  // @media (max-width: ${breakpoints.m}px) {
+  //   padding: 60px 0;
+  // }
+
+  @media (max-width: ${breakpoints.m}px) {
+    flex-direction: column;
+    padding: 60px 0;
   }
-
-//   @media (max-width: ${breakpoints.s}px) {
-//     aspect-ratio: 16 / 7;
-//   }
 `;
 
-export const HeroContent = styled.div`
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 80px 24px 100px;
-  text-align: center;
+export const HeroText = styled.div`
+  width: 65%;
+  color: ${colorPalette.background};
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 40px;
 
-  h1 span {
-    display: block;
+  h1 {
+   color: ${colorPalette.background};
+    line-height: 1.1;
+    margin-bottom: 24px;
+
+    span {
+      display: block;
+    }
   }
 
-  p {
-    //font-size: 18px;
-    line-height: 1.6;
+  // h3 {
+  //   max-width: 520px;
+  //   font-size: 18px;
+  //   line-height: 1.6;
+  // }
+
+  @media (max-width: ${breakpoints.m}px) {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 40px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+`;
+
+export const HeroVisual = styled.div`
+  width: 35%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  img {
+    max-width: 100%;
+    height: auto;
   }
 
   @media (max-width: ${breakpoints.m}px) {
-    padding: 60px 20px 80px;
-    // p {
-    //   font-size: 16px;
-    // }
+    width: 100%;
+    justify-content: center;
   }
 `;
 

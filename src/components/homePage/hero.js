@@ -1,46 +1,46 @@
 import React from 'react';
-import { Link } from "gatsby";
+//import { Link } from "gatsby";
 
 //styles
 import { Container } from '../../styles/globalStyles';
-import { HeroWrap, HeroImageWrap, HeroContent, ContactMeta, ArrowMeta } from '../../styles/heroStyles';
+import { HeroWrap, HeroInner, HeroText, HeroVisual, ArrowMeta } from '../../styles/heroStyles';
 
 //image
 //import Img from "gatsby-image";
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/lgi4.jpg"
-import ArrowRight from "../../assets/svg/arrow-right-black.svg";
+import Chem from "../../assets/images/product-group.png"
+//import ArrowRight from "../../assets/svg/arrow-right.svg";
 
 //framer
 import { motion } from 'framer-motion';
 
-// const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };
+const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };
 
 
-// const headParentAnime = {
-//     hidden: { opacity: 0 },
-//     show: {
-//         opacity: 1,
-//         transition: { staggerChildren: 0.1, delayChildren: 0.8 }
-//     }
-// };
+const headParentAnime = {
+    hidden: { opacity: 0 },
+    show: {
+        opacity: 1,
+        transition: { staggerChildren: 0.1, delayChildren: 0.8 }
+    }
+};
 
-// //child single animation
-// const headSingleAnime = {
-//     hidden: {
-//         opacity: 0,
-//         y: 75,
-//         skewY: 7,
-//     },
-//     show: {
-//         opacity: 1,
-//         y: 0,
-//         skewY: 0,
+//child single animation
+const headSingleAnime = {
+    hidden: {
+        opacity: 0,
+        y: 75,
+        skewY: 7,
+    },
+    show: {
+        opacity: 1,
+        y: 0,
+        skewY: 0,
 
-//     },
-// }
+    },
+}
 
 
 
@@ -50,44 +50,63 @@ const Hero = () => {
 
         <HeroWrap>
 <Container>
-            {/* IMAGE STRIP */}
-            <HeroImageWrap
-                initial={{ opacity: 0, y: 60 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 1, ease: [0.165, 0.84, 0.44, 1] }}
-            >
-                <img src={Chem} alt="Chemical manufacturing and applications" />
-            </HeroImageWrap>
-
-            {/* TEXT CONTENT */}
-            <HeroContent>
-                {/* <motion.h1
+           <HeroInner>
+    {/* LEFT: TEXT */}
+    <HeroText>
+        <motion.h1
                     variants={headParentAnime}
                     initial="hidden"
-                    animate="show"
-                >
-                    <motion.span variants={headSingleAnime}>Contributing</motion.span>
-                    <motion.span variants={headSingleAnime}>to the Quality</motion.span>
-                    <motion.span variants={headSingleAnime}>of Life</motion.span>
-                </motion.h1> */}
+                    animate="show"                
+                    >
+                        <motion.div                   
+                        variants={headSingleAnime}
+                        transition={transition}
+                        > Manufacturing Chemical</motion.div> 
 
-                <motion.p
-                    initial={{ opacity: 0, y: 40 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{
-                        delay: 0.8,
-                        duration: 0.8,
-                        ease: [0.165, 0.84, 0.44, 1],
-                    }}
-                >
-                    As a leading manufacturer and supplier of high-quality chemical products we offer a comprehensive range 
-                   used as disinfectants,
-                    antiseptics, cosmetics, sanitisers, cleaning solutions, and laboratory applications.
-                    All products are manufactured, bottled, and packaged at our facility in
-                    Nairobi, Kenya; We believe in Quality, Honesty and Customer service.
-                </motion.p>
+                     <motion.div
+                        variants={headSingleAnime}
+                        transition={transition}
+                        >Solutions for Essential</motion.div> 
 
-            </HeroContent>
+                        <motion.div
+                        variants={headSingleAnime}
+                        transition={transition}
+                        > Industries</motion.div> 
+
+                    </motion.h1>
+      {/* <motion.h1
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8, ease: [0.165, 0.84, 0.44, 1] }}
+      >
+        Manufacturing Chemical Solutions
+        <span>for Essential Industries</span>
+      </motion.h1> */}
+
+      <motion.h3
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.4, duration: 0.8 }}
+      >
+        We manufacture finished chemical products serving hospitals,
+        agrovets, laboratories, pharmacies, cleaning services, and
+        industrial users. All products are formulated, bottled, and
+        packaged at our Nairobi facility to ensure consistent quality
+        and reliable supply.
+      </motion.h3>
+    </HeroText>
+
+    {/* RIGHT: IMAGE */}
+    <HeroVisual>
+      <motion.img
+        src={Chem}
+        alt="Chemical product range"
+        initial={{ opacity: 0, y: 40 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.6, duration: 0.8 }}
+      />
+    </HeroVisual>
+           
             {/* <HeroWrapInner>
                 <HeroText>  
                     <motion.h1
@@ -137,7 +156,7 @@ const Hero = () => {
                 </HeroImage>                
                 </HeroWrapInner> */}
 
-            <ContactMeta
+            {/* <ContactMeta
                 initial={{ opacity: 0, y: 75 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
@@ -147,7 +166,7 @@ const Hero = () => {
                 }}
             >
                 <p> <Link to="/about" >Our Values<span><img src={ArrowRight} alt="" /></span></Link></p>
-            </ContactMeta>
+            </ContactMeta> */}
             <ArrowMeta
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -157,7 +176,7 @@ const Hero = () => {
                     ease: [0.165, 0.84, 0.44, 1],
                 }}
             >
-                <Link to="/#prod-div" >
+                {/* <Link to="/#prod-div" > */}
                     <motion.div
 
                         animate={{ rotate: -20 }}
@@ -172,11 +191,20 @@ const Hero = () => {
                             width: "100%",
                             marginLeft: "10px",
                         }}>
-                        <h6>View Product Ranges</h6>
+                        <h6>
+                            <a
+                aria-label="Whatsapp Catalogue"
+                href="https://wa.me/c/254111203302"
+                alt="Whatsapp Catalogue Link"
+              >
+                Tap to view<br/>Whatsapp<br/>Catalogue
+              </a>
+                           </h6>
                     </motion.div>
-                </Link>
+                {/* </Link> */}
 
             </ArrowMeta>
+</HeroInner>
 </Container>
         </HeroWrap>
 
