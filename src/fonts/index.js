@@ -1,6 +1,6 @@
-import Archia from "./font/archia-regular-webfont.ttf";
+import PP from "./font/PPMonumentWide-Regular.otf";
 import Newsreader from "./font/Newsreader_60pt-Medium.ttf";
 import Mulish from "./font/Mulish-Regular.ttf";
 
 
-export { Archia, Newsreader, Mulish };
+export { PP, Newsreader, Mulish };

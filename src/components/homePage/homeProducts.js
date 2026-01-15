@@ -45,7 +45,7 @@ const headSingleAnime = {
 const HomeProducts = () => {
 const data = useStaticQuery(graphql`
     query {
-      detergentCategoryImage: file(relativePath: { eq: "detergents.jpg" }) {
+      detergentCategoryImage: file(relativePath: { eq: "Hospitals-&-Clinical-Care.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -53,7 +53,7 @@ const data = useStaticQuery(graphql`
         }
       }
       disinfectantCategoryImage: file(
-        relativePath: { eq: "disinfectants.jpg" }
+        relativePath: { eq: "Healthcare-&-Institutional-Disinfection.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 600) {
@@ -61,35 +61,35 @@ const data = useStaticQuery(graphql`
           }
         }
       }
-      antisepticCategoryImage: file(relativePath: { eq: "antiseptic-c.jpg" }) {
+      antisepticCategoryImage: file(relativePath: { eq: "Pharmaceutical-&-Personal-Care.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      cosmeticsCategoryImage: file(relativePath: { eq: "cosmetics-cc.jpg" }) {
+      cosmeticsCategoryImage: file(relativePath: { eq: "Pharmaceutical-&-Laboratory-Applications.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      sanitizerCategoryImage: file(relativePath: { eq: "sanitisers-c.jpg" }) {
+      sanitizerCategoryImage: file(relativePath: { eq: "Cosmetic-&-Dermatological-Care.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      reagentsCategoryImage: file(relativePath: { eq: "reagents.jpg" }) {
+      reagentsCategoryImage: file(relativePath: { eq: "Medical-&-Clinical-Use.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
       }
-      othersCategoryImage: file(relativePath: { eq: "other.jpg" }) {
+      othersCategoryImage: file(relativePath: { eq: "Hospitals-&-Infection-Control.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
@@ -184,52 +184,52 @@ const data = useStaticQuery(graphql`
                         className="bop"
                         >
                         <SliderInner>
-                  <p>1/7 | Disinfectants</p>
+                  <p>1/7 | Healthcare & Institutional Disinfection</p>
                   <Img
                     fluid={data.disinfectantCategoryImage.childImageSharp.fluid}
-                    alt="Disinfectants"
+                    alt="Healthcare-&-Institutional-Disinfection"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>2/7 | Detergents</p>
+                  <p>2/7 | Hospitals & Clinical Care</p>
                   <Img
                     fluid={data.detergentCategoryImage.childImageSharp.fluid}
                     alt="Detergents"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>3/7 | Antiseptics</p>
+                  <p>3/7 | Pharmaceutical & Personal Care</p>
                   <Img
                     fluid={data.antisepticCategoryImage.childImageSharp.fluid}
-                    alt="Antiseptics"
+                    alt="Pharmaceutical-&-Personal-Care"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>4/7 | Cosmetics</p>
+                  <p>4/7 | Pharmaceutical & Laboratory Applications</p>
                   <Img
                     fluid={data.cosmeticsCategoryImage.childImageSharp.fluid}
-                    alt="Cosmetics"
+                    alt="Pharmaceutical-&-Laboratory-Applications"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>5/7 | Sanitizers</p>
+                  <p>5/7 | Cosmetic & Dermatological Care</p>
                   <Img
                     fluid={data.sanitizerCategoryImage.childImageSharp.fluid}
-                    alt="Sanitising solutions"
+                    alt="Cosmetic-&-Dermatological-Care"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>6/7 | Reagents</p>
+                  <p>6/7 | Medical & Clinical Use</p>
                   <Img
                     fluid={data.reagentsCategoryImage.childImageSharp.fluid}
-                    alt="reagents solutions"
+                    alt="Medical-&-Clinical-Use"
                   />
                 </SliderInner>
                 <SliderInner>
-                  <p>7/7 | More</p>
+                  <p>7/7 | Hospitals & Infection Control</p>
                   <Img
                     fluid={data.othersCategoryImage.childImageSharp.fluid}
-                    alt="other solutions"
+                    alt="Hospitals-&-Infection-Control"
                   />
                 </SliderInner>
                         </Slider>

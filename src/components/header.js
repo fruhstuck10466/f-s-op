@@ -19,8 +19,8 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
         <HeaderWrap>
             <TopBanner>
                 <TopBannerInner>
-                    <span>📞 +254 790 753 945</span>
-                    <span>📧 faholochemicals@gmail.com</span>
+                    <span>P: +254 790 753 945</span>
+                    <span>E: faholochemicals@gmail.com</span>
                 </TopBannerInner>
             </TopBanner>
             <HeaderItems>
@@ -36,21 +36,14 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                         <Link to="/products">Our Products</Link>
                         <Link to="/about">About us</Link>
                         <Link to="/contact">Contact us</Link>
-                        {/* <Link to="/stockists">Stockists</Link>   
-                             */}
-                        {/* <Link to="/"><span className="disabled">Insights</span><span className="label">Soon</span></Link>
-                            <Link to="/"><span className="disabled">Careers</span><span className="label">Soon</span></Link>                                                        */}
+                                            
                     </LogoText>
                     <LogoLink>
                         <a aria-label="Chat on WhatsApp" href="https://wa.me/254111203302?text=Hello%20Faholo%20Chemicals%Ltd.%20👋%0AI’m%20contacting%20you%20from%20your%20website%20and%20would%20like%20assistance%20with%20your%20products,%20pricing,%20or%20placing%20an%20order.">
                             <img alt="Chat on WhatsApp" src={WameIcon} />
                         </a>
                     </LogoLink>
-                    {/* <JumiaLink>
-                            <a aria-label="Order on Jumia" href="https://www.jumia.co.ke/catalog/?q=faholo"> 
-                            <img alt="Order on Jumia" src={JumiaIcon} />
-                            </a>
-                        </JumiaLink>                        */}
+            
                 </Logo>
                 <HamburgerMenu onHoverStart={() => setHovered(!hovered)}
                     onHoverEnd={() => setHovered(!hovered)} onClick={() => setToggleMenu(!toggleMenu)}>

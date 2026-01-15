@@ -21,17 +21,17 @@ import { AnimatePresence, motion } from "framer-motion";
 const GlobalStyle = createGlobalStyle`
 ${normalize}
 @font-face {
-  font-family: "Archia";
+  font-family: "PP";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.Archia}") format("truetype");
+  src: url("${font.PP}") format("opentype");
   font-display: swap;
 }
 @font-face {
-  font-family: "Newsreader";
+  font-family: "PP";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.Newsreader}") format("truetype");
+  src: url("${font.PP}") format("truetype");
   font-display: swap;
 }
   @font-face {
@@ -69,19 +69,16 @@ h3
   font-weight: normal;
 }
 h1 {
-  font-family: "Newsreader";
-  letter-spacing: -2.5px;
+  font-family: "PP";
+  letter-spacing: -1px;
   color: ${colorPalette.text};
   line-height: 1.25;
-  font-size: 4vw;
-  @media (max-width: ${breakpoints.xl}px){
-      font-size: 3.3vw;
-  }
+  font-size: 2.5vw;
   @media (max-width: ${breakpoints.m}px){
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 8vw;
+      font-size: 5vw;
   }    
 }
 h2 {
@@ -99,9 +96,6 @@ h3 {
   @media (max-width: ${breakpoints.m}px){
        font-size: 14px;
    }
-  //  @media (max-width: ${breakpoints.s}px){
-  //      font-size: 14px;
-  //  }
 }
 h4 {
   font-size: 1.2vw;
@@ -121,7 +115,10 @@ h4 {
 }
   h6 {
   font-size: 12px;
-  color: ${colorPalette.background};
+  a {
+   color: ${colorPalette.background};
+  }
+ 
 }
 p {
   font-size: 18px;

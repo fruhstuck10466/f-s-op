@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Archia";
+  font-family: "PP";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/archia-regular-webfont.ttf") format("truetype");
+  src: url("./font/PPMonumentWide-Regular.otf") format("opentype");
   font-display: swap;
 }
 

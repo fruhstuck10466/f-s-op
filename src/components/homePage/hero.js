@@ -106,67 +106,6 @@ const Hero = () => {
         transition={{ delay: 0.6, duration: 0.8 }}
       />
     </HeroVisual>
-           
-            {/* <HeroWrapInner>
-                <HeroText>  
-                    <motion.h1
-                    variants={headParentAnime}
-                    initial="hidden"
-                    animate="show"                
-                    >
-                        <motion.div                   
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >Contributing</motion.div> 
-
-                     <motion.div
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >to the quality</motion.div> 
-
-                        <motion.div
-                        variants={headSingleAnime}
-                        transition={transition}
-                        >of life</motion.div> 
-
-                    </motion.h1>
-                    <motion.h3
-                    initial={{opacity: 0, y: 75, skewY: 7}}
-                    animate={{opacity: 1, y: 0, skewY: 0}}
-                    transition={{
-                        delay: 1,
-                        duration: 1,
-                        ease: [0.165, 0.84, 0.44, 1],
-                    }}
-                    >We are a Kenyan operated manufacturing and distributing company based in Nairobi, with a strong focus on high-quality external pharmaceutical products and cleaning solutions.</motion.h3>
-                </HeroText>
-                <HeroImage>
-                    <HeroImageInner
-                    initial={{opacity: 0, y: 75}}
-                    animate={{opacity: 1, y: 0}}
-                    transition={{
-                        delay: 1,
-                        duration: 1,
-                        ease: [0.165, 0.84, 0.44, 1],
-                    }}
-                    >           
-                        <img
-                        src={Chem} alt="hero collage"/>
-                    </HeroImageInner>                    
-                </HeroImage>                
-                </HeroWrapInner> */}
-
-            {/* <ContactMeta
-                initial={{ opacity: 0, y: 75 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{
-                    delay: 1,
-                    duration: 1,
-                    ease: [0.165, 0.84, 0.44, 1],
-                }}
-            >
-                <p> <Link to="/about" >Our Values<span><img src={ArrowRight} alt="" /></span></Link></p>
-            </ContactMeta> */}
             <ArrowMeta
                 initial={{ scale: 0 }}
                 animate={{ scale: 1 }}
@@ -190,6 +129,7 @@ const Hero = () => {
                             height: "100%",
                             width: "100%",
                             marginLeft: "10px",
+                        
                         }}>
                         <h6>
                             <a

@@ -5,25 +5,20 @@ import { colorPalette, breakpoints } from "./globalStyles"
 export const TopBanner = styled.div`
   height: 32px;
   width: 100%;
-  background: ${colorPalette.red};
+  background: ${colorPalette.lightred};
   color: #fff;
-  font-size: 13px;
-
+  font-size: 12px;
   @media (max-width: ${breakpoints.m}px) {
     height: 28px;
-    font-size: 12px;
+    font-size: 10px;
   }
 `;
 
 export const TopBannerInner = styled.div`
   height: 100%;
-  //max-width: 1200px;
-//   margin: 0 auto;
-//   margin-left: 16px;
   padding: 0 16px;
   display: flex;
   align-items: center;
-  //justify-content: space-between;
   span {
   margin-left: 16px;
   }
@@ -54,8 +49,8 @@ export const HeaderItems = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
-    border-bottom: 0.2px solid black;
+    background-color: ${colorPalette.background};
+    //border-bottom: 0.2px solid black;
 `
 
 export const Logo = styled.div`

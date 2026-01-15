@@ -7,44 +7,24 @@ export const HeroWrap = styled.div`
     width: 100%;
     position: relative;
     background: ${colorPalette.green};
-    padding-top: 130px; /* equal to header height */
+    padding-top: 130px;
 
-  @media (max-width: ${breakpoints.m}px) {
-    padding-top: 100px; /* adjust for smaller headers */
-  }
+    @media (max-width: ${breakpoints.m}px) {
+      padding-top: 100px; /* adjust for smaller headers */
+    }
 
-  @media (max-width: ${breakpoints.s}px) {
-    padding-top: 100px;
-  }
-    // position: relative;
-    // height: 100vh;
-    // height: calc(var(--vh, 1vh) * 100);
-    // width: 100%;
-    // @media (max-width: ${breakpoints.xl}px){
-    //     height: 700px;
-    // }
-    // @media (max-width: ${breakpoints.l}px){
-    //     height: 600px;
-    // }
-    // @media (max-width: ${breakpoints.s}px){
-    //     overflow: hidden;
-    //     height: auto;
-    //     margin-bottom: 50px;
-    // } 
+    @media (max-width: ${breakpoints.s}px) {
+      padding-top: 100px;
+    }
 `
 
 export const HeroInner = styled.div`
-  //max-width: 1400px;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 100px 0;
   display: flex;
   align-items: stretch;
 
-  // @media (max-width: ${breakpoints.m}px) {
-  //   padding: 60px 0;
-  // }
-
-  @media (max-width: ${breakpoints.m}px) {
+  @media (max-width: ${breakpoints.l}px) {
     flex-direction: column;
     padding: 60px 0;
   }
@@ -68,14 +48,9 @@ export const HeroText = styled.div`
     }
   }
 
-  // h3 {
-  //   max-width: 520px;
-  //   font-size: 18px;
-  //   line-height: 1.6;
-  // }
 
-  @media (max-width: ${breakpoints.m}px) {
-    width: 100%;
+  @media (max-width: ${breakpoints.l}px) {
+    width: 90%;
     padding-right: 0;
     margin-bottom: 40px;
 
@@ -96,97 +71,13 @@ export const HeroVisual = styled.div`
     height: auto;
   }
 
-  @media (max-width: ${breakpoints.m}px) {
-    width: 100%;
+  @media (max-width: ${breakpoints.l}px) {
+    width: 90%;
     justify-content: center;
   }
 `;
 
 
-// export const HeroWrapInner = styled.div`
-//     position: relative;
-//     width: 100%;
-//     height: 100%;
-//     display: flex;
-//     @media (max-width: ${breakpoints.s}px){
-//         display: block;
-//     } 
-// `
-
-// export const HeroText = styled(motion.div)`
-//     position: relative;
-//     width: 50%;
-//     height: 100%;
-//     display: flex;
-//     padding: 20px 60px 0 100px;
-//     justify-content: center;
-//     flex-direction: column;
-//     h3 {
-//     width: 90%;
-//     @media (max-width: ${breakpoints.s}px){
-//         width: 80%;
-//     }
-//     }
-//     @media (max-width: ${breakpoints.xl}px){
-//         padding-left 80px;
-//     }
-//     @media (max-width: ${breakpoints.m}px){
-//         padding: 20px 30px 0 50px;
-//     }
-//     @media (max-width: ${breakpoints.s}px){
-//         width: 100%;
-//         height: auto;
-//         padding: 30% 40px 0px;    
-//     }
-//     @media (max-width: ${breakpoints.xs}px){
-//         padding-left: 30px;
-//         padding-right: 30px;
-//     }
-// `
-// export const HeroImage = styled.div`
-//     position: relative;
-//     width: 50%;
-//     height: 100%;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     padding-top: 20px;  
-//     @media (max-width: ${breakpoints.s}px){     
-//         width: 100%;
-//         height: 50vh;   
-//         align-items: flex-start;
-//     }
-// `
-// export const HeroImageInner = styled(motion.div)`
-//     position: relative;
-//     display: flex;
-//     align-items: center;
-//     width: 100%;
-//     height: 70%;
-//     overflow: hidden; 
-//     @media (max-width: ${breakpoints.s}px){
-//         width: 100%;
-//         height: 100%; 
-//         justify-content: center;
-//         align-items: center;
-//     }
-//   img {
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%, -50%);
-//     width: 500px; 
-//     height: 500px; 
-//     @media (max-width: ${breakpoints.m}px){
-//         width: 250px; 
-//         height: 250px;
-//     } 
-//     @media (max-width: ${breakpoints.xs}px){
-//         width: 300px; 
-//         height: 300px;
-//     } 
-//     }
-// `
 export const ContactMeta = styled(motion.div)`
     position: absolute;
     bottom: 5%;
