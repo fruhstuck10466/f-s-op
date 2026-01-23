@@ -89,9 +89,9 @@ const Hero = () => {
         transition={{ delay: 0.4, duration: 0.8 }}
       >
         We manufacture finished chemical products serving hospitals,
-        agrovets, laboratories, pharmacies, cleaning services, and
+        clinics, laboratories, pharmacies, healthcare & institutional disinfection, cosmetics & dermatological care and
         industrial users. All products are formulated, bottled, and
-        packaged at our Nairobi facility to ensure consistent quality
+        packaged at our Nairobi, KE facility to ensure consistent quality
         and reliable supply.
       </motion.h3>
     </HeroText>
