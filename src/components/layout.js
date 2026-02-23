@@ -78,7 +78,7 @@ h1 {
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 5vw;
+      font-size: 5.3vw;
   }    
 }
 h2 {
@@ -145,6 +145,7 @@ a {
   text-decoration: none;
   color: ${colorPalette.text};
   transition: ease-in-out 0.2s;
+  font-size: 16px;
   &:hover {
     opacity: 0.5;
   }

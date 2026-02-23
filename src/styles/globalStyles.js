@@ -12,7 +12,7 @@ export const colorPalette = {
     background: "#FFF",
     text: "#000",
     green: "#2C7147",
-    lightgreen: "#80ed99",
+    lightgreen: "#33D26B",
     red: "#FF0000",
     lightred: "#EC3234",
     blue: "#295D91",
@@ -64,7 +64,7 @@ a {
       transform-origin: center;
       border: none;
       outline: none;
-      background: ${colorPalette.green};
+      background: ${colorPalette.text};
       span {
         font-size: 0.8rem;
         text-transform: uppercase;

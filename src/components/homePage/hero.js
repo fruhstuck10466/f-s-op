@@ -1,5 +1,6 @@
 import React from 'react';
-//import { Link } from "gatsby";
+import { Link } from "gatsby";
+import {BtnStyle} from "../../styles/globalStyles"
 
 //styles
 import { Container } from '../../styles/globalStyles';
@@ -94,6 +95,12 @@ const Hero = () => {
         packaged at our Nairobi, KE facility to ensure consistent quality
         and reliable supply.
       </motion.h3>
+      <BtnStyle>
+                          <Link to="/products" >
+                          <button>
+                          <span>Explore Catalogue</span>
+                          </button></Link>
+                          </BtnStyle>
     </HeroText>
 
     {/* RIGHT: IMAGE */}

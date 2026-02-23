@@ -20,7 +20,7 @@ export const HeroWrap = styled.div`
 
 export const HeroInner = styled.div`
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 150px 0;
   display: flex;
   align-items: stretch;
 
@@ -31,7 +31,7 @@ export const HeroInner = styled.div`
 `;
 
 export const HeroText = styled.div`
-  width: 65%;
+  width: 50%;
   color: ${colorPalette.background};
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ export const HeroText = styled.div`
 `;
 
 export const HeroVisual = styled.div`
-  width: 35%;
+  width: 50%;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -136,6 +136,9 @@ export const ArrowMeta = styled(motion.div)`
     display: flex;
     align-items: center;
     justify-content: center;
+    a {
+    font-size: 12px;
+    }
     @media (max-width: ${breakpoints.m}px){
         height: 90px;
         width: 90px;

@@ -33,6 +33,10 @@ const IndexPage = props => {
     windowHeight: defaultHeight,
     windowWidth: defaultWidth,
   })
+  // ✅ Scroll to top when page loads
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   useEffect(() => {
     let vh = dimensions.windowHeight * 0.01
     document.documentElement.style.setProperty("--vh", `${vh}px`)

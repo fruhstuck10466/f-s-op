@@ -18,7 +18,7 @@ import SodiumHypochloriteImage from "/src/assets/images/products/sodium-hypochlo
 import SurgicalSpiritImage from "/src/assets/images/products/surgical-spirit-faholo-chemicals.jpg"
 import MethylatedSpiritImage from "/src/assets/images/products/methylated-spirit-faholo-chemicals.jpg"
 import InstantHandSanitizerImage from "/src/assets/images/products/instant-hand-sanitiser-faholo-chemicals.jpg"
-import MedicinalBoricAcidImage from "/src/assets/images/products/boric-acid-faholo-chemicals.jpg"
+import MedicinalBoricAcidImage from "/src/assets/images/products/boric-acid-new-faholo-chemicals.jpg"
 import HandWashingGel from "/src/assets/images/products/handwashing-gel-faholo-chemicals.jpg"
 import EmulsifyingOintmentImage from "/src/assets/images/products/emulsifying-ointment-faholo-chemicals.jpg"
 import PureGlycerineImage from "/src/assets/images/products/pure-glycerin-faholo-chemicals.jpg"
@@ -27,6 +27,31 @@ import LiquidParaffinImage from "/src/assets/images/products/liquid-paraffin-fah
 import MassageOilImage from "/src/assets/images/products/massage-oil-faholo-chemicals.jpg"
 import AceticAcidImage from "/src/assets/images/products/acetic-acid-faholo-chemicals.jpg"
 import MultipurposeLiquidImage from "/src/assets/images/products/cleaning-detergent-faholo-chemicals.jpg"
+import AqueousCreamImage from "/src/assets/images/products/aqueous-cream-faholo-chemicals.jpg"
+import CitricAcidDisinfectantImage from "/src/assets/images/products/citric-acid-disinfectant-faholo-chemicals.jpg"
+import ZincCastorOintmentImage from "/src/assets/images/products/zinc-and-castor-ointment-faholo-chemicals.jpg"
+import UltrasoundGelImage from "/src/assets/images/products/ultrasound-gel-faholo-chemicals.jpg"
+import SanitisingSprayImage from "/src/assets/images/products/hand-sanitising-spray-faholo-chemicals.jpg"
+import PovidoneIodineSevenPercentImage from "/src/assets/images/products/povidone-iodine-7.5-percent-faholo-chemicals.jpg"
+import NailPolishRemoverImage from "/src/assets/images/products/nail-polish-remover-faholo-chemicals.jpg"
+import ZincOxidePasteImage from "/src/assets/images/products/zinc-oxide-paste-faholo-chemicals.jpg"
+import SodiumHypochloriteTenPercentImage from "/src/assets/images/products/sodium-hypochlorite-10-percent-faholo-chemicals.jpg"
+import FoodWarmingGelImage from "/src/assets/images/products/food-warming-gel-faholo-chemicals.jpg"
+import LaundryDetergentBoosterImage from "/src/assets/images/products/laundry-detergent-booster-faholo-chemicals.jpg"
+import XyleneImage from "/src/assets/images/products/xylene-faholo-chemicals.jpg"
+import WhiteSpiritImage from "/src/assets/images/products/white-spirit-faholo-chemicals.jpg"
+import ZincOxideOintmentImage from "/src/assets/images/products/zinc-oxide-ointment-faholo-chemicals.jpg"
+import SurgicalSpiritNinetyPercentImage from "/src/assets/images/products/surgical-spirit-90-percent-faholo-chemicals.jpg"
+import AcetoneImage from "/src/assets/images/products/acetone-faholo-chemicals.jpg"
+import EusolSolutionImage from "/src/assets/images/products/eusol-solution-faholo-chemicals.jpg"
+import IsopropylAlcoholImage from "/src/assets/images/products/isopropyl-alcohol-faholo-chemicals.jpg"
+import DeionizedWaterImage from "/src/assets/images/products/denatured-ethanol-faholo-chemicals.jpg"
+import DenaturedEthanolImage from "/src/assets/images/products/denatured-ethanol-faholo-chemicals.jpg"
+import MethylatedSpiritForFoodWarmingImage from "/src/assets/images/products/methylated-spirit-90-percent-for-food-warming-faholo-chemicals.jpg"
+import LugolsOfIodineImage from "/src/assets/images/products/lugols-of-iodine-faholo-chemicals.jpg"
+import AbsoluteMethanolImage from "/src/assets/images/products/absolute-methanol-99.9-percent-faholo-chemicals.jpg"
+import EpsomSaltImage from "/src/assets/images/products/epsom-salt-faholo-chemicals.jpg"
+
 
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -331,6 +356,222 @@ const categoriesAndList = [
     items: [
       "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",
       "Pack size includes 5lt, 20lt",
+    ],
+  },
+  {
+    id: 24,
+    title: "Aqueous Cream.",
+    image: AqueousCreamImage,
+    items: [
+      "Moisturising Cream Base – Commonly used to help keep skin soft and hydrated. Skin Care Use – Suitable for daily skin care routines and cleansing purposes. General Personal Care – Used as a simple cream base for external application. External Use Only – Not intended for medical treatment. ",
+      "Pack size includes: 100g, 250g, 500g",
+    ],
+  },
+  {
+    id: 25,
+    title: "Citric Acid Disinfectant.",
+    image: CitricAcidDisinfectantImage,
+    items: [
+      "Acid-Based Cleaning Solution – Used for equipment cleaning and maintenance. • Technical & Institutional Use – Suitable for controlled professional environments. • Non-Consumable Product. ",
+      "Pack size includes: 1lt, 5lt, 10lt",
+    ],
+  },
+  {
+    id: 26,
+    title: "Zinc Castor Ointment.",
+    image: ZincCastorOintmentImage,
+    items: [
+      "Protective Ointment – Used as a barrier and skin-conditioning product. • Skin Care Use – Suitable for external skin care routines. • General Personal Care – Not intended for medical treatment. ",
+      "Pack size includes: 100g, 250g, 500g",
+    ],
+  },
+  {
+    id: 27,
+    title: "Ultrasound Gel.",
+    image: UltrasoundGelImage,
+    items: [
+      "Conductive Gel – Designed to assist transmission between equipment and skin. • Professional & Technical Use – Suitable for use with compatible devices and equipment. • Non-Greasy Formula – Water-based gel for easy application and removal. • External Use Only – Not for ingestion. ",
+      "Pack size includes: 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 28,
+    title: "Sanitising Spray.",
+    image: SanitisingSprayImage,
+    items: [
+      " Surface Hygiene Spray – Designed for cleaning and freshening surfaces. • General Use – Suitable for homes, offices, and shared spaces. • Convenient Spray Format – Easy application on compatible surfaces.",
+      "Pack size includes: 250ml, 500ml, 1lt",
+    ],
+  },
+  {
+    id: 29,
+    title: "Povidone Iodine 7.5% w/v",
+    image: PovidoneIodineSevenPercentImage,
+    items: [
+      "Iodine-Based Cleansing Solution – Suitable for external cleansing purposes. • Professional & Institutional Use – Used in controlled environments. • External Use Only – Not for ingestion.",
+      "Pack size includes: 100ml, 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 30,
+    title: "Nail Polish Remover",
+    image: NailPolishRemoverImage,
+    items: [
+      "Cosmetic Solvent – Used to remove nail polish from nails. • Salon & Personal Use – Suitable for beauty and nail care routines. • Fast Acting Formula – Assists efficient polish removal. • External Use Only.",
+      "Pack size includes: 100ml, 250ml, 500ml, 1lt",
+    ],
+  },
+  {
+    id: 31,
+    title: "Zinc Oxide Paste",
+    image: ZincOxidePasteImage,
+    items: [
+      "Thick Protective Paste – Used for barrier and skin care purposes. • External Application – Suitable for controlled personal care use.",
+      "Pack size includes: 100g, 250g, 500g",
+    ],
+  },
+  {
+    id: 32,
+    title: "Sodium Hypochlorite 10% w/v",
+    image: SodiumHypochloriteTenPercentImage,
+    items: [
+      "Chlorine-Based Solution – Used for surface cleaning and bleaching purposes. • Water & Surface Treatment Use – Suitable for controlled environments. • Industrial & Institutional Use – Not for ingestion.",
+      "Pack size includes: 1lt, 5lt, 20lt",
+    ],
+  },
+  {
+    id: 33,
+    title: "Food Warming Gel",
+    image: FoodWarmingGelImage,
+    items: [
+      "Heat-Generating Gel – Designed to provide steady heat for food warming. • Catering & Hospitality Use – Suitable for buffets and food service setups. • Clean Burning – Produces minimal residue during use.",
+      "Pack size includes: 200g, 500g, 1kg",
+    ],
+  },
+  {
+    id: 34,
+    title: "Laundry Detergent Booster",
+    image: LaundryDetergentBoosterImage,
+    items: [
+      "Washing Performance Enhancer – Designed to improve detergent effectiveness. • Stain & Odour Control – Supports cleaner and fresher laundry results. • Household Laundry Use – Suitable for regular washing routines.",
+      "Pack size includes: 500g, 1kg, 5kg",
+    ],
+  },
+  {
+    id: 35,
+    title: "Xylene",
+    image: XyleneImage,
+    items: [
+      "Industrial Solvent – Used in laboratory, industrial, and technical applications. • Cleaning & Processing Use – Suitable for controlled professional environments. • Non-Ingestible & Professional Use Only.",
+      "Pack size includes: 1lt, 5lt, 20lt",
+    ],
+  },
+  {
+    id: 36,
+    title: "White Spirit (Mineral Turpentine)",
+    image: WhiteSpiritImage,
+    items: [
+      "Solvent & Thinner – Used for thinning oil-based paints and coatings. • Cleaning Applications – Suitable for removing grease and residues. • Industrial & Household Use – For controlled environments only.",
+      "Pack size includes: 1lt, 5lt, 20lt",
+    ],
+  },
+  {
+    id: 37,
+    title: "Zinc Oxide Ointment",
+    image: ZincOxideOintmentImage,
+    items: [
+      "Protective Skin Ointment – Used to form a protective barrier on the skin. • Personal Care Use – Suitable for external skin application. • Non-Medicated Use.",
+      "Pack size includes: 100g, 250g, 500g",
+    ],
+  },
+  {
+    id: 38,
+    title: "Surgical Spirit 90%",
+    image: SurgicalSpiritNinetyPercentImage,
+    items: [
+      "Alcohol-Based Solution – Used for external cleaning applications. • Professional Use – Suitable for controlled environments. • External Use Only – Not for ingestion.",
+      "Pack size includes: 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 39,
+    title: "Acetone",
+    image: AcetoneImage,
+    items: [
+      "Industrial Solvent – Commonly used for cleaning and degreasing applications. • Cosmetic & Technical Use – Suitable for nail care and technical environments. • Fast Evaporating – Leaves minimal residue after use. • Professional Use Recommended.",
+      "Pack size includes: 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 40,
+    title: "Eusol Solution",
+    image: EusolSolutionImage,
+    items: [
+      "External Cleansing Solution – Commonly used for external surface cleansing where chlorine-based solutions are required. • General Hygiene Applications – Suitable for non-cosmetic hygiene and cleaning routines in controlled environments. • Laboratory & Educational Use – Used in instructional, laboratory, and demonstration settings involving disinfecting solutions. • General Disinfection Use – Applied for non-medical disinfection purposes on appropriate surfaces. • Industrial & Institutional Use – Suitable for technical, research, and institutional environments where cleansing solutions are required. • External & Non-Ingestible Use Only – Not intended for internal use or consumption.",
+      "Pack size includes: 100ml, 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 41,
+    title: "Isopropyl Alcohol",
+    image: IsopropylAlcoholImage,
+    items: [
+      "Cleaning Alcohol – Used for surface cleaning and equipment maintenance. • Fast Evaporating – Leaves minimal residue. • Professional & Household Use – Non-consumable.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 42,
+    title: "Deionized Water",
+    image: DeionizedWaterImage,
+    items: [
+      "Purified Water – Free from dissolved ions and minerals. • Laboratory & Technical Use – Suitable for laboratory, industrial, and equipment applications. • General Utility Use – Used where mineral-free water is required. • Non-Consumable Grade – Not intended for drinking.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 43,
+    title: "Denatured Ethanol",
+    image: DenaturedEthanolImage,
+    items: [
+      "Industrial Alcohol – Used for cleaning and technical applications. • Surface Cleaning Use – Suitable for general-purpose cleaning routines. • Professional & Institutional Use – Not for consumption.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 44,
+    title: "Methylated Spirit (For FoodWarming)",
+    image: MethylatedSpiritForFoodWarmingImage,
+    items: [
+      "Fuel Alcohol – Used as a heat source for food warming equipment. • Catering & Hospitality Use – Suitable for chafing dishes and burners. • Non-Consumable Alcohol – Not intended for drinking.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 45,
+    title: "Lugols Of Iodine",
+    image: LugolsOfIodineImage,
+    items: [
+      "Laboratory & Educational Use – Commonly used in scientific laboratories and learning institutions as a reagent, particularly for starch testing and microscopy demonstrations. • External Skin Cleansing Use – Suitable for external surface cleansing where iodine-based solutions are required, when used appropriately. • General Disinfection Applications – Used for non-medical disinfection purposes in controlled environments. • Water Treatment Applications – Applied in non-medical and non-consumable water treatment setups, such as educational or emergency preparedness demonstrations. • Industrial & Technical Use – Suitable for various technical, research, and instructional applications requiring an iodine solution. • External & Non-Ingestible Use Only – Not intended for internal consumption.",
+      "Pack size includes: 30ml, 50ml, 100ml, 250ml, 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 46,
+    title: "Absolute Methanol",
+    image: AbsoluteMethanolImage,
+    items: [
+      "High-Purity Solvent – Used in laboratory and industrial environments. • Technical & Research Use – Suitable for controlled professional applications. • Non-Ingestible & Hazardous Material.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 47,
+    title: "Epsom Salt",
+    image: EpsomSaltImage,
+    items: [
+      "Magnesium Sulphate Crystals – Commonly used for household and personal care purposes. • Bath & Soaking Use – Suitable for relaxation and general wellness routines. • General Purpose Use – External applications only.",
+      "Pack size includes: 500g, 1kg, 5kg",
     ],
   },
 ];
