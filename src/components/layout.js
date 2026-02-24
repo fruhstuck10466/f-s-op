@@ -28,10 +28,10 @@ ${normalize}
   font-display: swap;
 }
 @font-face {
-  font-family: "PP";
+  font-family: "Newsreader";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.PP}") format("truetype");
+  src: url("${font.Newsreader}") format("truetype");
   font-display: swap;
 }
   @font-face {
@@ -70,7 +70,7 @@ h3
 }
 h1 {
   font-family: "PP";
-  letter-spacing: -1px;
+  letter-spacing: -1.5px;
   color: ${colorPalette.text};
   line-height: 1.25;
   font-size: 2.5vw;

@@ -85,7 +85,7 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>1/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. <b>NB: Factory MoQ = 1 Carton, we do not sell single pieces from the factory however you can contact us to recommend a distributor near you</b></h3>
+                            <h3>To place an order, please contact our sales team for a quotation using the details provided on our Contact page. <b>NB: Factory MoQ = 3 Cartons(5 Lt), 1 Carton(Small Pack Size), we do not sell single pieces from the factory however you can contact us to recommend a distributor near you</b></h3>
                         </StepDescriptionInner>
                     </StepDescription>
                     <StepCta>
@@ -100,18 +100,19 @@ const HomeSteps = () => {
                     <StepDescription>
                         <StepNumber><h3>2/3</h3></StepNumber>
                         <StepDescriptionInner>
-                            <h3>For payments via M-Pesa or bank transfer, please refer to the instructions provided below.</h3>                     
+                            <h3>For payments via M-Pesa or bank transfer, please contact us for the Remittance Details.</h3>                     
                         </StepDescriptionInner>        
                     </StepDescription>
                     <StepAcc >
                         <h3>
                             Via <b>M-pesa</b> Paybill : <br/>
-                            &rarr; Business No. - 410 728 7, <br/>
+                            &rarr; Business No. - 41* *** 7, <br/>
                             &rarr; A/C - Your Name OR Business Name <br/> 
                             Via <b>Absa</b> Bank Account :<br/>
                             &rarr; Pay Bill Business No. - 30 30 30<br/>
-                            &rarr; Account No. - 203 232 220 7 <br/>        
+                            &rarr; Account No. - 20* *** *** 7 <br/>        
                         </h3>
+                    
                     </StepAcc>
                 </Step>
                 <Step>
