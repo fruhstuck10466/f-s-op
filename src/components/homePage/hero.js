@@ -141,7 +141,7 @@ const Hero = () => {
                         <h6>
                             <a
                 aria-label="Whatsapp Catalogue"
-                href="https://wa.me/c/254111203302"
+                href="https://wa.me/c/254704071649"
                 alt="Whatsapp Catalogue Link"
               >
                 Tap to view<br/>Whatsapp<br/>Catalogue
