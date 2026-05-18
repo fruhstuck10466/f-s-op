@@ -11,7 +11,7 @@ import { HeroWrap, HeroInner, HeroText, HeroVisual, ArrowMeta } from '../../styl
 
 //svg and images
 //import DnaImage from "../../assets/images/dna.gif"
-import Chem from "../../assets/images/ding.png"
+import Chem from "../../assets/images/nding.png"
 //import ArrowRight from "../../assets/svg/arrow-right.svg";
 
 //framer

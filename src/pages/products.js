@@ -74,7 +74,7 @@ import {
 const categoriesAndList = [
   {
     id: 0,
-    title: "Povidone Iodine 10% w/v.",
+    title: "Povidone Iodine USP 10% w/v.",
     image: PovidoneIodineImage, // Placeholder for product image
     items: [
       "A topical antiseptic used for the prevention and treatment of skin infections on minor wounds, cuts, grazes, abrasions and blisters.",
@@ -124,7 +124,7 @@ const categoriesAndList = [
   },
   {
     id: 4,
-    title: "Glutalbenzal.",
+    title: "Glutalbenzal & Activator.",
     image: GlutalbenzalImage,
     items: [
       "Contains Glutaraldehyde 2.4% w/v, Benzalkonium Chloride 0.5% and used in:",
@@ -150,7 +150,7 @@ const categoriesAndList = [
   },
   {
     id: 6,
-    title: "Benzyl Benzoate 25% Solution(Lotion).",
+    title: "Benzyl Benzoate 25% w/v Solution (Lotion).",
     image: BenzylBenzoateImage,
     items: [
       "A topical medication used to treat infestations of lice and scabies.",
@@ -170,7 +170,7 @@ const categoriesAndList = [
   },
   {
     id: 8,
-    title: "Hydrogen Peroxide 6% & 30%.",
+    title: "Hydrogen Peroxide 6% w/v & 30% w/v.",
     image: HydrogenPeroxideImage,
     items: [
       "A more concentrated solution typically used for:",
@@ -182,7 +182,7 @@ const categoriesAndList = [
   },
   {
     id: 9,
-    title: "Gentian Violet 1% Solution.",
+    title: "Gentian Violet 1% w/v Solution.",
     image: GentianVioletImage,
     items: [
       "A blue-violet dye derived from coal tar and is used as a topical medication for:",
@@ -208,7 +208,7 @@ const categoriesAndList = [
   },
   {
     id: 11,
-    title: "Sodium Hypochlorite 4-6%.",
+    title: "Sodium Hypochlorite 4-6% w/v.",
     image: SodiumHypochloriteImage,
     items: [
       "A common disinfectant and bleaching agent, used for:",
@@ -221,7 +221,7 @@ const categoriesAndList = [
   },
   {
     id: 12,
-    title: "Surgical Spirit 70%.",
+    title: "Surgical Spirit 70% v/v.",
     image: SurgicalSpiritImage,
     items: [
       "Also known as rubbing alcohol or isopropyl alcohol, is a colorless liquid that is commonly used in the healthcare industry for:",
@@ -234,7 +234,7 @@ const categoriesAndList = [
   },
   {
     id: 13,
-    title: "Methylated Spirit 70%.",
+    title: "Methylated Spirit 70% v/v",
     image: MethylatedSpiritImage,
     items: [
       "Also known as denatured alcohol, is a versatile substance with a range of uses:",
@@ -303,7 +303,7 @@ const categoriesAndList = [
   },
   {
     id: 19,
-    title: "Castor Oil.",
+    title: "Castor Oil BP.",
     image: CastorOilImage,
     items: [
       "Laxative - Castor oil is well-known for its laxative properties. It stimulates the intestines, helping to relieve constipation.",
@@ -338,7 +338,7 @@ const categoriesAndList = [
   },
   {
     id: 22,
-    title: "Acetic Acid (Vinegar) 4-6%.",
+    title: "Acetic Acid (Vinegar) 4-6% w/v.",
     image: AceticAcidImage,
     items: [
       "Also known as ethanoic acid, is a clear, colorless liquid with a strong and pungent smell. It is an organic compound and the main component of vinegar. Can be used for: ",
@@ -351,7 +351,7 @@ const categoriesAndList = [
   },
   {
     id: 23,
-    title: "Multipurpose Liquid.",
+    title: "Multipurpose Liquid Detergent.",
     image: MultipurposeLiquidImage,
     items: [
       "Cleaning - Multipurpose liquid soap can be used for light cleaning for wooden tables and other furniture, for mopping the floors, dishwashing, or even clothes. It can also be used as a grill and tap cleaner to cut grease/oil/dirt build up. ",
@@ -486,7 +486,7 @@ const categoriesAndList = [
   },
   {
     id: 38,
-    title: "Surgical Spirit 90%",
+    title: "Surgical Spirit 90% v/v",
     image: SurgicalSpiritNinetyPercentImage,
     items: [
       "Alcohol-Based Solution – Used for external cleaning applications. • Professional Use – Suitable for controlled environments. • External Use Only – Not for ingestion.",
@@ -540,7 +540,7 @@ const categoriesAndList = [
   },
   {
     id: 44,
-    title: "Methylated Spirit (For FoodWarming)",
+    title: "Methylated Spirit 90% v/v (Food Warming)",
     image: MethylatedSpiritForFoodWarmingImage,
     items: [
       "Fuel Alcohol – Used as a heat source for food warming equipment. • Catering & Hospitality Use – Suitable for chafing dishes and burners. • Non-Consumable Alcohol – Not intended for drinking.",
@@ -558,7 +558,7 @@ const categoriesAndList = [
   },
   {
     id: 46,
-    title: "Absolute Methanol",
+    title: "Absolute Methanol 99.9% v/v",
     image: AbsoluteMethanolImage,
     items: [
       "High-Purity Solvent – Used in laboratory and industrial environments. • Technical & Research Use – Suitable for controlled professional applications. • Non-Ingestible & Hazardous Material.",
@@ -639,7 +639,10 @@ const Products = () => {
                         variants={headSingleAnime}
                         transition={transition}
                         >and usage</motion.div>                 
-                    </motion.h1>         
+                    </motion.h1>    
+                    <p>
+                      Manufactured to USP & BP standards. Pack size available in 50, 100, 250, 500 mL, 1lLt, 5Lt, & 20Lt 
+                      </p>     
                 </ProductsInstructions>
                 <ProductsDropdown>
                   {categoriesAndList.map((details, index) => (
