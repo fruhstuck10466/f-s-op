@@ -51,7 +51,7 @@ import MethylatedSpiritForFoodWarmingImage from "/src/assets/images/products/met
 import LugolsOfIodineImage from "/src/assets/images/products/lugols-of-iodine-faholo-chemicals.jpg"
 import AbsoluteMethanolImage from "/src/assets/images/products/absolute-methanol-99.9-percent-faholo-chemicals.jpg"
 import EpsomSaltImage from "/src/assets/images/products/epsom-salt-faholo-chemicals.jpg"
-
+import EnzymaticDetergentImage from "/src/assets/images/products/enzymatic-detergent-faholo-chemicals.jpg"
 
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -574,6 +574,15 @@ const categoriesAndList = [
       "Pack size includes: 500g, 1kg, 5kg",
     ],
   },
+  {
+    id: 48,
+    title: "Enzymatic Detergent",
+    image: EnzymaticDetergentImage,
+    items: [
+      "FAHOLO Enzymatic Detergent is a highly concentrated cleaning solution for cleaning medical instruments and hospital linen, developed to deliver effective removal of organic contaminants and bioburden.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
 ];
 
 const transitionOne = { duration: 0.2, ease: [0.6, 0.05, 0, 0.9] };
@@ -641,7 +650,7 @@ const Products = () => {
                         >and usage</motion.div>                 
                     </motion.h1>    
                     <p>
-                      Manufactured to USP & BP standards. Pack size available in 50, 100, 250, 500 mL, 1lLt, 5Lt, & 20Lt 
+                      Manufactured to USP & BP standards. Pack size available in 50 mL, 100 mL, 250 mL, 500 mL, 1Lt, 5Lt, & 20Lt 
                       </p>     
                 </ProductsInstructions>
                 <ProductsDropdown>
