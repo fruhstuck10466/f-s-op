@@ -81,7 +81,7 @@ const HomeAbout = () => {
                             opacity: 0, y: 72,skewY: 7,
                         }
                     }}
-                    >Renowned for our commitment to quality and innovation, we aim for global competitiveness, ensuring excellence in every product we deliver. Discover more about our journey, and our commitment to excellence.
+                    >Our story began with a conviction: good health shouldn't hinge on your postcode or your paycheck. From our roots in Kenya, we've grown by working shoulder to shoulder with counties, the East African Health Community, and the health workers who keep clinics and homes safe every day. Learn more about who we are and where we're headed.
                     </motion.h3>
                     <BtnStyle>
                     <Link to="/about" >

@@ -166,7 +166,7 @@ const data = useStaticQuery(graphql`
                     }}
     
                     >
-                    We take pride in carefully crafting our range of products to ensure an exceptional experience for our customers. Committed to accessible health systems, we actively partner with healthcare distribution networks across Kenya, driven by our mission to enhance hygiene standards and support healthier lives.                    </motion.h3>
+                    Every item we make is crafted with care and held to the standards that actually matter whether it ends up in a family kitchen, a hospital ward, or a busy professional setting. Need disinfection, sanitising, or something gentle for the skin? You'll find solutions built to protect the people who depend on you. Browse the full catalogue and find what fits. </motion.h3>
                     <BtnStyle>
                     <Link to="/products" >
                     <button>
@@ -184,7 +184,7 @@ const data = useStaticQuery(graphql`
                         className="bop"
                         >
                         <SliderInner>
-                  <p>1/7 | Healthcare & Institutional Disinfection</p>
+                  <p>1/7 | Healthcare & Professional Disinfection</p>
                   <Img
                     fluid={data.disinfectantCategoryImage.childImageSharp.fluid}
                     alt="Healthcare-&-Institutional-Disinfection"

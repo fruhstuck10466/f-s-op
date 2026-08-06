@@ -62,17 +62,17 @@ const Hero = () => {
                         <motion.div                   
                         variants={headSingleAnime}
                         transition={transition}
-                        > Manufacturing Chemical</motion.div> 
+                        > Manufacturing Hygiene &</motion.div> 
 
                      <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        >Solutions for Essential</motion.div> 
+                        >Decontamination Solutions for</motion.div> 
 
                         <motion.div
                         variants={headSingleAnime}
                         transition={transition}
-                        > Industries</motion.div> 
+                        >Essential Industries</motion.div> 
 
                     </motion.h1>
       {/* <motion.h1
@@ -90,7 +90,7 @@ const Hero = () => {
         transition={{ delay: 0.4, duration: 0.8 }}
       >
         We manufacture finished chemical products serving hospitals,
-        clinics, laboratories, pharmacies, healthcare & institutional disinfection, cosmetics & dermatological care and
+        clinics, laboratories, pharmacies, healthcare & professional disinfection, cosmetics & dermatological care and
         industrial users. All products are formulated, bottled, and
         packaged at our Nairobi, KE facility to ensure consistent quality
         and reliable supply.

@@ -21,17 +21,10 @@ import { AnimatePresence, motion } from "framer-motion";
 const GlobalStyle = createGlobalStyle`
 ${normalize}
 @font-face {
-  font-family: "PP";
+  font-family: "Figtree";
   font-weight: normal;
   font-style: normal;
-  src: url("${font.PP}") format("opentype");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Newsreader";
-  font-weight: normal;
-  font-style: normal;
-  src: url("${font.Newsreader}") format("truetype");
+  src: url("${font.Figtree}") format("truetype");
   font-display: swap;
 }
   @font-face {
@@ -53,7 +46,7 @@ body {
 body {
   height: 100%;
   font-size: 18px;
-  font-family: 'Mulish', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-weight: normal;
   background: ${colorPalette.background};
   -webkit-font-smoothing: antialiased;
@@ -69,16 +62,16 @@ h3
   font-weight: normal;
 }
 h1 {
-  font-family: "PP";
-  letter-spacing: -1.5px;
+  font-family: "Figtree";
+  // letter-spacing: -1px;
   color: ${colorPalette.text};
   line-height: 1.25;
-  font-size: 2.5vw;
+  font-size: 3vw;
   @media (max-width: ${breakpoints.m}px){
       font-size: 4vw;
   }
   @media (max-width: ${breakpoints.s}px){
-      font-size: 5.3vw;
+      font-size: 5.8vw;
   }    
 }
 h2 {

@@ -7,10 +7,10 @@
 }
 
 @font-face {
-  font-family: "Newsreader";
+  font-family: "Figtree";
   font-weight: normal;
   font-style: normal;
-  src: url("./font/Newsreader_60pt-Medium.ttf") format("truetype");
+  src: url("./font/Figtree-VariableFont_wght.ttf") format("truetype");
   font-display: swap;
 }
 
