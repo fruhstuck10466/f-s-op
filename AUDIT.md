@@ -46,7 +46,7 @@ Everything is static — no CMS, no server data, single environment variable (`G
 `src/components/homePage/homeProducts.js:2,46-100,188-234` uses the deprecated `gatsby-image` package with `childImageSharp.fluid` GraphQL fields. Gatsby has recommended `gatsby-plugin-image` (`GatsbyImage`/`getImage`, `gatsbyImageData`) since Gatsby 3; `gatsby-image` still runs on Gatsby 5 but receives no updates and isn't how any current Gatsby doc or starter does it.
 *Impact: Medium (only affects 7 homepage images) · Effort: Medium (swap dependency, rewrite one query + one component).*
 
-**2.2 — `SEO.defaultProps` on a function component**
+**2.2 — `SEO.defaultProps` on a function component** — ✅ **Done** (`seo.js` now uses default parameter values on the destructured props instead; `defaultProps` block removed)
 `src/components/seo.js:93-98` sets `defaultProps` on a function component. React deprecated this pattern for function components (warns as of 18.3, unsupported in React 19) in favor of default parameter values. Not urgent on React 18.2, but it'll block a clean upgrade later.
 *Impact: Low today, blocks future React upgrade · Effort: Low (default params on the destructured props).*
 
@@ -58,7 +58,7 @@ Everything is static — no CMS, no server data, single environment variable (`G
 Near-identical `headParentAnime` / `headSingleAnime` / `transition` objects are redefined inline in `products.js`, `about.js`, `contact.js`, `stockists.js`, `faq.js`, `homeProducts.js`, `homeSteps.js`, `hero.js` (8 copies of essentially the same three objects). Pulling them into one shared module (e.g. `src/styles/motionVariants.js`) keeps the exact same `hidden`/`show` pattern the codebase already uses — this is a move, not a redesign.
 *Impact: Low (maintainability only) · Effort: Low.*
 
-**2.5 — `key={index}` instead of the stable id already on hand**
+**2.5 — `key={index}` instead of the stable id already on hand** — ✅ **Done** (`products.js`'s `categoriesAndList.map` and `faq.js`'s `faqList.map` now key by `details.id`; `reviews.js` and `products.js`'s inner `details.items.map` correctly left on index since neither has a stable id)
 `products.js:659` (`categoriesAndList.map`) and `faq.js:158` (`faqList.map`) key by array index even though each item already has a unique `id` field. Reviews (`reviews.js:20`) has no id at all so index is reasonable there. Since these arrays are static and never reorder, there's no live bug — it's just inconsistent with the id fields that already exist.
 *Impact: Low (no correctness issue today) · Effort: Trivial.*
 
@@ -119,7 +119,7 @@ FAQ answers (`faq.js:195`) and every product's usage bullet points (`products.js
 `gatsby-config.js`'s plugin list has no `gatsby-plugin-sitemap` or `gatsby-plugin-robots-txt`. For a marketing/catalogue site whose only distribution channel is organic search, a sitemap is close to table-stakes.
 *Impact: Medium–High for SEO · Effort: Low — both are drop-in config-only plugins, no content changes required.*
 
-**4.6 — No LocalBusiness structured data**
+**4.6 — No LocalBusiness structured data** — ✅ **Done** (added a `LocalBusiness` JSON-LD block to `index.js` via the existing `jsonLd` prop on `Seo` — name, address, geo, opening hours, phone/email, `sameAs` socials, logo/image; values sourced from `contact.js`/`footer.js`/`gatsby-config.js` and confirmed before implementation)
 The site already has everything a `LocalBusiness`/`Organization` JSON-LD block needs — address, phone numbers, socials, map (`contact.js`, `footer.js`) — but none is emitted. This is a well-understood, high-value local-SEO lever (map-pack ranking, rich results) that's currently left on the table.
 *Impact: Medium–High for local SEO · Effort: Medium — one JSON-LD `<script>` block (in `seo.js` or `layout.js`) built from data that already exists in the codebase; not a content or design change.*
 
@@ -147,7 +147,7 @@ Never imported anywhere (`layout.js` declares its own `@font-face` rules via `cr
 `product-group.png` (1.5MB), `oll.jpg` (280KB), `hcc.jpg` (2.6MB) — not imported anywhere in `src/`.
 *Effort: trivial.*
 
-**5.4 — Commented-out dead code left in place**
+**5.4 — Commented-out dead code left in place** — ✅ **Done** (all four deleted)
 - `homeAbout.js:2,16-26,97-109` — a full commented-out `useStaticQuery`/GraphQL block and `<Img fluid=...>` usage
 - `hero.js:11,13,15,78-85` — unused `DnaImage`/`ArrowRight` imports and a commented-out alternate `<motion.h1>` block
 - `header.js:9` — commented-out `JumiaIcon` import
