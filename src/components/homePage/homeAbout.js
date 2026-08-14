@@ -1,7 +1,5 @@
 import React, {useEffect}  from 'react';
-//import Img from "gatsby-image";
 import {Link } from "gatsby";
-//import { useStaticQuery, graphql, Link } from "gatsby";
 import { useAnimation, motion } from 'framer-motion';
 
 //intersection observer
@@ -13,18 +11,6 @@ import {BtnStyle} from "../../styles/globalStyles"
 import sdg from "../../assets/images/gh.jpg"
 
 const HomeAbout = () => {
-    // const data = useStaticQuery(graphql`
-    // query {
-    //   faholoFrontImage: file(relativePath: { eq: "f-f.jpg" }) {
-    //     childImageSharp {
-    //       fluid(maxWidth: 600) {
-    //         ...GatsbyImageSharpFluid
-    //       }
-    //     }
-    //   }
-    // }
-    //   `);
-
       const animation = useAnimation();
       const [prodTitleRef, inView] = useInView({
           triggerOnce: true,
@@ -93,20 +79,7 @@ const HomeAbout = () => {
                 <HomeAboutImage>
                     <HomeAboutImageInner>
                       <img
-                        src={sdg} alt="sdg goal"/>
-                    {/* <Img
-                    style={{
-                        position: "absolute",
-                        left: 0,
-                        top: 0,
-                        objectFit: "cover",
-                        objectPosition: "center center",
-                        width: "100%",
-                        height: "100%",
-                      }}
-                    fluid={data.faholoFrontImage.childImageSharp.fluid}
-                    alt="faholo-front-gate"
-                  /> */}
+                        src={sdg} alt="sdg goal" width={400} height={400}/>
                     </HomeAboutImageInner>
                 </HomeAboutImage>
             </HomeAboutWrapInner>

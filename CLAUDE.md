@@ -26,7 +26,7 @@ No test suite (`npm test` exits 1) and no lint script. Env vars live in `.env.de
 
 Facts Claude can't guess — see the named files for the pattern to follow.
 
-**Routing**: `src/pages/*.js` are file-system routed (`index.js` → `/`). `gatsby-node.js`, `gatsby-browser.js`, `gatsby-ssr.js` are empty default stubs — no custom node APIs or programmatic pages.
+**Routing**: `src/pages/*.js` are file-system routed (`index.js` → `/`). `gatsby-browser.js` and `gatsby-ssr.js` are empty default stubs. `gatsby-node.js` has one custom Node API: an `onPostBuild` hook that reads the built `/products/` page's Product JSON-LD and writes `public/image-sitemap.xml` (referenced from `public/robots.txt`) — no other custom node APIs or programmatic pages.
 
 **Page shape**: every page = `<Layout>` (`src/components/layout.js`; renders `<Header>`, slide-out `<Menu>`, the global styled-components stylesheet, and a framer-motion fade) + its own `<Seo>` (`src/components/seo.js`) + content + `<Footer>`. New pages follow this shape.
 

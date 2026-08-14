@@ -104,8 +104,7 @@ position: relative;
   height: 70vh;
   width: 100%;
   background-image: url(${BacImg});
-  background-attachment: fixed;
-  //background-attachment: inherit;
+  background-attachment: scroll;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,8 +125,20 @@ export const StrategyWrapper = styled.div`
   @media (max-width: ${breakpoints.s}px){
     padding: 0 20px;
   }
-  h1 {
-    margin-bottom: 50px;
+  .strategy-heading {
+    font-family: "Figtree";
+    font-weight: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: ${colorPalette.text};
+    margin: 0 0 50px;
+    font-size: 3vw;
+    @media (max-width: ${breakpoints.m}px){
+      font-size: 4vw;
+    }
+    @media (max-width: ${breakpoints.s}px){
+      font-size: 5.8vw;
+    }
   }
 `;
 

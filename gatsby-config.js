@@ -9,7 +9,6 @@ module.exports = {
     author: `@jobmusembi`,
     keywords: `Leading detergent manufacturer in Kenya, Leading disinfectant manufacturer in Kenya, Leading antiseptic manufacturer in Kenya, Top topical chemical manufacturer in Nairobi`,
     siteUrl: `https://www.faholochemicals.co.ke`,
-    image: `src/assets/images/faholo-team-social.jpg`,
   },
   plugins: [
     {
@@ -47,6 +46,15 @@ module.exports = {
       },
     },
     `gatsby-plugin-styled-components`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: `https://www.faholochemicals.co.ke`,
+        sitemap: `https://www.faholochemicals.co.ke/sitemap-index.xml`,
+        policy: [{ userAgent: `*`, allow: `/` }],
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

@@ -17,7 +17,7 @@ import {
   IntroAboutHeading,
   IntroAboutTextOne,
 } from "../styles/aboutStyles";
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 const transition = { duration: 1.5, ease: [0.165, 0.84, 0.44, 1] };
 
@@ -44,9 +44,8 @@ const headSingleAnime = {
 const About = () => {
   return (
     <>
-      <AnimatePresence>
         <Layout>
-          <Seo title="About" 
+          <Seo title="About"
           description="Discover our goal to be a world-class pharmaceutical company across Africa."
           keywords="Information on top hygiene product manufacturers in Kenya, Who is the leading manufacturer of cleaning products and liquid detergents in Kenya?, Who is the leading manufacturer of antiseptics in Kenya?, Who is the leading manufacturer of disinfectants in Kenya?" 
          />
@@ -136,7 +135,7 @@ const About = () => {
               </IntroWrapper>
               
               <StrategyWrapper>
-                <h1>Company strategy - {new Date().getFullYear()}</h1>
+                <h2 className="strategy-heading">Company strategy - {new Date().getFullYear()}</h2>
                 <StrategyWrapperInner>
                   <StrategyTitle>
                     <h3>Purpose</h3>
@@ -172,7 +171,6 @@ const About = () => {
             <Footer />
           </AboutContainer>
         </Layout>
-      </AnimatePresence>
     </>
   );
 };

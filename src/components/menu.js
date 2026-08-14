@@ -37,13 +37,25 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
         <AnimatePresence >
         {toggleMenu && (
         <MenuWrap
+        id="site-menu"
         initial={{ opacity: 0, y: "-100%" }}
         exit={{ opacity: 0 }}
         animate={{ opacity: toggleMenu ? 1 : 0, y: 0  }}
         transition={{ duration: 0.6,ease: [0.04, 0.04, 0.12, 0.96]}}
         >
             <MenuHead>
-                <CloseMenu onClick={() => setToggleMenu(!toggleMenu)}>
+                <CloseMenu
+                    role="button"
+                    tabIndex={0}
+                    aria-label="Close menu"
+                    onClick={() => setToggleMenu(!toggleMenu)}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            setToggleMenu(!toggleMenu);
+                        }
+                    }}
+                >
                         <motion.span
                         animate={{ rotate: -45, y: 6 }}
                         transition={{
@@ -95,7 +107,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>02/&nbsp;</sup> <h1>Our Products</h1>
+                          <sup>02/&nbsp;</sup> <p className="menu-heading">Our Products</p>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -106,7 +118,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>03/&nbsp;</sup> <h1>About us</h1>
+                          <sup>03/&nbsp;</sup> <p className="menu-heading">About us</p>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -117,7 +129,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>04/&nbsp;</sup> <h1>Contact us</h1>
+                          <sup>04/&nbsp;</sup> <p className="menu-heading">Contact us</p>
                         </motion.div>
                       </Link>
                     </motion.li>

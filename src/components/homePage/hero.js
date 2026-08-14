@@ -6,13 +6,8 @@ import {BtnStyle} from "../../styles/globalStyles"
 import { Container } from '../../styles/globalStyles';
 import { HeroWrap, HeroInner, HeroText, HeroVisual, ArrowMeta } from '../../styles/heroStyles';
 
-//image
-//import Img from "gatsby-image";
-
 //svg and images
-//import DnaImage from "../../assets/images/dna.gif"
 import Chem from "../../assets/images/nding.png"
-//import ArrowRight from "../../assets/svg/arrow-right.svg";
 
 //framer
 import { motion } from 'framer-motion';
@@ -75,14 +70,6 @@ const Hero = () => {
                         >Essential Industries</motion.div> 
 
                     </motion.h1>
-      {/* <motion.h1
-        initial={{ opacity: 0, y: 40 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8, ease: [0.165, 0.84, 0.44, 1] }}
-      >
-        Manufacturing Chemical Solutions
-        <span>for Essential Industries</span>
-      </motion.h1> */}
 
       <motion.h3
         initial={{ opacity: 0, y: 30 }}
@@ -108,6 +95,8 @@ const Hero = () => {
       <motion.img
         src={Chem}
         alt="Chemical product range"
+        width={1000}
+        height={444}
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6, duration: 0.8 }}

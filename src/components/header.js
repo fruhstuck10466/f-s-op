@@ -6,7 +6,6 @@ import { TopBanner, TopBannerInner, HeaderWrap, HeaderItems, Logo, LogoImg, Logo
 //icon
 import LogoIcon from "../assets/images/new-site-logo.png"
 import WameIcon from "../assets/svg/WhatsAppButtonGreenSmall.svg"
-//import JumiaIcon from "../assets/images/jumia.png"
 import { Link } from 'gatsby';
 import { motion } from 'framer-motion';
 
@@ -39,14 +38,27 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                                             
                     </LogoText> 
                     <LogoLink>
-                        <a aria-label="Chat on WhatsApp" href="https://wa.me/254704071649?text=Hello%20Faholo%20Chemicals%Ltd.%20👋%0AI’m%20contacting%20you%20from%20your%20website%20and%20would%20like%20assistance%20with%20your%20products,%20pricing,%20or%20placing%20an%20order.">
+                        <a aria-label="Chat on WhatsApp" href="https://wa.me/254704071649?text=Hello%20Faholo%20Chemicals%20Ltd.%20👋%0AI’m%20contacting%20you%20from%20your%20website%20and%20would%20like%20assistance%20with%20your%20products,%20pricing,%20or%20placing%20an%20order.">
                             <img alt="Chat on WhatsApp" src={WameIcon} />
                         </a>
                     </LogoLink>
             
                 </Logo>
                 <HamburgerMenu onHoverStart={() => setHovered(!hovered)}
-                    onHoverEnd={() => setHovered(!hovered)} onClick={() => setToggleMenu(!toggleMenu)}>
+                    onHoverEnd={() => setHovered(!hovered)}
+                    onClick={() => setToggleMenu(!toggleMenu)}
+                    role="button"
+                    tabIndex={0}
+                    aria-expanded={toggleMenu}
+                    aria-controls="site-menu"
+                    aria-label={toggleMenu ? "Close menu" : "Open menu"}
+                    onKeyDown={(e) => {
+                        if (e.key === "Enter" || e.key === " ") {
+                            e.preventDefault();
+                            setToggleMenu(!toggleMenu);
+                        }
+                    }}
+                >
                     <motion.span
                         animate={{ x: hovered ? -5 : 0 }}
                         transition={{ ...transition }}

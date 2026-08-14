@@ -51,6 +51,10 @@ export const CloseMenu = styled.div`
             margin-bottom: 0px;
         }
     }
+    &:focus-visible {
+        outline: 2px solid ${colorPalette.text};
+        outline-offset: 2px;
+    }
 `
 
 export const MenuBody = styled(motion.div)`
@@ -60,11 +64,19 @@ export const MenuBody = styled(motion.div)`
     display: flex;
     align-items: center;
     padding-left: 0px;
-    h1 {
-        color: ${colorPalette.background};  
-        @media (max-width: ${breakpoints.s}px){ 
+    .menu-heading {
+        font-family: "Figtree";
+        font-weight: normal;
+        line-height: 1.25;
+        margin: 0 0 1.05rem;
+        font-size: 3vw;
+        color: ${colorPalette.background};
+        @media (max-width: ${breakpoints.m}px){
+            font-size: 4vw;
+        }
+        @media (max-width: ${breakpoints.s}px){
             font-size: 2rem;
-           }  
+        }
     }
     h3 {
       line-height: 76px;

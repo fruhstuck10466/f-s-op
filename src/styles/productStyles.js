@@ -73,6 +73,10 @@ export const CategoriesHeader = styled.div`
   &:hover {
     cursor: pointer;
   }
+  &:focus-visible {
+    outline: 2px solid ${colorPalette.text};
+    outline-offset: 2px;
+  }
 `;
 export const CategoryTitle = styled.div`
   h3 {

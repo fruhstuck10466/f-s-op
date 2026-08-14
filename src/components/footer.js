@@ -74,12 +74,6 @@ const Footer = () => {
           <p>© Faholo {new Date().getFullYear()}</p>
         </FooterCompany>
         <FooterCredits>
-          {/* <p>
-            Site By{" "}
-            <a href="https://thetwelve.co.ke" aria-label="Portfolio Link">
-              THE 12
-            </a>
-          </p> */}
           <p>All Rights Reserved.</p>
         </FooterCredits>
       </FooterContent>

@@ -59,6 +59,10 @@ export const FaqHeader = styled.div`
     justify-content: space-between;
     margin: 10px 0;
     border-bottom: 1px solid ${colorPalette.darkgrey};
+    &:focus-visible {
+        outline: 2px solid ${colorPalette.text};
+        outline-offset: 2px;
+    }
 `
 
 export const FaqQuestion = styled.div`

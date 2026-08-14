@@ -9,8 +9,16 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import socialImage from "../assets/images/faholo-team-social.jpg"
 
-function SEO({ description, lang, meta, title, keywords }) {
+function SEO({
+  description = ``,
+  lang = `en`,
+  meta = [],
+  title,
+  keywords = ``,
+  jsonLd = null,
+}) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -20,7 +28,7 @@ function SEO({ description, lang, meta, title, keywords }) {
             description
             author
             keywords
-            image
+            siteUrl
           }
         }
       }
@@ -28,7 +36,7 @@ function SEO({ description, lang, meta, title, keywords }) {
   )
 
   //const keywords = site.siteMetadata.keywords
-  const image = site.siteMetadata.image
+  const image = `${site.siteMetadata.siteUrl}${socialImage}`
   const metaKeywords = keywords || site.siteMetadata.keywords
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
@@ -86,15 +94,13 @@ function SEO({ description, lang, meta, title, keywords }) {
           content: metaDescription,
         },
       ].concat(meta)}
+      script={
+        jsonLd
+          ? [{ type: `application/ld+json`, innerHTML: JSON.stringify(jsonLd) }]
+          : []
+      }
     />
   )
-}
-
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``,
-  keywords: ``,
 }
 
 SEO.propTypes = {
@@ -104,6 +110,7 @@ SEO.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  jsonLd: PropTypes.oneOfType([PropTypes.object, PropTypes.array]),
 }
 
 export default SEO

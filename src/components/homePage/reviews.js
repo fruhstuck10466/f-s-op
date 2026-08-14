@@ -20,7 +20,7 @@ const Reviews = () => {
         {reviews.map((review, index) => (
           <ReviewCard key={index}>
             <ReviewImage>
-            <img src={reviewImg} alt="review thumbnail"/>
+            <img src={reviewImg} alt="review thumbnail" width={80} height={80}/>
             </ReviewImage>
             {/* <ReviewImage src={reviewImg} alt="Reviewer" /> */}
             <ReviewText><p>{review}</p></ReviewText>

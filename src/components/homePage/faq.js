@@ -155,7 +155,7 @@ const Faq = () => {
                 <FaqInfo>
                 {faqList.map((details, index) => (
                     <FaqAccordion
-                      key={index}
+                      key={details.id}
                       details={details}
                       expanded={expanded}
                       setExpanded={setExpanded}
@@ -172,9 +172,21 @@ const Faq = () => {
 
 const FaqAccordion = ({ details, expanded, setExpanded }) => {
   const isOpen = details.id === expanded;
+  const toggle = () => setExpanded(isOpen ? false : details.id);
   return (
       <>
-      <FaqHeader onClick={() => setExpanded(isOpen ? false : details.id)}>
+      <FaqHeader
+        role="button"
+        tabIndex={0}
+        aria-expanded={isOpen}
+        onClick={toggle}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggle();
+          }
+        }}
+      >
         <FaqQuestion><h3>{details.title}</h3></FaqQuestion>
         <FaqIcon>
           <motion.span

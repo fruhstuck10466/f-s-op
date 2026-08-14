@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useStaticQuery, graphql } from "gatsby";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
@@ -45,7 +46,7 @@ import SurgicalSpiritNinetyPercentImage from "/src/assets/images/products/surgic
 import AcetoneImage from "/src/assets/images/products/acetone-faholo-chemicals.jpg"
 import EusolSolutionImage from "/src/assets/images/products/eusol-solution-faholo-chemicals.jpg"
 import IsopropylAlcoholImage from "/src/assets/images/products/isopropyl-alcohol-faholo-chemicals.jpg"
-import DeionizedWaterImage from "/src/assets/images/products/denatured-ethanol-faholo-chemicals.jpg"
+import DeionizedWaterImage from "/src/assets/images/products/deionized-water-faholo-chemicals.jpg"
 import DenaturedEthanolImage from "/src/assets/images/products/denatured-ethanol-faholo-chemicals.jpg"
 import MethylatedSpiritForFoodWarmingImage from "/src/assets/images/products/methylated-spirit-90-percent-for-food-warming-faholo-chemicals.jpg"
 import LugolsOfIodineImage from "/src/assets/images/products/lugols-of-iodine-faholo-chemicals.jpg"
@@ -53,7 +54,7 @@ import AbsoluteMethanolImage from "/src/assets/images/products/absolute-methanol
 import EpsomSaltImage from "/src/assets/images/products/epsom-salt-faholo-chemicals.jpg"
 import EnzymaticDetergentImage from "/src/assets/images/products/enzymatic-detergent-faholo-chemicals.jpg"
 
-import { AnimatePresence, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 //styles
 import {
@@ -611,14 +612,41 @@ const headSingleAnime = {
 
 const Products = () => {
   const [expanded, setExpanded] = useState(0);
+
+  const { site } = useStaticQuery(graphql`
+    query {
+      site {
+        siteMetadata {
+          siteUrl
+        }
+      }
+    }
+  `);
+
+  const productJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    itemListElement: categoriesAndList.map((details, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      item: {
+        "@type": "Product",
+        name: details.title,
+        image: `${site.siteMetadata.siteUrl}${details.image}`,
+        description: details.items[0],
+        brand: { "@type": "Brand", name: "Faholo Chemicals" },
+      },
+    })),
+  };
+
   return (
     <>
-      <AnimatePresence>
         <Layout>
           <Seo
             title="Products"
             description="Explore our product catalogue and usage featuring a variety of pack sizes from 50ml to 20Lt."
             keywords="Chemical Distributers and Manufacturers in Kenya, Hand sanitizer Kenya, Surface disinfectant Kenya, Detergents supplier Kenya"
+            jsonLd={productJsonLd}
           />
           <ProductContainer
             initial={{ opacity: 0 }}
@@ -656,7 +684,7 @@ const Products = () => {
                 <ProductsDropdown>
                   {categoriesAndList.map((details, index) => (
                     <CategoriesAccordion
-                      key={index}
+                      key={details.id}
                       details={details}
                       expanded={expanded}
                       setExpanded={setExpanded}
@@ -668,17 +696,26 @@ const Products = () => {
             <Footer />
           </ProductContainer>
         </Layout>
-      </AnimatePresence>
     </>
   );
 };
 
 const CategoriesAccordion = ({ details, expanded, setExpanded }) => {
   const isOpen = details.id === expanded;
+  const toggle = () => setExpanded(isOpen ? false : details.id);
   return (
     <>
       <CategoriesHeader
-        onClick={() => setExpanded(isOpen ? false : details.id)}
+        role="button"
+        tabIndex={0}
+        aria-expanded={isOpen}
+        onClick={toggle}
+        onKeyDown={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            toggle();
+          }
+        }}
       >
         <CategoryTitle><h3>{details.title}</h3></CategoryTitle>
         <CategoryIcon>
@@ -696,21 +733,24 @@ const CategoriesAccordion = ({ details, expanded, setExpanded }) => {
         key="content"
         animate={{ height: isOpen ? "100%" : "0" }}
         transition={{ duration: 0.8, ease: [0.6, 0.05, 0, 0.9] }}
+        aria-hidden={!isOpen}
       >
-         {isOpen && (
-          <ProductDetailsContainer>
-            <ProductImage>
-              <img src={details.image} alt={details.title} />
-            </ProductImage>
-            <ProductUsage>
-              {details.items.map((item, index) => (
-                <span key={index}>
-                  <h3>&#8226; {item}</h3>
-                </span>
-              ))}
-            </ProductUsage>
-          </ProductDetailsContainer>
-        )}
+        <ProductDetailsContainer>
+          <ProductImage>
+            <img
+              src={details.image}
+              alt={`Faholo Chemicals ${details.title}`}
+              loading="lazy"
+            />
+          </ProductImage>
+          <ProductUsage>
+            {details.items.map((item, index) => (
+              <span key={index}>
+                <h3>&#8226; {item}</h3>
+              </span>
+            ))}
+          </ProductUsage>
+        </ProductDetailsContainer>
       </CategoriesList>
     </>
   );

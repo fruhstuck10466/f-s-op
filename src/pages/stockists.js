@@ -1,4 +1,4 @@
-import { AnimatePresence, motion} from "framer-motion";
+import { motion} from "framer-motion";
 import React from "react";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
@@ -38,9 +38,8 @@ const headSingleAnime = {
 const Stockists = () => {
   return (
     <>
-      <AnimatePresence>
         <Layout>
-        <Seo title="Stockists" 
+        <Seo title="Stockists"
         description="Find our trusted stockists across various counties in Kenya and near you."
         keywords="Find Faholo Chemicals cleaning products and detergents near me in Kenya, Where can i buy Faholo Chemicals Products, List of stores selling Faholo Chemicals products in Kenya" 
         />
@@ -109,7 +108,6 @@ const Stockists = () => {
             <Footer />
           </ContactContainer>
         </Layout>
-      </AnimatePresence>
     </>
   );
 };

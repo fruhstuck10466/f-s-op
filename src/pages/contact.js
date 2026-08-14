@@ -1,4 +1,4 @@
-import { AnimatePresence, motion} from "framer-motion";
+import { motion} from "framer-motion";
 import React from "react";
 import Footer from "../components/footer";
 import Layout from "../components/layout";
@@ -39,9 +39,8 @@ const headSingleAnime = {
 const Contact = () => {
   return (
     <>
-      <AnimatePresence>
         <Layout>
-          <Seo title="Contacts" 
+          <Seo title="Contacts"
           description="Contact us for top-quality external pharmaceutical products in Kenya."
           keywords="Support and inquiries for cleaning products in Kenya, How to reach Faholo Chemicals in Nairobi?, How to contact the top detergent manufacturer in Kenya?" 
          />
@@ -127,7 +126,6 @@ const Contact = () => {
             <Footer />
           </ContactContainer>
         </Layout>
-      </AnimatePresence>
     </>
   );
 };
