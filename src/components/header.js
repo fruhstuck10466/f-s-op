@@ -34,6 +34,7 @@ const Header = ({ toggleMenu, setToggleMenu }) => {
                         <Link to="/">Home</Link>
                         <Link to="/products">Our Products</Link>
                         <Link to="/about">About us</Link>
+                        <Link to="/journal">Journal</Link>
                         <Link to="/contact">Contact us</Link>
                                             
                     </LogoText> 

@@ -67,7 +67,7 @@ const HomeAbout = () => {
                             opacity: 0, y: 72,skewY: 7,
                         }
                     }}
-                    >Our story began with a conviction: good health shouldn't hinge on your postcode or your paycheck. From our roots in Kenya, we've grown by working shoulder to shoulder with counties, the East African Health Community, and the health workers who keep clinics and homes safe every day. Learn more about who we are and where we're headed.
+                    >Our story began with one belief: everyone deserves good health, no matter where they live or what they earn. From our roots in Kenya, we've grown by working shoulder to shoulder with counties, the East African Health Community, and the health workers who keep clinics and homes safe every day. Learn more about who we are and where we're headed.
                     </motion.h3>
                     <BtnStyle>
                     <Link to="/about" >

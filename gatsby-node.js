@@ -8,6 +8,59 @@ const fs = require(`fs`)
 const path = require(`path`)
 const { siteMetadata } = require(`./gatsby-config`)
 
+// --- Journal: programmatic page creation from markdown files ---
+
+// Explicit schema so GraphQL types are stable even with only one post so far.
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type MarkdownRemark implements Node {
+      frontmatter: JournalFrontmatter
+    }
+
+    type JournalFrontmatter {
+      title: String
+      date: Date @dateformat
+      slug: String
+      excerpt: String
+      image: String
+    }
+  `)
+}
+
+exports.createPages = async ({ graphql, actions, reporter }) => {
+  const { createPage } = actions
+
+  const result = await graphql(`
+    query {
+      allMarkdownRemark(sort: { frontmatter: { date: DESC } }) {
+        nodes {
+          frontmatter {
+            slug
+          }
+        }
+      }
+    }
+  `)
+
+  if (result.errors) {
+    reporter.panicOnBuild(`Error loading journal posts`, result.errors)
+    return
+  }
+
+  const posts = result.data.allMarkdownRemark.nodes
+
+  posts.forEach(post => {
+    createPage({
+      path: `/journal/${post.frontmatter.slug}/`,
+      component: path.resolve(`./src/templates/journal-post.js`),
+      context: {
+        slug: post.frontmatter.slug,
+      },
+    })
+  })
+}
+
 function escapeXml(value) {
   return String(value)
     .replace(/&/g, `&amp;`)
@@ -16,6 +69,7 @@ function escapeXml(value) {
     .replace(/"/g, `&quot;`)
     .replace(/'/g, `&apos;`)
 }
+
 
 // Builds an image sitemap for /products/ from the Product ItemList JSON-LD
 // already embedded on that page (see src/pages/products.js), since the

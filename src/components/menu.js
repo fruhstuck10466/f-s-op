@@ -121,6 +121,17 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           <sup>03/&nbsp;</sup> <p className="menu-heading">About us</p>
                         </motion.div>
                       </Link>
+                      </motion.li>
+                      <motion.li>
+                      <Link to="/journal">
+                        <motion.div      
+                          className="link"
+                          variants={headSingleAnime}
+                    transition={transition}
+                        >
+                          <sup>04/&nbsp;</sup> <p className="menu-heading">Journal</p>
+                        </motion.div>
+                      </Link>
                     </motion.li>
 										<motion.li>
                       <Link to="/contact">
@@ -129,7 +140,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>04/&nbsp;</sup> <p className="menu-heading">Contact us</p>
+                          <sup>05/&nbsp;</sup> <p className="menu-heading">Contact us</p>
                         </motion.div>
                       </Link>
                     </motion.li>
@@ -140,7 +151,7 @@ const Menu = ({ toggleMenu, setToggleMenu }) => {
                           variants={headSingleAnime}
                     transition={transition}
                         >
-                          <sup>05/&nbsp;</sup> <h3>Stockists</h3>
+                          <sup>06/&nbsp;</sup> <h3>Stockists</h3>
                         </motion.div>
                       </Link>
                     </motion.li>

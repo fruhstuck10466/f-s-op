@@ -52,6 +52,7 @@ import MethylatedSpiritForFoodWarmingImage from "/src/assets/images/products/met
 import LugolsOfIodineImage from "/src/assets/images/products/lugols-of-iodine-faholo-chemicals.jpg"
 import AbsoluteMethanolImage from "/src/assets/images/products/absolute-methanol-99.9-percent-faholo-chemicals.jpg"
 import EpsomSaltImage from "/src/assets/images/products/epsom-salt-faholo-chemicals.jpg"
+import FormalinImage from "/src/assets/images/products/formalin-faholo-chemicals.jpg"
 import EnzymaticDetergentImage from "/src/assets/images/products/enzymatic-detergent-faholo-chemicals.jpg"
 
 import { motion } from "framer-motion";
@@ -577,6 +578,15 @@ const categoriesAndList = [
   },
   {
     id: 48,
+    title: "Formalin",
+    image: FormalinImage,
+    items: [
+      "Tissue preservation and histology: Preserving biological tissue samples and biopsies in pathology laboratories to prevent decay. • Vaccine manufacturing: Inactivating viruses and bacterial toxins safely during pharmaceutical production processes. • Equipment and facility sterilization: Sanitizing specialized medical equipment, surgical instruments, and cleanroom environments.",
+      "Pack size includes: 500ml, 1lt, 5lt",
+    ],
+  },
+  {
+    id: 49,
     title: "Enzymatic Detergent",
     image: EnzymaticDetergentImage,
     items: [

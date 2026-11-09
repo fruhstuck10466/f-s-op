@@ -45,6 +45,14 @@ module.exports = {
         icon: `src/assets/images/faholo-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `journal`,
+        path: `${__dirname}/src/journal-posts`,
+      },
+    },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sitemap`,
     {

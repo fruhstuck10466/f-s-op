@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Job Musembi",
   "dependencies": {
+    "ajv": "^8.20.0",
+    "ajv-keywords": "^5.1.0",
     "babel-plugin-styled-components": "^2.1.4",
     "framer-motion": "^11.0.5",
     "gatsby": "^5.14.3",
@@ -17,6 +19,7 @@
     "gatsby-plugin-sitemap": "^6.16.0",
     "gatsby-plugin-styled-components": "^6.13.1",
     "gatsby-source-filesystem": "^5.13.1",
+    "gatsby-transformer-remark": "^6.16.0",
     "gatsby-transformer-sharp": "^5.13.1",
     "prop-types": "^15.7.2",
     "react": "^18.2.0",
@@ -51,5 +54,12 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
+  },
+  "overrides": {
+    "gatsby-transformer-remark": {
+      "sanitize-html": {
+        "htmlparser2": "^8.0.2"
+      }
+    }
   }
 }
